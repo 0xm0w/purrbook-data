@@ -1,1 +1,1179 @@
-[]
+[
+  {
+    "outcomeId": 176,
+    "displayName": "Belgium",
+    "resolutionText": "This outcome resolves to Yes if Belgium is officially declared the 2026 FIFA World Cup champion.",
+    "lastPrice": {
+      "yes": 0.020635,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 189,
+    "displayName": "France",
+    "resolutionText": "This outcome resolves to Yes if France is officially declared the 2026 FIFA World Cup champion.",
+    "lastPrice": {
+      "yes": 0.392865,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 199,
+    "displayName": "Morocco",
+    "resolutionText": "This outcome resolves to Yes if Morocco is officially declared the 2026 FIFA World Cup champion.",
+    "lastPrice": {
+      "yes": 0.00009,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 202,
+    "displayName": "Norway",
+    "resolutionText": "This outcome resolves to Yes if Norway is officially declared the 2026 FIFA World Cup champion.",
+    "lastPrice": {
+      "yes": 0.066985,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 214,
+    "displayName": "Switzerland",
+    "resolutionText": "This outcome resolves to Yes if Switzerland is officially declared the 2026 FIFA World Cup champion.",
+    "lastPrice": {
+      "yes": 0.018055,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 542,
+    "displayName": "Below 3.8%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for June 2026 is below 3.8%.",
+    "lastPrice": {
+      "yes": 0.299995,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 543,
+    "displayName": "Exactly 3.8%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for June 2026 is exactly 3.8%.",
+    "lastPrice": {
+      "yes": 0.44418,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 544,
+    "displayName": "Above 3.8%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for June 2026 is above 3.8%.",
+    "lastPrice": {
+      "yes": 0.2885,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 778,
+    "displayName": "World Cup Quarterfinal: Norway vs England",
+    "resolutionText": "The market resolves to Norway if FIFA officially declares Norway as the winner of the FIFA World Cup Quarterfinal game between Norway and England scheduled for July 11, 2026 (the \"Game\"). The market resolves to England if FIFA officially declares England the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than Norway or England as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "lastPrice": {
+      "yes": 0.352735,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 779,
+    "displayName": "World Cup Quarterfinal: Spain vs Belgium",
+    "resolutionText": "The market resolves to Spain if FIFA officially declares Spain as the winner of the FIFA World Cup Quarterfinal game between Spain and Belgium scheduled for July 10, 2026 (the \"Game\"). The market resolves to Belgium if FIFA officially declares Belgium the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than Spain or Belgium as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "lastPrice": {
+      "yes": 0.7365,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 788,
+    "displayName": "World Cup Quarterfinal: Argentina vs Switzerland",
+    "resolutionText": "The market resolves to Argentina if FIFA officially declares Argentina as the winner of the FIFA World Cup Quarterfinal game between Argentina and Switzerland scheduled for July 11, 2026 (the \"Game\"). The market resolves to Switzerland if FIFA officially declares Switzerland the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than Argentina or Switzerland as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "lastPrice": {
+      "yes": 0.734495,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 797,
+    "displayName": "BTC Up or Down · 1D",
+    "resolutionText": "Resolves YES if BTC is above $64,109 at settlement (2026-07-11 06:00 UTC). Recurring 1D up/down market. Settles to the BTC mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.545005,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 798,
+    "displayName": "ETH Up or Down · 1D",
+    "resolutionText": "Resolves YES if ETH is above $1,778.7 at settlement (2026-07-11 06:00 UTC). Recurring 1D up/down market. Settles to the ETH mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5655,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 799,
+    "displayName": "SOL Up or Down · 1D",
+    "resolutionText": "Resolves YES if SOL is above $79.153 at settlement (2026-07-11 06:00 UTC). Recurring 1D up/down market. Settles to the SOL mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.54037,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 800,
+    "displayName": "HYPE Up or Down · 1D",
+    "resolutionText": "Resolves YES if HYPE is above $68.093 at settlement (2026-07-11 06:00 UTC). Recurring 1D up/down market. Settles to the HYPE mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.613655,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 802,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.061795,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 803,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.787085,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 804,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.14532,
+      "at": "2026-07-10T08:50:09.446Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10218,
+    "displayName": "Below 4.3%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for May 2026 is below 4.3%.",
+    "lastPrice": {
+      "yes": 0.685,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10219,
+    "displayName": "Exactly 4.3%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for May 2026 is exactly 4.3%.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10220,
+    "displayName": "Above 4.3%",
+    "resolutionText": "This outcome resolves to Yes if the one-decimal BLS CPI year-over-year value for May 2026 is above 4.3%.",
+    "lastPrice": {
+      "yes": 0.45,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10225,
+    "displayName": "June Fed rate change",
+    "resolutionText": "The market resolves to Change if the upper bound of the target federal funds rate range in the Federal Open Market Committee (FOMC) statement for the meeting currently scheduled for June 16-17, 2026 differs from the upper bound of the target range set by the most recent prior FOMC statement. Otherwise, the market resolves to No Change. The market also resolves to No Change if the June 16-17, 2026 meeting is canceled, or if no FOMC statement containing a rate decision for that meeting is released by 23:59 ET on July 29, 2026. The target range stated in the FOMC statement for the June 16-17, 2026 meeting determines the result. If that statement is unavailable or does not clearly state the target range, the post-meeting target range upper bound shown on the Federal Reserve's open market operations page determines the result. Resolution uses the initially released decision; later revisions after resolution are not considered. Scheduled meeting dates and source references are provided for convenience and are not binding terms of resolution.",
+    "lastPrice": {
+      "yes": 0.575,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10233,
+    "displayName": "Argentina",
+    "resolutionText": "This outcome resolves to Yes if Argentina is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.08788,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10236,
+    "displayName": "Belgium",
+    "resolutionText": "This outcome resolves to Yes if Belgium is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.55,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10238,
+    "displayName": "Brazil",
+    "resolutionText": "This outcome resolves to Yes if Brazil is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.7175,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10241,
+    "displayName": "Colombia",
+    "resolutionText": "This outcome resolves to Yes if Colombia is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10247,
+    "displayName": "Egypt",
+    "resolutionText": "This outcome resolves to Yes if Egypt is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10248,
+    "displayName": "England",
+    "resolutionText": "This outcome resolves to Yes if England is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.82754,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10249,
+    "displayName": "France",
+    "resolutionText": "This outcome resolves to Yes if France is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.318375,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10258,
+    "displayName": "Mexico",
+    "resolutionText": "This outcome resolves to Yes if Mexico is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10259,
+    "displayName": "Morocco",
+    "resolutionText": "This outcome resolves to Yes if Morocco is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10262,
+    "displayName": "Norway",
+    "resolutionText": "This outcome resolves to Yes if Norway is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10265,
+    "displayName": "Portugal",
+    "resolutionText": "This outcome resolves to Yes if Portugal is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10272,
+    "displayName": "Spain",
+    "resolutionText": "This outcome resolves to Yes if Spain is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.627345,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10274,
+    "displayName": "Switzerland",
+    "resolutionText": "This outcome resolves to Yes if Switzerland is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10277,
+    "displayName": "USA",
+    "resolutionText": "This outcome resolves to Yes if USA is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.4,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10280,
+    "displayName": "Hypurrnation",
+    "resolutionText": "This outcome resolves to Yes if Hypurrnation is officially declared the 2026 HYPURR World Cup champion.",
+    "lastPrice": {
+      "yes": 0.24535,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10395,
+    "displayName": "Saudi Arabia",
+    "resolutionText": "This outcome resolves to Yes if Saudi Arabia wins the Game.",
+    "lastPrice": {
+      "yes": 0.48875,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10396,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.15627,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10397,
+    "displayName": "Uruguay",
+    "resolutionText": "This outcome resolves to Yes if Uruguay wins the Game.",
+    "lastPrice": {
+      "yes": 0.339925,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10399,
+    "displayName": "Iran",
+    "resolutionText": "This outcome resolves to Yes if Iran wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10400,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10401,
+    "displayName": "New Zealand",
+    "resolutionText": "This outcome resolves to Yes if New Zealand wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10435,
+    "displayName": "Sweden",
+    "resolutionText": "This outcome resolves to Yes if Sweden wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10436,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10437,
+    "displayName": "Tunisia",
+    "resolutionText": "This outcome resolves to Yes if Tunisia wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10439,
+    "displayName": "Belgium",
+    "resolutionText": "This outcome resolves to Yes if Belgium wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10440,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10441,
+    "displayName": "Egypt",
+    "resolutionText": "This outcome resolves to Yes if Egypt wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10443,
+    "displayName": "Spain",
+    "resolutionText": "This outcome resolves to Yes if Spain wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10444,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10445,
+    "displayName": "Cape Verde",
+    "resolutionText": "This outcome resolves to Yes if Cape Verde wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10474,
+    "displayName": "France",
+    "resolutionText": "This outcome resolves to Yes if France wins the Game.",
+    "lastPrice": {
+      "yes": 0.3,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10475,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10476,
+    "displayName": "Senegal",
+    "resolutionText": "This outcome resolves to Yes if Senegal wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10478,
+    "displayName": "Iraq",
+    "resolutionText": "This outcome resolves to Yes if Iraq wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10479,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10480,
+    "displayName": "Norway",
+    "resolutionText": "This outcome resolves to Yes if Norway wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10482,
+    "displayName": "Argentina",
+    "resolutionText": "This outcome resolves to Yes if Argentina wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10483,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10484,
+    "displayName": "Algeria",
+    "resolutionText": "This outcome resolves to Yes if Algeria wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10486,
+    "displayName": "Austria",
+    "resolutionText": "This outcome resolves to Yes if Austria wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10487,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10488,
+    "displayName": "Jordan",
+    "resolutionText": "This outcome resolves to Yes if Jordan wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10490,
+    "displayName": "Portugal",
+    "resolutionText": "This outcome resolves to Yes if Portugal wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10491,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10492,
+    "displayName": "Congo DR",
+    "resolutionText": "This outcome resolves to Yes if Congo DR wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10494,
+    "displayName": "England",
+    "resolutionText": "This outcome resolves to Yes if England wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10495,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10496,
+    "displayName": "Croatia",
+    "resolutionText": "This outcome resolves to Yes if Croatia wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10498,
+    "displayName": "Ghana",
+    "resolutionText": "This outcome resolves to Yes if Ghana wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10499,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10500,
+    "displayName": "Panama",
+    "resolutionText": "This outcome resolves to Yes if Panama wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10502,
+    "displayName": "Uzbekistan",
+    "resolutionText": "This outcome resolves to Yes if Uzbekistan wins the Game.",
+    "lastPrice": {
+      "yes": 0.500005,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10503,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10504,
+    "displayName": "Colombia",
+    "resolutionText": "This outcome resolves to Yes if Colombia wins the Game.",
+    "lastPrice": {
+      "yes": 0.565005,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10506,
+    "displayName": "Czechia",
+    "resolutionText": "This outcome resolves to Yes if Czechia wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10507,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10508,
+    "displayName": "South Africa",
+    "resolutionText": "This outcome resolves to Yes if South Africa wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10510,
+    "displayName": "Switzerland",
+    "resolutionText": "This outcome resolves to Yes if Switzerland wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10511,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10512,
+    "displayName": "Bosnia and Herzegovina",
+    "resolutionText": "This outcome resolves to Yes if Bosnia and Herzegovina wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10514,
+    "displayName": "Canada",
+    "resolutionText": "This outcome resolves to Yes if Canada wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10515,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10516,
+    "displayName": "Qatar",
+    "resolutionText": "This outcome resolves to Yes if Qatar wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10518,
+    "displayName": "Mexico",
+    "resolutionText": "This outcome resolves to Yes if Mexico wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10519,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10520,
+    "displayName": "Korea Republic",
+    "resolutionText": "This outcome resolves to Yes if Korea Republic wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10522,
+    "displayName": "USA",
+    "resolutionText": "This outcome resolves to Yes if USA wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10523,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10524,
+    "displayName": "Australia",
+    "resolutionText": "This outcome resolves to Yes if Australia wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10526,
+    "displayName": "Scotland",
+    "resolutionText": "This outcome resolves to Yes if Scotland wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10527,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10528,
+    "displayName": "Morocco",
+    "resolutionText": "This outcome resolves to Yes if Morocco wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10530,
+    "displayName": "Brazil",
+    "resolutionText": "This outcome resolves to Yes if Brazil wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10531,
+    "displayName": "Draw",
+    "resolutionText": "This outcome resolves to Yes if the Game ends in a draw, or if the Game is canceled or not completed by July 19, 2026 at 23:59 UTC without FIFA officially declaring a winner.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10532,
+    "displayName": "Haiti",
+    "resolutionText": "This outcome resolves to Yes if Haiti wins the Game.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10651,
+    "displayName": "World Cup Round of 32: South Africa vs Canada",
+    "resolutionText": "The market resolves to South Africa if FIFA officially declares South Africa as the winner of the FIFA World Cup Round of 32 game between South Africa and Canada scheduled for June 28, 2026 (the \"Game\"). The market resolves to Canada if FIFA officially declares Canada the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than South Africa or Canada as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "lastPrice": {
+      "yes": 0.22,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10724,
+    "displayName": "World Cup Quarterfinal: France vs Morocco",
+    "resolutionText": "The market resolves to France if FIFA officially declares France as the winner of the FIFA World Cup Quarterfinal game between France and Morocco scheduled for July 9, 2026 (the \"Game\"). The market resolves to Morocco if FIFA officially declares Morocco the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than France or Morocco as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "lastPrice": {
+      "yes": 0.625,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10761,
+    "displayName": "BTC Up or Down · 1D",
+    "resolutionText": "Resolves YES if BTC is above $62,965 at settlement (2026-07-11 03:00 UTC). Recurring 1D up/down market. Settles to the BTC mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10762,
+    "displayName": "ETH Up or Down · 1D",
+    "resolutionText": "Resolves YES if ETH is above $1,776.1 at settlement (2026-07-11 03:00 UTC). Recurring 1D up/down market. Settles to the ETH mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10763,
+    "displayName": "SOL Up or Down · 1D",
+    "resolutionText": "Resolves YES if SOL is above $78.835 at settlement (2026-07-11 03:00 UTC). Recurring 1D up/down market. Settles to the SOL mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10764,
+    "displayName": "HYPE Up or Down · 1D",
+    "resolutionText": "Resolves YES if HYPE is above $56.301 at settlement (2026-07-11 03:00 UTC). Recurring 1D up/down market. Settles to the HYPE mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10765,
+    "displayName": "ZEC Up or Down · 1D",
+    "resolutionText": "Resolves YES if ZEC is above $138.65 at settlement (2026-07-11 03:00 UTC). Recurring 1D up/down market. Settles to the ZEC mark price on HyperCore.",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10767,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10768,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  },
+  {
+    "outcomeId": 10769,
+    "displayName": "Recurring Named Outcome",
+    "resolutionText": "",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-07-10T16:00:49.926Z"
+    },
+    "settledObservedAt": "2026-07-10T16:00:00Z",
+    "seedSource": "alpha-db-2026-07-10"
+  }
+]
