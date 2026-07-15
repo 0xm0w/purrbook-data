@@ -57,15 +57,30 @@ test('diffAndFreeze: duplicate outcomeId already in archive is refused (seed-col
   assert.equal(archiveAdditions.length, 0);
 });
 
-test('diffAndFreeze: identical catalogs → no additions, no changed paths (idempotent, no-commit)', () => {
-  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
-  const { archiveAdditions, changedPaths } = diffAndFreeze(cat, cat, [], NOW);
+test('buildCatalog is deterministic: two independent builds from same inputs are byte-identical', () => {
+  const cat1 = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const cat2 = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  assert.equal(JSON.stringify(cat1), JSON.stringify(cat2));
+});
+
+test('diffAndFreeze: independently-built identical catalogs → no additions, no changed paths (idempotent, no-commit)', () => {
+  const cat1 = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const cat2 = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const { archiveAdditions, changedPaths } = diffAndFreeze(cat1, cat2, [], NOW);
   assert.equal(archiveAdditions.length, 0);
   assert.deepEqual(changedPaths, []);
 });
 
 test('buildCatalog: malformed outcomeMeta throws (run must exit non-zero, write nothing)', () => {
   assert.throws(() => buildCatalog({ nope: true }, allMids, overlay, NOW));
+});
+
+test('buildCatalog: class:priceBinary machine-blob description yields empty resolutionText (no fake judge)', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Fixture outcome 839: "class:priceBinary|underlying:BTC|expiry:...|targetPrice:..." — config, not a rule.
+  const rec = cat.outcomes.find((o) => o.outcomeId === 839);
+  assert.ok(rec, 'outcome 839 present in fixture');
+  assert.equal(rec.resolutionText, '');
 });
 
 test('new outcome between runs produces its changed path (for revalidate + IndexNow)', () => {

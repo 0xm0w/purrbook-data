@@ -19,10 +19,16 @@ const { archiveAdditions, changedPaths } = diffAndFreeze(prevCatalog, next, prev
 // but skip when byte-identical modulo timestamps AND no structural change:
 const structural = archiveAdditions.length > 0 || changedPaths.length > 0
   || prevCatalog.generatedAt === null;
-writeFileSync('catalog.json', JSON.stringify(next, null, 2) + '\n');
+// Write order is crash-safety: archive.json FIRST, then catalog.json. If we
+// crash between the two, the old catalog.json still contains the settled
+// outcome, so the next run re-detects the settlement and re-freezes it — and
+// the archived-id guard in diffAndFreeze dedupes the already-written entry.
+// Writing catalog.json first would drop the outcome from prevCatalog before
+// it was ever archived: the frozen settlement would be permanently lost.
 if (archiveAdditions.length) {
   writeFileSync('archive.json', JSON.stringify([...prevArchive, ...archiveAdditions], null, 2) + '\n');
 }
+writeFileSync('catalog.json', JSON.stringify(next, null, 2) + '\n');
 const summary = `snapshot: ${nowIso} (+${changedPaths.length - archiveAdditions.length} listed, ${archiveAdditions.length} settled)`;
 writeFileSync('.run-summary', JSON.stringify({ summary, changedPaths, structural }) + '\n');
 console.log(summary);

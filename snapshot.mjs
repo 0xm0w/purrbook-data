@@ -32,10 +32,14 @@ export function buildCatalog(outcomeMeta, allMids, overlay, nowIso) {
   }
   const outcomes = outcomeMeta.outcomes.map((o) => {
     const yes = Number(allMids[`#${o.outcome * 10}`]);
+    const rule = parseRule(o.description ?? '');
     return {
       outcomeId: o.outcome, displayName: o.name,
       questionId: questionByOutcome.get(o.outcome) ?? null,
-      resolutionText: parseRule(o.description ?? ''),
+      // Recurring outcomes carry machine config ("class:priceBinary|underlying:BTC|…"),
+      // not a human resolution rule — ship '' so the floor renders no rule
+      // rather than a fake judge (web's faqPageLd already nulls on empty).
+      resolutionText: /^class:/.test(rule) ? '' : rule,
       yesPrice: Number.isFinite(yes) ? yes : null, priceAt: nowIso,
       isFallback: o.name === 'Fallback',
     };
