@@ -1,0 +1,38 @@
+name: snapshot
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+# NEVER add pull_request here: public repo — fork PRs must not run this
+# (hosted runners only; secrets unreachable from forks by these triggers).
+permissions:
+  contents: write
+concurrency:
+  group: snapshot
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node --test
+      - run: node run.mjs
+      - name: commit if changed
+        run: |
+          git config user.name purrbook-snapshot
+          git config user.email snapshot@purrbook.xyz
+          # Daily heartbeat (defeats the 60-day scheduled-workflow auto-disable;
+          # liveness itself is read from the Actions runs API by the watchdog):
+          date -u +%F > heartbeat.today
+          if ! cmp -s heartbeat.today heartbeat.txt; then mv heartbeat.today heartbeat.txt; else rm heartbeat.today; fi
+          git add catalog.json archive.json heartbeat.txt
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "$(node -e "console.log(JSON.parse(require('fs').readFileSync('.run-summary','utf8')).summary)")"
+          git push
+      - name: notify
+        env:
+          INDEXNOW_KEY: ${{ vars.INDEXNOW_KEY }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+        run: node notify.mjs
