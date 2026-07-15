@@ -1,4 +1,6 @@
-// One-time archive seeding from the rescued alpha DB. Runs LOCALLY only, never in CI.
+// One-time archive seeding from the rescued alpha DB. Runs LOCALLY only, never
+// in CI — its test suite likewise (tools/seed.manual.mjs is named to sit outside
+// `node --test` auto-discovery; run it explicitly: node --test tools/seed.manual.mjs).
 // usage: SEED_DIR=<dir containing the .db> node tools/seed-from-sqlite.mjs <db-filename> [--write]
 //   Prints proposed archive entries + bucket counts; --write merges them into
 //   archive.json (outcomeIds already present are refused — see mergeArchive).

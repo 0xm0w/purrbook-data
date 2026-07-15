@@ -1,3 +1,14 @@
+// Manual test suite for tools/seed-from-sqlite.mjs. NOT auto-discovered:
+// the filename deliberately avoids Node's default test globs (no *.test.*,
+// no -test/_test basename suffix, not under a test/ dir) so the scheduled
+// snapshot workflow's bare `node --test` never picks it up — the seed is a
+// one-time local job, and its docker-backed e2e must not spin a container
+// 144x/day in a pipeline whose work is done. Invoke explicitly whenever the
+// seed tool is touched:
+//   node --test tools/seed.manual.mjs
+// (Naming note: seed.manual-test.mjs would NOT have escaped — Node 20 treats
+// any basename ending in .test/-test/_test as a test file and Node 22+ globs
+// *-test.?(c|m)js; verified empirically on node 24 local + node:20 container.)
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
@@ -99,11 +110,11 @@ test('mergeArchive: refuses outcomeIds already present, merges the rest', () => 
 });
 
 // ---- docker-backed integration test: real dockerized sqlite3, real fixture DB ----
-// This tool is local-only by design (never runs in CI... except this test file
-// itself IS picked up by the live pipeline's `node --test` step — see the
-// broad try/catch below, which turns ANY docker/sqlite failure into a clean
-// skip rather than a hard failure, so a flaky image pull can never block a
-// scheduled snapshot commit).
+// Local-only, like the tool it tests (this file is outside `node --test`
+// auto-discovery — see header). The broad try/catch below still turns ANY
+// docker/sqlite runtime failure into a clean skip rather than a hard failure,
+// so a transient image-pull or apk hiccup reads as "environment can't run the
+// e2e", not as a seed-tool regression.
 
 function dockerReady() {
   try {
@@ -120,10 +131,9 @@ test('end-to-end against a real dockerized-sqlite fixture: golden shape, Fallbac
   const dir = mkdtempSync(join(tmpdir(), 'seed-fixture-')).replace(/\\/g, '/');
   const dbFile = 'fixture.db';
 
-  // Infra (docker/network/sqlite) failures degrade to a clean skip, never a hard
-  // failure: this test file is picked up by the live snapshot workflow's
-  // `node --test` step every 10 minutes, and a transient Alpine-mirror hiccup
-  // must never be able to block that cycle's real snapshot commit.
+  // Infra (docker/network/sqlite) failures degrade to a clean skip, never a
+  // hard failure — a transient Alpine-mirror or daemon hiccup is an
+  // environment problem, not a seed-tool bug, and must not read as one.
   let settledRows;
   let liveRows;
   let lastRows;
