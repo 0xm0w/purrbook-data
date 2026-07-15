@@ -13,13 +13,30 @@ export function buildCatalog(outcomeMeta, allMids, overlay, nowIso) {
   const eventByOutcome = new Map(
     (overlay.markets ?? []).filter((m) => m.eventId).map((m) => [m.outcomeId, m.eventId]),
   );
+  // Protocol-declared fallbacks: a question's fallbackOutcome is a fallback even
+  // when its name isn't literally "Fallback" (e.g. recurring groups' "Recurring
+  // Fallback") — missing this would ship it tradable-looking and freeze it into
+  // the archive on the first recurring-group rotation.
+  const fallbackIds = new Set(
+    outcomeMeta.questions.map((q) => q.fallbackOutcome).filter((x) => x != null),
+  );
+  // Questions whose RAW description is a machine blob ("class:priceBucket|…"):
+  // their member outcomes' descriptions are config fragments ("index:0", "other"),
+  // not resolution rules — blank those too.
+  const blobQuestionIds = new Set(
+    outcomeMeta.questions
+      .filter((q) => /^class:/.test(parseRule(q.description ?? '')))
+      .map((q) => q.question),
+  );
   const questions = outcomeMeta.questions.map((q) => {
     // A question's eventId: any member outcome carrying one in the overlay.
     const memberIds = [...(q.namedOutcomes ?? []), q.fallbackOutcome].filter((x) => x != null);
     const eventId = memberIds.map((id) => eventByOutcome.get(id)).find(Boolean) ?? null;
     const ev = eventId ? overlay.events?.[eventId] : null;
+    const desc = parseRule(q.description ?? '');
     return {
-      questionId: q.question, name: q.name, description: parseRule(q.description ?? ''),
+      questionId: q.question, name: q.name,
+      description: /^class:/.test(desc) ? '' : desc,
       fallbackOutcome: q.fallbackOutcome ?? null,
       ...(ev && { eventId, eventTitle: ev.title, category: ev.category }),
     };
@@ -36,12 +53,14 @@ export function buildCatalog(outcomeMeta, allMids, overlay, nowIso) {
     return {
       outcomeId: o.outcome, displayName: o.name,
       questionId: questionByOutcome.get(o.outcome) ?? null,
-      // Recurring outcomes carry machine config ("class:priceBinary|underlying:BTC|…"),
-      // not a human resolution rule — ship '' so the floor renders no rule
-      // rather than a fake judge (web's faqPageLd already nulls on empty).
-      resolutionText: /^class:/.test(rule) ? '' : rule,
+      // Recurring outcomes carry machine config ("class:priceBinary|underlying:BTC|…"
+      // on the outcome, or "index:0"/"other" under a blob question), not a human
+      // resolution rule — ship '' so the floor renders no rule rather than a fake
+      // judge (web's faqPageLd already nulls on empty).
+      resolutionText: (/^class:/.test(rule) || blobQuestionIds.has(questionByOutcome.get(o.outcome)))
+        ? '' : rule,
       yesPrice: Number.isFinite(yes) ? yes : null, priceAt: nowIso,
-      isFallback: o.name === 'Fallback',
+      isFallback: o.name === 'Fallback' || fallbackIds.has(o.outcome),
     };
   });
   return { generatedAt: nowIso, questions, outcomes };

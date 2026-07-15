@@ -21,8 +21,9 @@ const structural = archiveAdditions.length > 0 || changedPaths.length > 0
   || prevCatalog.generatedAt === null;
 // Write order is crash-safety: archive.json FIRST, then catalog.json. If we
 // crash between the two, the old catalog.json still contains the settled
-// outcome, so the next run re-detects the settlement and re-freezes it — and
-// the archived-id guard in diffAndFreeze dedupes the already-written entry.
+// outcome, so the next run re-detects the settlement — and the archived-id
+// guard in diffAndFreeze refuses the duplicate (data preserved; only that
+// settlement's one-time notify signal is skipped).
 // Writing catalog.json first would drop the outcome from prevCatalog before
 // it was ever archived: the frozen settlement would be permanently lost.
 if (archiveAdditions.length) {

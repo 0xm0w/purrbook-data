@@ -33,6 +33,14 @@ test('buildCatalog: Fallback outcomes flagged, never priced-required', () => {
   }
 });
 
+test('buildCatalog: protocol-declared fallback (question.fallbackOutcome) is flagged isFallback', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Question 145 declares fallbackOutcome 843 ("Recurring Fallback") — name is NOT literally "Fallback".
+  const rec = cat.outcomes.find((o) => o.outcomeId === 843);
+  assert.ok(rec, 'outcome 843 present in fixture');
+  assert.equal(rec.isFallback, true);
+});
+
 test('diffAndFreeze: outcome absent from next catalog is frozen with identity + last price', () => {
   const prev = buildCatalog(outcomeMeta, allMids, overlay, NOW);
   const gone = prev.outcomes.find((o) => !o.isFallback);
@@ -55,6 +63,15 @@ test('diffAndFreeze: duplicate outcomeId already in archive is refused (seed-col
   const prevArchive = [{ outcomeId: gone.outcomeId, displayName: 'old' }];
   const { archiveAdditions } = diffAndFreeze(prev, next, prevArchive, NOW);
   assert.equal(archiveAdditions.length, 0);
+});
+
+test('diffAndFreeze: protocol-declared fallback rotating out is never frozen or signaled', () => {
+  const prev = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // 843 is question 145's fallbackOutcome — recurring-group rotation must not archive it.
+  const next = { ...prev, outcomes: prev.outcomes.filter((o) => o.outcomeId !== 843) };
+  const { archiveAdditions, changedPaths } = diffAndFreeze(prev, next, [], NOW);
+  assert.equal(archiveAdditions.length, 0);
+  assert.deepEqual(changedPaths, []);
 });
 
 test('buildCatalog is deterministic: two independent builds from same inputs are byte-identical', () => {
@@ -81,6 +98,22 @@ test('buildCatalog: class:priceBinary machine-blob description yields empty reso
   const rec = cat.outcomes.find((o) => o.outcomeId === 839);
   assert.ok(rec, 'outcome 839 present in fixture');
   assert.equal(rec.resolutionText, '');
+});
+
+test('buildCatalog: class:* machine-blob question description yields empty description', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Fixture question 145: "class:priceBucket|underlying:BTC|..." — config, not a rule.
+  const q = cat.questions.find((q) => q.questionId === 145);
+  assert.ok(q, 'question 145 present in fixture');
+  assert.equal(q.description, '');
+});
+
+test('buildCatalog: members of a machine-blob question get empty resolutionText (index:N / other blobs)', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Outcome 844 ("index:0") belongs to blob question 145 — its description is config too.
+  const named = cat.outcomes.find((o) => o.outcomeId === 844);
+  assert.ok(named, 'outcome 844 present in fixture');
+  assert.equal(named.resolutionText, '');
 });
 
 test('new outcome between runs produces its changed path (for revalidate + IndexNow)', () => {
