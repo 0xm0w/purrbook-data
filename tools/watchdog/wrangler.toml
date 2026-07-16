@@ -1,0 +1,6 @@
+name = "purrbook-snapshot-watchdog"
+type = "service"
+compatibility_date = "2026-07-16"
+
+[triggers]
+crons = ["*/15 * * * *"]
