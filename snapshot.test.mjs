@@ -123,3 +123,30 @@ test('new outcome between runs produces its changed path (for revalidate + Index
   const { changedPaths } = diffAndFreeze(prev, next, [], NOW);
   assert.ok(changedPaths.includes(`/market/${newOutcome.outcomeId}`));
 });
+
+test('priceBinary outcomes carry parsed underlying/strike/expiryUtc + resolutionSource mark', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const bin = cat.outcomes.find((o) => o.outcomeId === 839); // class:priceBinary|underlying:BTC|expiry:20260716-0600|targetPrice:64953|period:1d
+  assert.equal(bin.underlying, 'BTC');
+  assert.equal(bin.strike, 64953);
+  assert.equal(bin.expiryUtc, '2026-07-16T06:00:00Z');
+  assert.equal(bin.resolutionSource, 'mark');
+});
+
+test('event outcomes: no binary fields, resolutionSource validators', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const arg = cat.outcomes.find((o) => o.outcomeId === 173);
+  assert.equal(arg.underlying, undefined);
+  assert.equal(arg.resolutionSource, 'validators');
+});
+
+test('freeze inherits binary fields, resolutionSource, and eventTitle', () => {
+  const prev = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const gone = prev.outcomes.find((o) => o.outcomeId === 173);
+  const next = { ...prev, outcomes: prev.outcomes.filter((o) => o.outcomeId !== 173) };
+  const { archiveAdditions } = diffAndFreeze(prev, next, [], NOW);
+  const f = archiveAdditions[0];
+  assert.equal(f.resolutionSource, 'validators');
+  assert.equal(f.eventTitle, 'World Cup Winner'); // overlay fixture's event title
+  assert.ok(!('winner' in f));
+});
