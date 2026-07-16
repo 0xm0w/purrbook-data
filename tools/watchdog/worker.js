@@ -29,10 +29,14 @@ export default {
     const ageMin = run ? (Date.now() - Date.parse(run.updated_at)) / 60000 : Infinity;
 
     if (ageMin > 45 || run?.conclusion !== 'success') {
-      await gh('/repos/0xm0w/purrbook-data/actions/workflows/snapshot.yml/dispatches', {
+      const dispatch = await gh('/repos/0xm0w/purrbook-data/actions/workflows/snapshot.yml/dispatches', {
         method: 'POST',
+        headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ ref: 'main' }),
       });
+      // Expect 204. A THROWN error surfaces in Cloudflare's cron past-events
+      // tracking; a silent resolve would hide the failure.
+      if (!dispatch.ok) throw new Error(`dispatch failed: ${dispatch.status}`);
     }
   },
 };
