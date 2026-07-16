@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T14:16:23.168Z",
+  "generatedAt": "2026-07-16T15:49:23.638Z",
   "questions": [
     {
       "questionId": 32,
@@ -33,26 +33,29 @@
       "questionId": 32,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": true
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": true,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 173,
       "displayName": "Argentina",
       "questionId": 32,
       "resolutionText": "This outcome resolves to Yes if Argentina is officially declared the 2026 FIFA World Cup champion.",
-      "yesPrice": 0.4184,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.417835,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 212,
       "displayName": "Spain",
       "questionId": 32,
       "resolutionText": "This outcome resolves to Yes if Spain is officially declared the 2026 FIFA World Cup champion.",
-      "yesPrice": 0.581205,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.581715,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 509,
@@ -60,71 +63,91 @@
       "questionId": 94,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": true
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": true,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 510,
       "displayName": "No change",
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision leaves the lower bound of the target federal funds rate range unchanged, or if no official July 2026 rate decision is released by 23:59 ET on September 16, 2026.",
-      "yesPrice": 0.951255,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.950505,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 511,
       "displayName": "Decrease",
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision lowers the lower bound of the target federal funds rate range.",
-      "yesPrice": 0.008855,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.00885,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 512,
       "displayName": "Increase",
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision raises the lower bound of the target federal funds rate range.",
-      "yesPrice": 0.044505,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.0445,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 847,
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.35624,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.35446,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "underlying": "BTC",
+      "strike": 64911,
+      "expiryUtc": "2026-07-17T06:00:00Z",
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 848,
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.174215,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.133395,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "underlying": "ETH",
+      "strike": 1926.1,
+      "expiryUtc": "2026-07-17T06:00:00Z",
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 849,
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.29854,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.27467,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "underlying": "SOL",
+      "strike": 77.439,
+      "expiryUtc": "2026-07-17T06:00:00Z",
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 850,
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.316005,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.182,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "underlying": "HYPE",
+      "strike": 66.86,
+      "expiryUtc": "2026-07-17T06:00:00Z",
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 851,
@@ -132,53 +155,59 @@
       "questionId": 146,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": true
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": true,
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 852,
       "displayName": "Recurring Named Outcome",
       "questionId": 146,
       "resolutionText": "",
-      "yesPrice": 0.1845,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.116085,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 853,
       "displayName": "Recurring Named Outcome",
       "questionId": 146,
       "resolutionText": "",
-      "yesPrice": 0.766505,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.82967,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 854,
       "displayName": "Recurring Named Outcome",
       "questionId": 146,
       "resolutionText": "",
-      "yesPrice": 0.066565,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.06206,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "mark"
     },
     {
       "outcomeId": 855,
       "displayName": "World Cup Third Place: France vs England",
       "questionId": null,
       "resolutionText": "The market resolves to France if FIFA officially declares France as the winner of the FIFA World Cup Third Place game between France and England scheduled for July 18, 2026 (the \"Game\"). The market resolves to England if FIFA officially declares England the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than France or England as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
-      "yesPrice": 0.64461,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.64485,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     },
     {
       "outcomeId": 856,
       "displayName": "World Cup Final: Spain vs Argentina",
       "questionId": null,
       "resolutionText": "The market resolves to Spain if FIFA officially declares Spain as the winner of the FIFA World Cup Final game between Spain and Argentina scheduled for July 19, 2026 (the \"Game\"). The market resolves to Argentina if FIFA officially declares Argentina the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than Spain or Argentina as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
-      "yesPrice": 0.583725,
-      "priceAt": "2026-07-16T14:16:23.168Z",
-      "isFallback": false
+      "yesPrice": 0.58373,
+      "priceAt": "2026-07-16T15:49:23.638Z",
+      "isFallback": false,
+      "resolutionSource": "validators"
     }
   ]
 }
