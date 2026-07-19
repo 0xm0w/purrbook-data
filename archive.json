@@ -1467,5 +1467,113 @@
       "at": "2026-07-18T05:39:40.842Z"
     },
     "settledObservedAt": "2026-07-18T06:30:54.410Z"
+  },
+  {
+    "outcomeId": 855,
+    "displayName": "World Cup Third Place: France vs England",
+    "questionId": null,
+    "resolutionText": "The market resolves to France if FIFA officially declares France as the winner of the FIFA World Cup Third Place game between France and England scheduled for July 18, 2026 (the \"Game\"). The market resolves to England if FIFA officially declares England the winner of the Game. Game results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the Game is postponed, delayed, or suspended and later completed, the completed Game as ultimately played will be used, provided FIFA officially declares a winner by July 26, 2026 at 23:59 UTC. If FIFA officially declares either listed team as the winner of the Game without a completed Game, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, the market resolves for that team accordingly. The market resolves to 0.5 if: (a) the Game is canceled entirely with no make-up Game, (b) FIFA declares no winner, (c) FIFA declares a team other than France or England as the winner, or (d) FIFA has not officially declared a winner by July 26, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or result reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00006,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 865,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 63950,
+    "expiryUtc": "2026-07-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.997385,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 866,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 1846,
+    "expiryUtc": "2026-07-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.663505,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 867,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 74.896,
+    "expiryUtc": "2026-07-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.67517,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 868,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 58.86,
+    "expiryUtc": "2026-07-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.95207,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 870,
+    "displayName": "Recurring Named Outcome",
+    "questionId": 148,
+    "resolutionText": "",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.002255,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 871,
+    "displayName": "Recurring Named Outcome",
+    "questionId": 148,
+    "resolutionText": "",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.973995,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
+  },
+  {
+    "outcomeId": 872,
+    "displayName": "Recurring Named Outcome",
+    "questionId": 148,
+    "resolutionText": "",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.0155,
+      "at": "2026-07-19T05:30:58.026Z"
+    },
+    "settledObservedAt": "2026-07-19T06:16:15.298Z"
   }
 ]
