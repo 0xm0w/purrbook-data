@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-07-20T07:20:59.436Z",
+  "generatedAt": "2026-07-20T08:16:08.636Z",
   "questions": [
-    {
-      "questionId": 32,
-      "name": "2026 World Cup Champion",
-      "description": "Each associated outcome corresponds to a team confirmed to be participating in the 2026 FIFA World Cup. An outcome resolves to Yes if FIFA officially declares the corresponding team the champion of the 2026 FIFA World Cup. An outcome resolves to No once it becomes impossible under FIFA tournament rules for the corresponding team to win the 2026 FIFA World Cup, including but not limited to upon elimination from the tournament. Match results after regular time, extra time, and penalties, if applicable, are all valid for resolution purposes. If the final is postponed or delayed, the rescheduled final will be used, provided FIFA officially declares a champion by October 14, 2026 at 23:59 UTC. If FIFA officially declares a team as champion without a completed final match, including but not limited to following abandonment, walkover, forfeit, disqualification, or administrative decision, that team's outcome resolves to Yes accordingly. Any outcome not already resolved shall resolve to No if: (a) FIFA cancels the 2026 FIFA World Cup, (b) FIFA declares no champion, (c) FIFA declares any teams as co-champions, or (d) FIFA has not officially declared a champion by October 14, 2026 at 23:59 UTC. FIFA is the primary resolution source, although independent reputable news sources may be used as fallback sources if FIFA has not published the relevant result. Once resolved, subsequent appeals, corrections, reversals, or title reassignments by FIFA or any other body will not affect the market resolution. This market has not been endorsed by FIFA. References to \"FIFA,\" the \"FIFA World Cup,\" and any other associated marks are descriptive only and do not indicate an endorsement of this market or any affiliation with FIFA.",
-      "fallbackOutcome": 171,
-      "eventId": "wc-champion-2026",
-      "eventTitle": "World Cup Winner",
-      "category": "soccer"
-    },
     {
       "questionId": 94,
       "name": "July Fed funds decision",
@@ -28,42 +19,12 @@
   ],
   "outcomes": [
     {
-      "outcomeId": 171,
-      "displayName": "Fallback",
-      "questionId": 32,
-      "resolutionText": "",
-      "yesPrice": 0.5,
-      "priceAt": "2026-07-20T07:20:59.436Z",
-      "isFallback": true,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 173,
-      "displayName": "Argentina",
-      "questionId": 32,
-      "resolutionText": "This outcome resolves to Yes if Argentina is officially declared the 2026 FIFA World Cup champion.",
-      "yesPrice": 0.00001,
-      "priceAt": "2026-07-20T07:20:59.436Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 212,
-      "displayName": "Spain",
-      "questionId": 32,
-      "resolutionText": "This outcome resolves to Yes if Spain is officially declared the 2026 FIFA World Cup champion.",
-      "yesPrice": 0.999,
-      "priceAt": "2026-07-20T07:20:59.436Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
       "outcomeId": 509,
       "displayName": "Fallback",
       "questionId": 94,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -72,8 +33,8 @@
       "displayName": "No change",
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision leaves the lower bound of the target federal funds rate range unchanged, or if no official July 2026 rate decision is released by 23:59 ET on September 16, 2026.",
-      "yesPrice": 0.9323,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.9228,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -82,8 +43,8 @@
       "displayName": "Decrease",
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision lowers the lower bound of the target federal funds rate range.",
-      "yesPrice": 0.007115,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.00712,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -93,7 +54,7 @@
       "questionId": 94,
       "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision raises the lower bound of the target federal funds rate range.",
       "yesPrice": 0.07,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -102,8 +63,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.43686,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.57853,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "underlying": "BTC",
       "strike": 64099,
@@ -115,8 +76,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.468225,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.580515,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "underlying": "ETH",
       "strike": 1854.9,
@@ -128,8 +89,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.439065,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.5815,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "underlying": "SOL",
       "strike": 75.883,
@@ -141,8 +102,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.495305,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.59,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "underlying": "HYPE",
       "strike": 60.286,
@@ -155,7 +116,7 @@
       "questionId": 150,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": true,
       "resolutionSource": "mark"
     },
@@ -164,8 +125,8 @@
       "displayName": "Recurring Named Outcome",
       "questionId": 150,
       "resolutionText": "",
-      "yesPrice": 0.428995,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.327495,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "mark"
     },
@@ -175,7 +136,7 @@
       "questionId": 150,
       "resolutionText": "",
       "yesPrice": 0.550505,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "mark"
     },
@@ -184,8 +145,8 @@
       "displayName": "Recurring Named Outcome",
       "questionId": 150,
       "resolutionText": "",
-      "yesPrice": 0.0945,
-      "priceAt": "2026-07-20T07:20:59.436Z",
+      "yesPrice": 0.1425,
+      "priceAt": "2026-07-20T08:16:08.636Z",
       "isFallback": false,
       "resolutionSource": "mark"
     }
