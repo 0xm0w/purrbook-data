@@ -177,6 +177,20 @@ test('buildCatalog: a bucket question gets a derived event, since the overlay ca
   assert.equal(q.category, 'crypto');
 });
 
+test('buildCatalog: a curated overlay event beats the derived bucket one', () => {
+  // Precedence rule: derived bucket events exist only because a bucket's ids
+  // re-mint daily and so can never be curated. If someone DOES curate one, the
+  // hand-written title must win — otherwise curation would silently do nothing.
+  const curated = {
+    events: { ...overlay.events, 'btc-curated': { eventId: 'btc-curated', title: 'BTC Range (curated)', category: 'macro' } },
+    markets: [...overlay.markets, { outcomeId: 935, eventId: 'btc-curated' }],
+  };
+  const q = buildCatalog(outcomeMeta, allMids, curated, NOW).questions.find((q) => q.questionId === 156);
+  assert.equal(q.eventId, 'btc-curated');
+  assert.equal(q.eventTitle, 'BTC Range (curated)');
+  assert.equal(q.category, 'macro');
+});
+
 test('buildCatalog: the bucket fallback leg stays flagged and unnamed', () => {
   const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
   const fb = cat.outcomes.find((o) => o.outcomeId === 933);
