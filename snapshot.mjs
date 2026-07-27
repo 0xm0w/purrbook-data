@@ -94,8 +94,14 @@ export function buildCatalog(outcomeMeta, allMids, overlay, nowIso) {
     const bandIndexMatch = /^index:(\d+)$/.exec(rawRule);
     const q = bucket && outcomeMeta.questions.find((x) => x.question === questionByOutcome.get(o.outcome));
     const bandIndex = bandIndexMatch ? Number(bandIndexMatch[1]) : q ? (q.namedOutcomes ?? []).indexOf(o.outcome) : -1;
-    const band =
+    const rawBand =
       bucket && q && bucket.bands.length === (q.namedOutcomes ?? []).length ? bucket.bands[bandIndex] : undefined;
+    // Hoisted so EVERY band field is gated on the same condition. Gating only
+    // displayName/bucketIndex on !isFallbackLeg would let a fallback leg ship
+    // orphaned bucketLower/bucketUpper with no index and no label — and
+    // diffAndFreeze would carry those bounds into the permanent archive — if HL
+    // ever tags the fallback with an `index:N` instead of today's "other".
+    const band = rawBand && !isFallbackLeg ? rawBand : undefined;
     return {
       outcomeId: o.outcome, displayName: o.name,
       questionId: questionByOutcome.get(o.outcome) ?? null,
@@ -110,7 +116,7 @@ export function buildCatalog(outcomeMeta, allMids, overlay, nowIso) {
       ...(Number.isFinite(binaryFields.strike) && { strike: binaryFields.strike }),
       ...(binaryFields.expiryUtc && { expiryUtc: binaryFields.expiryUtc }),
       resolutionSource: isMarked || blobQuestionIds.has(questionByOutcome.get(o.outcome)) ? 'mark' : 'validators',
-      ...(band && !isFallbackLeg && { displayName: band.label, bucketIndex: band.index }),
+      ...(band && { displayName: band.label, bucketIndex: band.index }),
       ...(band && band.lower != null && { bucketLower: band.lower }),
       ...(band && band.upper != null && { bucketUpper: band.upper }),
     };
