@@ -205,3 +205,21 @@ test('buildCatalog: non-bucket outcomes are untouched by the band path', () => {
   assert.equal(arg.bucketIndex, undefined);
   assert.ok(arg.resolutionText.length > 0);
 });
+
+test('diffAndFreeze: a settled band keeps its label and bounds in the archive', () => {
+  const prev = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Next cycle: the whole bucket question has settled and rotated out.
+  const next = {
+    ...prev,
+    outcomes: prev.outcomes.filter((o) => ![933, 934, 935, 936].includes(o.outcomeId)),
+  };
+  const { archiveAdditions } = diffAndFreeze(prev, next, [], NOW);
+  const mid = archiveAdditions.find((a) => a.outcomeId === 935);
+  assert.ok(mid, 'the middle band was archived');
+  assert.equal(mid.displayName, '$62,715 – $65,274');
+  assert.equal(mid.bucketIndex, 1);
+  assert.equal(mid.bucketLower, 62715);
+  assert.equal(mid.bucketUpper, 65274);
+  // The non-tradable fallback leg is never archived.
+  assert.equal(archiveAdditions.find((a) => a.outcomeId === 933), undefined);
+});
