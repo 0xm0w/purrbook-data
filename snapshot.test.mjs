@@ -220,6 +220,14 @@ test('diffAndFreeze: a settled band keeps its label and bounds in the archive', 
   assert.equal(mid.bucketIndex, 1);
   assert.equal(mid.bucketLower, 62715);
   assert.equal(mid.bucketUpper, 65274);
+  // Band 0 discriminates the `!= null` guard from naive assignment: its index is
+  // 0 (falsy but present) and its lower edge is genuinely absent (open band).
+  // A truthiness guard would drop the index; an unconditional assignment would
+  // attach `bucketLower: undefined` where there should be no key at all.
+  const low = archiveAdditions.find((a) => a.outcomeId === 934);
+  assert.equal(low.bucketIndex, 0);
+  assert.equal(Object.hasOwn(low, 'bucketLower'), false);
+  assert.equal(low.bucketUpper, 62715);
   // The non-tradable fallback leg is never archived.
   assert.equal(archiveAdditions.find((a) => a.outcomeId === 933), undefined);
 });
