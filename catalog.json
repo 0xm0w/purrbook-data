@@ -1,11 +1,14 @@
 {
-  "generatedAt": "2026-07-30T16:10:35.449Z",
+  "generatedAt": "2026-07-30T17:01:07.282Z",
   "questions": [
     {
       "questionId": 160,
       "name": "Recurring",
       "description": "",
-      "fallbackOutcome": 965
+      "fallbackOutcome": 965,
+      "eventId": "btc-range-1d",
+      "eventTitle": "BTC Price Range · 1D (Jul 31)",
+      "category": "crypto"
     }
   ],
   "outcomes": [
@@ -14,8 +17,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.86401,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.871505,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
       "underlying": "BTC",
       "strike": 64009,
@@ -27,8 +30,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.700505,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.66324,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
       "underlying": "ETH",
       "strike": 1905.4,
@@ -40,8 +43,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.80106,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.765,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
       "underlying": "SOL",
       "strike": 73.672,
@@ -53,8 +56,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.749835,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.796895,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
       "underlying": "HYPE",
       "strike": 53.777,
@@ -67,39 +70,46 @@
       "questionId": 160,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": true,
       "resolutionSource": "mark"
     },
     {
       "outcomeId": 966,
-      "displayName": "Recurring Named Outcome",
+      "displayName": "Below $62,728",
       "questionId": 160,
       "resolutionText": "",
-      "yesPrice": 0.019255,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.01575,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
-      "resolutionSource": "mark"
+      "resolutionSource": "mark",
+      "bucketIndex": 0,
+      "bucketUpper": 62728
     },
     {
       "outcomeId": 967,
-      "displayName": "Recurring Named Outcome",
+      "displayName": "$62,728 – $65,289",
       "questionId": 160,
       "resolutionText": "",
-      "yesPrice": 0.772,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.7715,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
-      "resolutionSource": "mark"
+      "resolutionSource": "mark",
+      "bucketIndex": 1,
+      "bucketLower": 62728,
+      "bucketUpper": 65289
     },
     {
       "outcomeId": 968,
-      "displayName": "Recurring Named Outcome",
+      "displayName": "Above $65,289",
       "questionId": 160,
       "resolutionText": "",
-      "yesPrice": 0.390755,
-      "priceAt": "2026-07-30T16:10:35.449Z",
+      "yesPrice": 0.389755,
+      "priceAt": "2026-07-30T17:01:07.282Z",
       "isFallback": false,
-      "resolutionSource": "mark"
+      "resolutionSource": "mark",
+      "bucketIndex": 2,
+      "bucketLower": 65289
     }
   ]
 }
