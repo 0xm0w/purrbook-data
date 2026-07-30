@@ -2671,5 +2671,47 @@
       "at": "2026-07-30T05:16:06.297Z"
     },
     "settledObservedAt": "2026-07-30T06:05:21.283Z"
+  },
+  {
+    "outcomeId": 510,
+    "displayName": "No change",
+    "questionId": 94,
+    "eventId": "fomc-jul-2026-decision",
+    "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision leaves the lower bound of the target federal funds rate range unchanged, or if no official July 2026 rate decision is released by 23:59 ET on September 16, 2026.",
+    "resolutionSource": "validators",
+    "eventTitle": "July 2026 FOMC Decision",
+    "lastPrice": {
+      "yes": 0.99995,
+      "at": "2026-07-30T08:43:45.323Z"
+    },
+    "settledObservedAt": "2026-07-30T09:31:04.684Z"
+  },
+  {
+    "outcomeId": 511,
+    "displayName": "Decrease",
+    "questionId": 94,
+    "eventId": "fomc-jul-2026-decision",
+    "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision lowers the lower bound of the target federal funds rate range.",
+    "resolutionSource": "validators",
+    "eventTitle": "July 2026 FOMC Decision",
+    "lastPrice": {
+      "yes": 0.00047,
+      "at": "2026-07-30T08:43:45.323Z"
+    },
+    "settledObservedAt": "2026-07-30T09:31:04.684Z"
+  },
+  {
+    "outcomeId": 512,
+    "displayName": "Increase",
+    "questionId": 94,
+    "eventId": "fomc-jul-2026-decision",
+    "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision raises the lower bound of the target federal funds rate range.",
+    "resolutionSource": "validators",
+    "eventTitle": "July 2026 FOMC Decision",
+    "lastPrice": {
+      "yes": 0.0006,
+      "at": "2026-07-30T08:43:45.323Z"
+    },
+    "settledObservedAt": "2026-07-30T09:31:04.684Z"
   }
 ]

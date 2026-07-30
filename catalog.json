@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-07-30T08:43:45.323Z",
+  "generatedAt": "2026-07-30T09:31:04.684Z",
   "questions": [
-    {
-      "questionId": 94,
-      "name": "July Fed funds decision",
-      "description": "The question has three outcomes: No change, Decrease, or Increase. Exactly one outcome resolves to Yes and the other two resolve to No. The question resolves based on the lower bound of the target federal funds rate range announced by the Federal Reserve for the scheduled July 2026 FOMC meeting, currently scheduled for July 28-29, 2026. No change resolves to Yes if the lower bound of the target range announced in the FOMC statement, implementation note, press release, or other official Federal Reserve source for that meeting is identical to the lower bound of the target range in effect immediately before that decision. Decrease resolves to Yes if the announced lower bound is lower than the prior lower bound. Increase resolves to Yes if the announced lower bound is higher than the prior lower bound. If the scheduled meeting is canceled or postponed without a July 2026 FOMC rate decision, or if no official July 2026 FOMC statement or equivalent Federal Reserve decision source is released by 23:59 ET on September 16, 2026, No change resolves to Yes. Intermeeting rate changes outside the July meeting are ignored except to establish the lower bound in effect immediately before the July decision. If the Federal Reserve changes its policy-rate format, the closest official successor target named by the Federal Reserve is used. Resolution uses the initially released decision; later revisions after resolution are not considered.",
-      "fallbackOutcome": 509,
-      "eventId": "fomc-jul-2026-decision",
-      "eventTitle": "July 2026 FOMC Decision",
-      "category": "macro"
-    },
     {
       "questionId": 160,
       "name": "Recurring",
@@ -19,52 +10,12 @@
   ],
   "outcomes": [
     {
-      "outcomeId": 509,
-      "displayName": "Fallback",
-      "questionId": 94,
-      "resolutionText": "",
-      "yesPrice": 0.5,
-      "priceAt": "2026-07-30T08:43:45.323Z",
-      "isFallback": true,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 510,
-      "displayName": "No change",
-      "questionId": 94,
-      "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision leaves the lower bound of the target federal funds rate range unchanged, or if no official July 2026 rate decision is released by 23:59 ET on September 16, 2026.",
-      "yesPrice": 0.99995,
-      "priceAt": "2026-07-30T08:43:45.323Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 511,
-      "displayName": "Decrease",
-      "questionId": 94,
-      "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision lowers the lower bound of the target federal funds rate range.",
-      "yesPrice": 0.00047,
-      "priceAt": "2026-07-30T08:43:45.323Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 512,
-      "displayName": "Increase",
-      "questionId": 94,
-      "resolutionText": "This outcome resolves to Yes if the July 2026 FOMC decision raises the lower bound of the target federal funds rate range.",
-      "yesPrice": 0.0006,
-      "priceAt": "2026-07-30T08:43:45.323Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
       "outcomeId": 961,
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.61291,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "yesPrice": 0.689265,
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "underlying": "BTC",
       "strike": 64009,
@@ -76,8 +27,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.56378,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "yesPrice": 0.607835,
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "underlying": "ETH",
       "strike": 1905.4,
@@ -89,8 +40,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.502785,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "yesPrice": 0.56945,
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "underlying": "SOL",
       "strike": 73.672,
@@ -102,8 +53,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.52984,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "yesPrice": 0.554975,
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "underlying": "HYPE",
       "strike": 53.777,
@@ -116,7 +67,7 @@
       "questionId": 160,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": true,
       "resolutionSource": "mark"
     },
@@ -126,7 +77,7 @@
       "questionId": 160,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "resolutionSource": "mark"
     },
@@ -135,8 +86,8 @@
       "displayName": "Recurring Named Outcome",
       "questionId": 160,
       "resolutionText": "",
-      "yesPrice": 0.797875,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "yesPrice": 0.796875,
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "resolutionSource": "mark"
     },
@@ -146,7 +97,7 @@
       "questionId": 160,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-07-30T08:43:45.323Z",
+      "priceAt": "2026-07-30T09:31:04.684Z",
       "isFallback": false,
       "resolutionSource": "mark"
     }
