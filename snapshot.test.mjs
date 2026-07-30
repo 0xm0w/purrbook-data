@@ -150,3 +150,84 @@ test('freeze inherits binary fields, resolutionSource, and eventTitle', () => {
   assert.equal(f.eventTitle, 'World Cup Winner'); // overlay fixture's event title
   assert.ok(!('winner' in f));
 });
+
+test('buildCatalog: price-bucket legs get real band names, not the HL placeholder', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const names = [934, 935, 936].map((id) => cat.outcomes.find((o) => o.outcomeId === id).displayName);
+  assert.deepEqual(names, ['Below $62,715', '$62,715 – $65,274', 'Above $65,274']);
+});
+
+test('buildCatalog: bucket legs carry band bounds, open at the outer edges', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const byId = (id) => cat.outcomes.find((o) => o.outcomeId === id);
+  assert.equal(byId(934).bucketIndex, 0);
+  assert.equal(byId(934).bucketLower, undefined);
+  assert.equal(byId(934).bucketUpper, 62715);
+  assert.equal(byId(935).bucketLower, 62715);
+  assert.equal(byId(935).bucketUpper, 65274);
+  assert.equal(byId(936).bucketIndex, 2);
+  assert.equal(byId(936).bucketUpper, undefined);
+});
+
+test('buildCatalog: a bucket question gets a derived event, since the overlay cannot carry one', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const q = cat.questions.find((q) => q.questionId === 156);
+  assert.equal(q.eventId, 'btc-range-1d');
+  assert.equal(q.eventTitle, 'BTC Price Range · 1D (Jul 27)');
+  assert.equal(q.category, 'crypto');
+});
+
+test('buildCatalog: a curated overlay event beats the derived bucket one', () => {
+  // Precedence rule: derived bucket events exist only because a bucket's ids
+  // re-mint daily and so can never be curated. If someone DOES curate one, the
+  // hand-written title must win — otherwise curation would silently do nothing.
+  const curated = {
+    events: { ...overlay.events, 'btc-curated': { eventId: 'btc-curated', title: 'BTC Range (curated)', category: 'macro' } },
+    markets: [...overlay.markets, { outcomeId: 935, eventId: 'btc-curated' }],
+  };
+  const q = buildCatalog(outcomeMeta, allMids, curated, NOW).questions.find((q) => q.questionId === 156);
+  assert.equal(q.eventId, 'btc-curated');
+  assert.equal(q.eventTitle, 'BTC Range (curated)');
+  assert.equal(q.category, 'macro');
+});
+
+test('buildCatalog: the bucket fallback leg stays flagged and unnamed', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const fb = cat.outcomes.find((o) => o.outcomeId === 933);
+  assert.equal(fb.isFallback, true);
+  assert.equal(fb.bucketIndex, undefined);
+});
+
+test('buildCatalog: non-bucket outcomes are untouched by the band path', () => {
+  const cat = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  const arg = cat.outcomes.find((o) => o.outcomeId === 173);
+  assert.equal(arg.displayName, 'Argentina');
+  assert.equal(arg.bucketIndex, undefined);
+  assert.ok(arg.resolutionText.length > 0);
+});
+
+test('diffAndFreeze: a settled band keeps its label and bounds in the archive', () => {
+  const prev = buildCatalog(outcomeMeta, allMids, overlay, NOW);
+  // Next cycle: the whole bucket question has settled and rotated out.
+  const next = {
+    ...prev,
+    outcomes: prev.outcomes.filter((o) => ![933, 934, 935, 936].includes(o.outcomeId)),
+  };
+  const { archiveAdditions } = diffAndFreeze(prev, next, [], NOW);
+  const mid = archiveAdditions.find((a) => a.outcomeId === 935);
+  assert.ok(mid, 'the middle band was archived');
+  assert.equal(mid.displayName, '$62,715 – $65,274');
+  assert.equal(mid.bucketIndex, 1);
+  assert.equal(mid.bucketLower, 62715);
+  assert.equal(mid.bucketUpper, 65274);
+  // Band 0 discriminates the `!= null` guard from naive assignment: its index is
+  // 0 (falsy but present) and its lower edge is genuinely absent (open band).
+  // A truthiness guard would drop the index; an unconditional assignment would
+  // attach `bucketLower: undefined` where there should be no key at all.
+  const low = archiveAdditions.find((a) => a.outcomeId === 934);
+  assert.equal(low.bucketIndex, 0);
+  assert.equal(Object.hasOwn(low, 'bucketLower'), false);
+  assert.equal(low.bucketUpper, 62715);
+  // The non-tradable fallback leg is never archived.
+  assert.equal(archiveAdditions.find((a) => a.outcomeId === 933), undefined);
+});
