@@ -4784,5 +4784,114 @@
       "at": "2026-08-18T05:45:10.585Z"
     },
     "settledObservedAt": "2026-08-18T06:01:57.709Z"
+  },
+  {
+    "outcomeId": 1113,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 64199,
+    "expiryUtc": "2026-08-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.9505,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1114,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 1894.7,
+    "expiryUtc": "2026-08-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.95,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1115,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 75.694,
+    "expiryUtc": "2026-08-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.95402,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1116,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 59.091,
+    "expiryUtc": "2026-08-19T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.0295,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1118,
+    "displayName": "Below $62,915",
+    "questionId": 179,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 62915,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Aug 19)",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1119,
+    "displayName": "$62,915 – $65,483",
+    "questionId": 179,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 62915,
+    "bucketUpper": 65483,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Aug 19)",
+    "lastPrice": {
+      "yes": 0.7985,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
+  },
+  {
+    "outcomeId": 1120,
+    "displayName": "Above $65,483",
+    "questionId": 179,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 65483,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Aug 19)",
+    "lastPrice": {
+      "yes": 0.00099,
+      "at": "2026-08-19T05:48:25.110Z"
+    },
+    "settledObservedAt": "2026-08-19T06:16:46.256Z"
   }
 ]
