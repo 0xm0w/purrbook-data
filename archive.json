@@ -6453,5 +6453,29 @@
       "at": "2026-08-31T05:30:32.102Z"
     },
     "settledObservedAt": "2026-08-31T06:00:46.211Z"
+  },
+  {
+    "outcomeId": 1252,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ZEC|priceDescription:ZEC-USDC perp mark|seconds:3|threshold:840.69|time:20260831-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00065,
+      "at": "2026-08-31T06:00:46.211Z"
+    },
+    "settledObservedAt": "2026-08-31T07:00:31.850Z"
+  },
+  {
+    "outcomeId": 1274,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:78025|time:20260831-0700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-08-31T06:00:46.211Z"
+    },
+    "settledObservedAt": "2026-08-31T07:00:31.850Z"
   }
 ]
