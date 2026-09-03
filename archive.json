@@ -7865,5 +7865,120 @@
       "at": "2026-09-03T05:07:19.939Z"
     },
     "settledObservedAt": "2026-09-03T06:00:24.959Z"
+  },
+  {
+    "outcomeId": 1358,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 100.22,
+    "expiryUtc": "2026-09-03T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.985,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1359,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 83.677,
+    "expiryUtc": "2026-09-03T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.04,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1361,
+    "displayName": "Below $76,082",
+    "questionId": 195,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 76082,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 3)",
+    "lastPrice": {
+      "yes": 0.735,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1362,
+    "displayName": "$76,082 – $79,187",
+    "questionId": 195,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 76082,
+    "bucketUpper": 79187,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 3)",
+    "lastPrice": {
+      "yes": 0.745,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1363,
+    "displayName": "Above $79,187",
+    "questionId": 195,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 79187,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 3)",
+    "lastPrice": {
+      "yes": 0.168,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1365,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ZEC|priceDescription:ZEC-USDC perp mark|seconds:3|threshold:835.61|time:20260903-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.034,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1366,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SKHX|priceDescription:xyz:SKHX-USDC perp mark|seconds:3|threshold:1180.7|time:20260903-0630",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.54411,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
+  },
+  {
+    "outcomeId": 1398,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77765|time:20260903-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.35,
+      "at": "2026-09-03T06:00:24.959Z"
+    },
+    "settledObservedAt": "2026-09-03T07:00:20.487Z"
   }
 ]
