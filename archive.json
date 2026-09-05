@@ -9746,5 +9746,41 @@
       "at": "2026-09-05T12:51:02.279Z"
     },
     "settledObservedAt": "2026-09-05T13:45:52.455Z"
+  },
+  {
+    "outcomeId": 1495,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:League of Legends:LPL|contestType:Match|countedPlay:the full best-of-five series|officialSource:gol.gg|participantA:Ninjas in Pyjamas|participantB:JD Gaming|resolutionDeadline:20260905-1500|scheduledStart:20260905-0900|season:2026|shortNameA:NIP|shortNameB:JDG|sport:Esports|stage:Round 1",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.888795,
+      "at": "2026-09-05T13:45:52.455Z"
+    },
+    "settledObservedAt": "2026-09-05T14:45:52.531Z"
+  },
+  {
+    "outcomeId": 1496,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:League of Legends:LEC|contestType:Match|countedPlay:the full best-of-five series|officialSource:gol.gg|participantA:Team Vitality|participantB:G2 Esports|resolutionDeadline:20260905-1600|scheduledStart:20260905-1000|season:2026|shortNameA:VIT|shortNameB:G2|sport:Esports|stage:Semifinal 2",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00741,
+      "at": "2026-09-05T13:45:52.455Z"
+    },
+    "settledObservedAt": "2026-09-05T14:45:52.531Z"
+  },
+  {
+    "outcomeId": 1632,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79676|time:20260905-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.289995,
+      "at": "2026-09-05T13:45:52.455Z"
+    },
+    "settledObservedAt": "2026-09-05T14:45:52.531Z"
   }
 ]
