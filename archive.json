@@ -9638,5 +9638,41 @@
       "at": "2026-09-05T10:15:53.147Z"
     },
     "settledObservedAt": "2026-09-05T11:15:51.471Z"
+  },
+  {
+    "outcomeId": 1493,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:League of Legends:LPL|contestType:Match|countedPlay:the full best-of-five series|officialSource:gol.gg|participantA:Invictus Gaming|participantB:Top Esports|resolutionDeadline:20260905-1200|scheduledStart:20260905-0600|season:2026|shortNameA:IG1|shortNameB:TES|sport:Esports|stage:Round 1",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.995,
+      "at": "2026-09-05T11:15:51.471Z"
+    },
+    "settledObservedAt": "2026-09-05T12:15:52.485Z"
+  },
+  {
+    "outcomeId": 1620,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79607|time:20260905-1200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.420005,
+      "at": "2026-09-05T11:15:51.471Z"
+    },
+    "settledObservedAt": "2026-09-05T12:15:52.485Z"
+  },
+  {
+    "outcomeId": 1621,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79614|time:20260905-1130",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.37019,
+      "at": "2026-09-05T11:15:51.471Z"
+    },
+    "settledObservedAt": "2026-09-05T12:15:52.485Z"
   }
 ]
