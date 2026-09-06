@@ -10755,5 +10755,65 @@
       "at": "2026-09-06T16:45:52.950Z"
     },
     "settledObservedAt": "2026-09-06T17:45:52.401Z"
+  },
+  {
+    "outcomeId": 1705,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:EPL|contestType:game|countedPlay:regulation time, including stoppage time|officialSource:ESPN|participantA:Manchester United|participantB:Everton|resolutionDeadline:20260906-1900|scheduledStart:20260906-1300|season:2026|shortNameA:United|shortNameB:Everton|sport:soccer|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-06T17:47:40.417Z"
+    },
+    "settledObservedAt": "2026-09-06T18:45:53.527Z"
+  },
+  {
+    "outcomeId": 1706,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LALIGA|contestType:game|countedPlay:regulation time, including stoppage time|officialSource:ESPN|participantA:Barcelona|participantB:Valencia|resolutionDeadline:20260906-2015|scheduledStart:20260906-1415|season:2026|shortNameA:Barcelona|shortNameB:Valencia|sport:soccer|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.999955,
+      "at": "2026-09-06T17:47:40.417Z"
+    },
+    "settledObservedAt": "2026-09-06T18:45:53.527Z"
+  },
+  {
+    "outcomeId": 1707,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:EPL|contestType:game|countedPlay:regulation time, including stoppage time|officialSource:ESPN|participantA:Chelsea|participantB:Arsenal|resolutionDeadline:20260906-2130|scheduledStart:20260906-1530|season:2026|shortNameA:Chelsea|shortNameB:Arsenal|sport:soccer|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00045,
+      "at": "2026-09-06T17:47:40.417Z"
+    },
+    "settledObservedAt": "2026-09-06T18:45:53.527Z"
+  },
+  {
+    "outcomeId": 1801,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79650|time:20260906-1800",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-06T17:47:40.417Z"
+    },
+    "settledObservedAt": "2026-09-06T18:45:53.527Z"
+  },
+  {
+    "outcomeId": 1804,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79719|time:20260906-1800",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.46836,
+      "at": "2026-09-06T17:47:40.417Z"
+    },
+    "settledObservedAt": "2026-09-06T18:45:53.527Z"
   }
 ]
