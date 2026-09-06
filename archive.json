@@ -10995,5 +10995,29 @@
       "at": "2026-09-06T20:30:50.961Z"
     },
     "settledObservedAt": "2026-09-06T21:30:53.974Z"
+  },
+  {
+    "outcomeId": 1831,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79883|time:20260906-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.445,
+      "at": "2026-09-06T21:38:56.432Z"
+    },
+    "settledObservedAt": "2026-09-06T22:30:52.358Z"
+  },
+  {
+    "outcomeId": 1833,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79872|time:20260906-2145",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.535605,
+      "at": "2026-09-06T21:38:56.432Z"
+    },
+    "settledObservedAt": "2026-09-06T22:30:52.358Z"
   }
 ]
