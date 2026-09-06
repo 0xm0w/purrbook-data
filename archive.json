@@ -10202,5 +10202,41 @@
       "at": "2026-09-06T03:45:51.963Z"
     },
     "settledObservedAt": "2026-09-06T04:45:51.584Z"
+  },
+  {
+    "outcomeId": 1658,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Clemson Tigers|participantB:LSU Tigers|resolutionDeadline:20260906-0530|scheduledStart:20260905-2330|season:2026|shortNameA:Clemson|shortNameB:LSU|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.03093,
+      "at": "2026-09-06T04:45:51.584Z"
+    },
+    "settledObservedAt": "2026-09-06T05:08:14.073Z"
+  },
+  {
+    "outcomeId": 1694,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79998|time:20260906-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.315,
+      "at": "2026-09-06T04:45:51.584Z"
+    },
+    "settledObservedAt": "2026-09-06T05:08:14.073Z"
+  },
+  {
+    "outcomeId": 1704,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79890|time:20260906-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.58762,
+      "at": "2026-09-06T04:45:51.584Z"
+    },
+    "settledObservedAt": "2026-09-06T05:08:14.073Z"
   }
 ]
