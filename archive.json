@@ -11067,5 +11067,65 @@
       "at": "2026-09-06T23:06:32.328Z"
     },
     "settledObservedAt": "2026-09-07T00:00:51.419Z"
+  },
+  {
+    "outcomeId": 1824,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79625|time:20260907-0030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-07T00:00:51.419Z"
+    },
+    "settledObservedAt": "2026-09-07T00:54:20.744Z"
+  },
+  {
+    "outcomeId": 1825,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79875|time:20260907-0030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-07T00:00:51.419Z"
+    },
+    "settledObservedAt": "2026-09-07T00:54:20.744Z"
+  },
+  {
+    "outcomeId": 1826,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80125|time:20260907-0030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-07T00:00:51.419Z"
+    },
+    "settledObservedAt": "2026-09-07T00:54:20.744Z"
+  },
+  {
+    "outcomeId": 1845,
+    "displayName": "template:sportsScalarMarket",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|event:Patriots at Seahawks Spread|high:4|low:3|measure:SEA points minus NE points|officialSource:ESPN|resolutionDeadline:20260910-0620|scheduledStart:20260910-0020|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-07T00:00:51.419Z"
+    },
+    "settledObservedAt": "2026-09-07T00:54:20.744Z"
+  },
+  {
+    "outcomeId": 1847,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80308|time:20260907-0015",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.325,
+      "at": "2026-09-07T00:00:51.419Z"
+    },
+    "settledObservedAt": "2026-09-07T00:54:20.744Z"
   }
 ]
