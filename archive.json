@@ -12893,5 +12893,29 @@
       "at": "2026-09-08T19:59:36.528Z"
     },
     "settledObservedAt": "2026-09-08T20:45:53.185Z"
+  },
+  {
+    "outcomeId": 1955,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:US Open|contestType:match|countedPlay:the completed match|officialSource:ESPN|participantA:Aryna Sabalenka|participantB:Linda Noskova|resolutionDeadline:20260910-2359|scheduledStart:20260908-2359|season:2026|shortNameA:Sabalenka|shortNameB:Noskova|sport:tennis|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.933175,
+      "at": "2026-09-08T20:45:53.185Z"
+    },
+    "settledObservedAt": "2026-09-08T21:45:54.316Z"
+  },
+  {
+    "outcomeId": 2036,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:78380|time:20260908-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.8005,
+      "at": "2026-09-08T20:45:53.185Z"
+    },
+    "settledObservedAt": "2026-09-08T21:45:54.316Z"
   }
 ]
