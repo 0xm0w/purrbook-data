@@ -13157,5 +13157,41 @@
       "at": "2026-09-09T01:15:52.932Z"
     },
     "settledObservedAt": "2026-09-09T02:15:53.107Z"
+  },
+  {
+    "outcomeId": 1953,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:US Open|contestType:match|countedPlay:the completed match|officialSource:ESPN|participantA:Frances Tiafoe|participantB:Alex Michelsen|resolutionDeadline:20260910-1400|scheduledStart:20260908-1400|season:2026|shortNameA:Tiafoe|shortNameB:Michelsen|sport:tennis|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.64875,
+      "at": "2026-09-09T02:15:53.107Z"
+    },
+    "settledObservedAt": "2026-09-09T03:15:53.976Z"
+  },
+  {
+    "outcomeId": 2021,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SKHX|priceDescription:1-minute candle|seconds:300|threshold:1338.2|time:20260909-0005",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-09T02:15:53.107Z"
+    },
+    "settledObservedAt": "2026-09-09T03:15:53.976Z"
+  },
+  {
+    "outcomeId": 2079,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:78816|time:20260909-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-09-09T02:15:53.107Z"
+    },
+    "settledObservedAt": "2026-09-09T03:15:53.976Z"
   }
 ]
