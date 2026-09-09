@@ -13530,5 +13530,113 @@
       "at": "2026-09-09T12:45:54.240Z"
     },
     "settledObservedAt": "2026-09-09T13:43:20.878Z"
+  },
+  {
+    "outcomeId": 1954,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:US Open|contestType:match|countedPlay:the completed match|officialSource:ESPN|participantA:Ben Shelton|participantB:Carlos Alcaraz|resolutionDeadline:20260910-1400|scheduledStart:20260908-1400|season:2026|shortNameA:Shelton|shortNameB:Alcaraz|sport:tennis|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9725,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2049,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:153.38|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.000505,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2050,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SNDK|priceDescription:1-minute candle|seconds:300|threshold:1738.6|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.999495,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2051,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:XYZ100|priceDescription:1-minute candle|seconds:300|threshold:29519|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.46535,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2052,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:93.17|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.999495,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2053,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:MU|priceDescription:1-minute candle|seconds:300|threshold:1000.9|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.000505,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2054,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4359.8|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2055,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:NVDA|priceDescription:1-minute candle|seconds:300|threshold:225.85|time:20260909-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0235,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
+  },
+  {
+    "outcomeId": 2107,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79551|time:20260909-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.03,
+      "at": "2026-09-09T13:43:20.878Z"
+    },
+    "settledObservedAt": "2026-09-09T14:30:55.627Z"
   }
 ]
