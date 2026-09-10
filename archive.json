@@ -14827,5 +14827,41 @@
       "at": "2026-09-10T05:16:10.133Z"
     },
     "settledObservedAt": "2026-09-10T06:16:10.391Z"
+  },
+  {
+    "outcomeId": 1911,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:S.Seahawks|participantB:NE.Patriots|resolutionDeadline:20260911-0020|scheduledStart:20260910-0020|season:2026|shortNameA:SEA|shortNameB:NE|sport:American Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-10T06:19:26.464Z"
+    },
+    "settledObservedAt": "2026-09-10T07:16:09.166Z"
+  },
+  {
+    "outcomeId": 2246,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:78511|time:20260910-0700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.04,
+      "at": "2026-09-10T06:19:26.464Z"
+    },
+    "settledObservedAt": "2026-09-10T07:16:09.166Z"
+  },
+  {
+    "outcomeId": 2254,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:78279|time:20260910-0630",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.15,
+      "at": "2026-09-10T06:19:26.464Z"
+    },
+    "settledObservedAt": "2026-09-10T07:16:09.166Z"
   }
 ]
