@@ -17048,5 +17048,29 @@
       "at": "2026-09-11T19:43:16.034Z"
     },
     "settledObservedAt": "2026-09-11T21:01:09.727Z"
+  },
+  {
+    "outcomeId": 2309,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:US Open|contestType:match|countedPlay:the completed match|officialSource:ESPN|participantA:Coco Gauff|participantB:Elena Rybakina|resolutionDeadline:20260914-0010|scheduledStart:20260912-0010|season:2026|shortNameA:Gauff|shortNameB:Rybakina|sport:tennis|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.31923,
+      "at": "2026-09-11T21:01:09.727Z"
+    },
+    "settledObservedAt": "2026-09-11T21:56:53.876Z"
+  },
+  {
+    "outcomeId": 2581,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77302|time:20260911-2115",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.47,
+      "at": "2026-09-11T21:01:09.727Z"
+    },
+    "settledObservedAt": "2026-09-11T21:56:53.876Z"
   }
 ]
