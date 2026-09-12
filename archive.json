@@ -17168,5 +17168,41 @@
       "at": "2026-09-11T23:42:26.208Z"
     },
     "settledObservedAt": "2026-09-12T00:31:03.902Z"
+  },
+  {
+    "outcomeId": 2310,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:US Open|contestType:match|countedPlay:the completed match|officialSource:ESPN|participantA:Alexander Zverev|participantB:Karen Khachanov|resolutionDeadline:20260913-1900|scheduledStart:20260911-1900|season:2026|shortNameA:Zverev|shortNameB:Khachanov|sport:tennis|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-12T00:31:03.902Z"
+    },
+    "settledObservedAt": "2026-09-12T01:31:03.525Z"
+  },
+  {
+    "outcomeId": 2602,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77177|time:20260912-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.685,
+      "at": "2026-09-12T00:31:03.902Z"
+    },
+    "settledObservedAt": "2026-09-12T01:31:03.525Z"
+  },
+  {
+    "outcomeId": 2604,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77245|time:20260912-0045",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.385,
+      "at": "2026-09-12T00:31:03.902Z"
+    },
+    "settledObservedAt": "2026-09-12T01:31:03.525Z"
   }
 ]
