@@ -17757,5 +17757,89 @@
       "at": "2026-09-12T11:45:59.414Z"
     },
     "settledObservedAt": "2026-09-12T12:01:04.934Z"
+  },
+  {
+    "outcomeId": 2311,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Missouri Tigers|participantB:Kansas Jayhawks|resolutionDeadline:20260912-0600|scheduledStart:20260912-0000|season:2026|shortNameA:Tigers|shortNameB:Jayhawks|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.519995,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2521,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:San Diego Padres|participantB:San Francisco Giants|resolutionDeadline:20260912-0815|scheduledStart:20260912-0215|season:2026|shortNameA:Padres|shortNameB:Giants|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2660,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77000|time:20260912-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2661,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77250|time:20260912-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2662,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77500|time:20260912-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2679,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77323|time:20260912-1215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.500005,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
+  },
+  {
+    "outcomeId": 2680,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77322|time:20260912-1300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.50625,
+      "at": "2026-09-12T12:01:04.934Z"
+    },
+    "settledObservedAt": "2026-09-12T13:00:59.621Z"
   }
 ]
