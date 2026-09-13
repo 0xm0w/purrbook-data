@@ -19474,5 +19474,65 @@
       "at": "2026-09-13T17:24:38.158Z"
     },
     "settledObservedAt": "2026-09-13T18:16:00.553Z"
+  },
+  {
+    "outcomeId": 2345,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 240,
+    "resolutionText": "participant:Manchester United",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.06255,
+      "at": "2026-09-13T18:16:00.553Z"
+    },
+    "settledObservedAt": "2026-09-13T19:15:57.241Z"
+  },
+  {
+    "outcomeId": 2346,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 240,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.300045,
+      "at": "2026-09-13T18:16:00.553Z"
+    },
+    "settledObservedAt": "2026-09-13T19:15:57.241Z"
+  },
+  {
+    "outcomeId": 2347,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 240,
+    "resolutionText": "participant:Manchester City",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997445,
+      "at": "2026-09-13T18:16:00.553Z"
+    },
+    "settledObservedAt": "2026-09-13T19:15:57.241Z"
+  },
+  {
+    "outcomeId": 2927,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77303|time:20260913-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.59,
+      "at": "2026-09-13T18:16:00.553Z"
+    },
+    "settledObservedAt": "2026-09-13T19:15:57.241Z"
+  },
+  {
+    "outcomeId": 2928,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77312|time:20260913-1830",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.59,
+      "at": "2026-09-13T18:16:00.553Z"
+    },
+    "settledObservedAt": "2026-09-13T19:15:57.241Z"
   }
 ]
