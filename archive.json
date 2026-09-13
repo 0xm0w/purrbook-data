@@ -19138,5 +19138,89 @@
       "at": "2026-09-13T11:00:59.377Z"
     },
     "settledObservedAt": "2026-09-13T12:00:57.757Z"
+  },
+  {
+    "outcomeId": 2516,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Ohio State Buckeyes|participantB:Texas Longhorns|resolutionDeadline:20260913-0530|scheduledStart:20260912-2330|season:2026|shortNameA:Ohio St|shortNameB:Texas|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2522,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:Boxing|contestType:bout|countedPlay:the completed bout|officialSource:ESPN|participantA:Conor Benn|participantB:Ryan Garcia|resolutionDeadline:20260913-1700|scheduledStart:20260913-0500|season:2026|shortNameA:Benn|shortNameB:Garcia|sport:boxing|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.175005,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2842,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:76775|time:20260913-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2843,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77025|time:20260913-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.070005,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2844,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77275|time:20260913-1230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.070005,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2861,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:76731|time:20260913-1215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.46,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
+  },
+  {
+    "outcomeId": 2862,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:76728|time:20260913-1300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-09-13T12:00:57.757Z"
+    },
+    "settledObservedAt": "2026-09-13T13:01:01.246Z"
   }
 ]
