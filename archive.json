@@ -19546,5 +19546,101 @@
       "at": "2026-09-13T19:15:57.241Z"
     },
     "settledObservedAt": "2026-09-13T19:33:53.784Z"
+  },
+  {
+    "outcomeId": 1873,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Cleveland Browns|participantB:Jacksonville Jaguars|resolutionDeadline:20260913-2300|scheduledStart:20260913-1700|season:2026|shortNameA:Browns|shortNameB:Jaguars|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.008435,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 1874,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:New York Jets|participantB:Tennessee Titans|resolutionDeadline:20260913-2300|scheduledStart:20260913-1700|season:2026|shortNameA:Jets|shortNameB:Titans|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.947725,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 1878,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Tampa Bay Buccaneers|participantB:Cincinnati Bengals|resolutionDeadline:20260913-2300|scheduledStart:20260913-1700|season:2026|shortNameA:Buccaneer|shortNameB:Bengals|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.270615,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 2888,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77000|time:20260913-2030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.894995,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 2889,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77250|time:20260913-2030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 2890,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77500|time:20260913-2030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.115,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 2936,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77319|time:20260913-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.07,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
+  },
+  {
+    "outcomeId": 2938,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77243|time:20260913-1945",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.22,
+      "at": "2026-09-13T19:33:53.784Z"
+    },
+    "settledObservedAt": "2026-09-13T20:31:06.677Z"
   }
 ]
