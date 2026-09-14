@@ -20146,5 +20146,65 @@
       "at": "2026-09-14T02:15:57.814Z"
     },
     "settledObservedAt": "2026-09-14T03:16:00.496Z"
+  },
+  {
+    "outcomeId": 1866,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Dallas Cowboys|participantB:New York Giants|resolutionDeadline:20260914-0620|scheduledStart:20260914-0020|season:2026|shortNameA:Cowboys|shortNameB:Giants|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.11995,
+      "at": "2026-09-14T03:16:00.496Z"
+    },
+    "settledObservedAt": "2026-09-14T04:15:57.433Z"
+  },
+  {
+    "outcomeId": 2613,
+    "displayName": "template:sportsOverUnderMarket",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|event:NFL: Cowboys v Giants|line:2.5|measure:Cowboys margin over Giants|officialSource:ESPN|resolutionDeadline:20260914-0620|scheduledStart:20260914-0020|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-14T03:16:00.496Z"
+    },
+    "settledObservedAt": "2026-09-14T04:15:57.433Z"
+  },
+  {
+    "outcomeId": 2614,
+    "displayName": "template:sportsOverUnderMarket",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|event:NFL: Cowboys v Giants|line:48.5|measure:points scored by both teams|officialSource:ESPN|resolutionDeadline:20260914-0620|scheduledStart:20260914-0020|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-14T03:16:00.496Z"
+    },
+    "settledObservedAt": "2026-09-14T04:15:57.433Z"
+  },
+  {
+    "outcomeId": 3041,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77574|time:20260914-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.825,
+      "at": "2026-09-14T03:16:00.496Z"
+    },
+    "settledObservedAt": "2026-09-14T04:15:57.433Z"
+  },
+  {
+    "outcomeId": 3042,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77792|time:20260914-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.42,
+      "at": "2026-09-14T03:16:00.496Z"
+    },
+    "settledObservedAt": "2026-09-14T04:15:57.433Z"
   }
 ]
