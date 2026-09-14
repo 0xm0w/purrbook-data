@@ -20266,5 +20266,222 @@
       "at": "2026-09-14T04:15:57.433Z"
     },
     "settledObservedAt": "2026-09-14T05:16:01.875Z"
+  },
+  {
+    "outcomeId": 2195,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Indianapolis Colts|participantB:Baltimore Ravens|resolutionDeadline:20260914-1700|scheduledStart:20260913-1700|season:2026|shortNameA:IND|shortNameB:BAL|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2198,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Cincinnati Bengals|participantB:Tampa Bay Buccaneers|resolutionDeadline:20260914-1700|scheduledStart:20260913-1700|season:2026|shortNameA:CIN|shortNameB:TB|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.519945,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2201,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Detroit Lions|participantB:New Orleans Saints|resolutionDeadline:20260914-1700|scheduledStart:20260913-1700|season:2026|shortNameA:DET|shortNameB:NO|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.554945,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2820,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 77284,
+    "expiryUtc": "2026-09-14T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.93785,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2821,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:76650|time:20260914-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.939995,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2822,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 2522.3,
+    "expiryUtc": "2026-09-14T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.140005,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2823,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77850|time:20260914-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.135,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2824,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 101.76,
+    "expiryUtc": "2026-09-14T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.0365,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2825,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 79.348,
+    "expiryUtc": "2026-09-14T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.92653,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2827,
+    "displayName": "Below $75,738",
+    "questionId": 261,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 75738,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 14)",
+    "lastPrice": {
+      "yes": 0.00053,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2828,
+    "displayName": "$75,738 – $78,829",
+    "questionId": 261,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 75738,
+    "bucketUpper": 78829,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 14)",
+    "lastPrice": {
+      "yes": 0.87548,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2829,
+    "displayName": "Above $78,829",
+    "questionId": 261,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 78829,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 14)",
+    "lastPrice": {
+      "yes": 0.00153,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2894,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:74950|time:20260914-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.939995,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2897,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:77250|time:20260914-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.909995,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 2900,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:79550|time:20260914-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.060005,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
+  },
+  {
+    "outcomeId": 3055,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77606|time:20260914-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.445,
+      "at": "2026-09-14T05:16:01.875Z"
+    },
+    "settledObservedAt": "2026-09-14T06:16:04.046Z"
   }
 ]
