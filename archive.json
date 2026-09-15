@@ -22212,5 +22212,101 @@
       "at": "2026-09-15T13:00:59.369Z"
     },
     "settledObservedAt": "2026-09-15T13:45:56.366Z"
+  },
+  {
+    "outcomeId": 3193,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:148|time:20260915-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.050005,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3194,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:XYZ100|priceDescription:1-minute candle|seconds:300|threshold:29133|time:20260915-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3195,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:97.532|time:20260915-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.949995,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3196,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4287.6|time:20260915-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.955035,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3197,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:NVDA|priceDescription:1-minute candle|seconds:300|threshold:211.13|time:20260915-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.995005,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3304,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:76943|time:20260915-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.03,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3308,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7608.7|time:20260915-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
+  },
+  {
+    "outcomeId": 3309,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:76400|time:20260915-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-09-15T13:45:56.366Z"
+    },
+    "settledObservedAt": "2026-09-15T14:15:59.834Z"
   }
 ]
