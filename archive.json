@@ -21599,5 +21599,89 @@
       "at": "2026-09-15T02:01:01.244Z"
     },
     "settledObservedAt": "2026-09-15T03:00:59.360Z"
+  },
+  {
+    "outcomeId": 2519,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Denver Broncos|participantB:Kansas City Chiefs|resolutionDeadline:20260915-0615|scheduledStart:20260915-0015|season:2026|shortNameA:Broncos|shortNameB:Chiefs|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.02558,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 2971,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:Los Angeles Dodgers|participantB:Cincinnati Reds|resolutionDeadline:20260915-0440|scheduledStart:20260914-2240|season:2026|shortNameA:Dodgers|shortNameB:Reds|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998795,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 2973,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:Baltimore Orioles|participantB:New York Mets|resolutionDeadline:20260915-0510|scheduledStart:20260914-2310|season:2026|shortNameA:Orioles|shortNameB:Mets|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998795,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 3153,
+    "displayName": "template:sportsOverUnderMarket",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|event:Broncos vs Chiefs|line:2.5|measure:Chiefs points - Broncos points|officialSource:ESPN|resolutionDeadline:20260915-0615|scheduledStart:20260915-0015|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 3154,
+    "displayName": "template:sportsOverUnderMarket",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|event:Broncos vs Chiefs|line:43.5|measure:total points|officialSource:ESPN|resolutionDeadline:20260915-0615|scheduledStart:20260915-0015|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 3234,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77887|time:20260915-0315",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.28,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
+  },
+  {
+    "outcomeId": 3235,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77866|time:20260915-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.435,
+      "at": "2026-09-15T03:00:59.360Z"
+    },
+    "settledObservedAt": "2026-09-15T04:00:58.382Z"
   }
 ]
