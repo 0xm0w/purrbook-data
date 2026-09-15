@@ -22056,5 +22056,29 @@
       "at": "2026-09-15T09:39:11.505Z"
     },
     "settledObservedAt": "2026-09-15T10:15:58.608Z"
+  },
+  {
+    "outcomeId": 2972,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:San Diego Padres|participantB:Colorado Rockies|resolutionDeadline:20260915-0640|scheduledStart:20260915-0040|season:2026|shortNameA:Padres|shortNameB:Rockies|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.82252,
+      "at": "2026-09-15T10:15:58.608Z"
+    },
+    "settledObservedAt": "2026-09-15T10:30:55.997Z"
+  },
+  {
+    "outcomeId": 3287,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:76981|time:20260915-1030",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.52,
+      "at": "2026-09-15T10:15:58.608Z"
+    },
+    "settledObservedAt": "2026-09-15T10:30:55.997Z"
   }
 ]
