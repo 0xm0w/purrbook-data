@@ -23905,5 +23905,29 @@
       "at": "2026-09-16T13:45:59.779Z"
     },
     "settledObservedAt": "2026-09-16T14:01:07.287Z"
+  },
+  {
+    "outcomeId": 3532,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:75628|time:20260916-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.415,
+      "at": "2026-09-16T14:01:07.287Z"
+    },
+    "settledObservedAt": "2026-09-16T14:16:07.352Z"
+  },
+  {
+    "outcomeId": 3533,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7611.9|time:20260916-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.535,
+      "at": "2026-09-16T14:01:07.287Z"
+    },
+    "settledObservedAt": "2026-09-16T14:16:07.352Z"
   }
 ]
