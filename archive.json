@@ -24109,5 +24109,113 @@
       "at": "2026-09-16T17:01:00.071Z"
     },
     "settledObservedAt": "2026-09-16T18:01:01.551Z"
+  },
+  {
+    "outcomeId": 1227,
+    "displayName": "template:policyRateNoChange",
+    "questionId": 191,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.006665,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 1228,
+    "displayName": "template:policyRateDecrease",
+    "questionId": 191,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.004,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 1229,
+    "displayName": "template:policyRateIncrease",
+    "questionId": 191,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998875,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 2587,
+    "displayName": "template:policyRateNoChange",
+    "questionId": 251,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 2588,
+    "displayName": "template:policyRateDecrease",
+    "questionId": 251,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 2589,
+    "displayName": "template:policyRateIncrease",
+    "questionId": 251,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99499,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 3571,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:75724|time:20260916-1815",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 3572,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7611.4|time:20260916-1815",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.648835,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
+  },
+  {
+    "outcomeId": 3573,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:75669|time:20260916-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-16T18:01:01.551Z"
+    },
+    "settledObservedAt": "2026-09-16T19:01:12.521Z"
   }
 ]
