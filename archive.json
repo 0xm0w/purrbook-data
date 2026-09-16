@@ -23184,5 +23184,53 @@
       "at": "2026-09-16T01:35:40.102Z"
     },
     "settledObservedAt": "2026-09-16T02:30:58.924Z"
+  },
+  {
+    "outcomeId": 2982,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:Los Angeles Dodgers|participantB:Cincinnati Reds|resolutionDeadline:20260916-0440|scheduledStart:20260915-2240|season:2026|shortNameA:Dodgers|shortNameB:Reds|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998795,
+      "at": "2026-09-16T02:30:58.924Z"
+    },
+    "settledObservedAt": "2026-09-16T03:31:00.485Z"
+  },
+  {
+    "outcomeId": 2983,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:MLB|contestType:game|countedPlay:the full game, including any extra innings|officialSource:ESPN|participantA:New York Yankees|participantB:Minnesota Twins|resolutionDeadline:20260916-0540|scheduledStart:20260915-2340|season:2026|shortNameA:Yankees|shortNameB:Twins|sport:baseball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998795,
+      "at": "2026-09-16T02:30:58.924Z"
+    },
+    "settledObservedAt": "2026-09-16T03:31:00.485Z"
+  },
+  {
+    "outcomeId": 3444,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:75481|time:20260916-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.98,
+      "at": "2026-09-16T02:30:58.924Z"
+    },
+    "settledObservedAt": "2026-09-16T03:31:00.485Z"
+  },
+  {
+    "outcomeId": 3446,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:75905|time:20260916-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.665,
+      "at": "2026-09-16T02:30:58.924Z"
+    },
+    "settledObservedAt": "2026-09-16T03:31:00.485Z"
   }
 ]
