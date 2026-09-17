@@ -25862,5 +25862,41 @@
       "at": "2026-09-17T13:45:32.518Z"
     },
     "settledObservedAt": "2026-09-17T14:15:43.655Z"
+  },
+  {
+    "outcomeId": 3266,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: LPL |contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Top Esports|participantB:Invictus Gaming|resolutionDeadline:20260918-0900|scheduledStart:20260917-0900|season:2026|shortNameA:TES|shortNameB:IG1|sport:Esports|stage:Regional Finals Playoffs",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99897,
+      "at": "2026-09-17T14:15:43.655Z"
+    },
+    "settledObservedAt": "2026-09-17T14:30:57.051Z"
+  },
+  {
+    "outcomeId": 3785,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7620.5|time:20260917-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.61,
+      "at": "2026-09-17T14:15:43.655Z"
+    },
+    "settledObservedAt": "2026-09-17T14:30:57.051Z"
+  },
+  {
+    "outcomeId": 3786,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:76878|time:20260917-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.47,
+      "at": "2026-09-17T14:15:43.655Z"
+    },
+    "settledObservedAt": "2026-09-17T14:30:57.051Z"
   }
 ]
