@@ -24997,5 +24997,41 @@
       "at": "2026-09-16T22:17:05.096Z"
     },
     "settledObservedAt": "2026-09-16T23:01:01.616Z"
+  },
+  {
+    "outcomeId": 3584,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Syracuse Orange|participantB:Pittsburgh Panthers|resolutionDeadline:20260918-0530|scheduledStart:20260917-2330|season:2026|shortNameA:Syracuse|shortNameB:Pittsburgh|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-16T23:01:01.616Z"
+    },
+    "settledObservedAt": "2026-09-17T00:01:00.353Z"
+  },
+  {
+    "outcomeId": 3677,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:75642|time:20260916-2315",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.455,
+      "at": "2026-09-16T23:01:01.616Z"
+    },
+    "settledObservedAt": "2026-09-17T00:01:00.353Z"
+  },
+  {
+    "outcomeId": 3678,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:75666|time:20260917-0000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.44,
+      "at": "2026-09-16T23:01:01.616Z"
+    },
+    "settledObservedAt": "2026-09-17T00:01:00.353Z"
   }
 ]
