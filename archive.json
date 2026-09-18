@@ -27195,5 +27195,65 @@
       "at": "2026-09-18T05:01:24.734Z"
     },
     "settledObservedAt": "2026-09-18T06:01:32.087Z"
+  },
+  {
+    "outcomeId": 2896,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:74950|time:20260918-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994875,
+      "at": "2026-09-18T06:01:32.087Z"
+    },
+    "settledObservedAt": "2026-09-18T06:33:03.227Z"
+  },
+  {
+    "outcomeId": 2899,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:77250|time:20260918-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.595,
+      "at": "2026-09-18T06:01:32.087Z"
+    },
+    "settledObservedAt": "2026-09-18T06:33:03.227Z"
+  },
+  {
+    "outcomeId": 2902,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:79550|time:20260918-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.005125,
+      "at": "2026-09-18T06:01:32.087Z"
+    },
+    "settledObservedAt": "2026-09-18T06:33:03.227Z"
+  },
+  {
+    "outcomeId": 3740,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Buffalo Bills|participantB:Detroit Lions|resolutionDeadline:20260919-0015|scheduledStart:20260918-0015|season:2026|shortNameA:BUF|shortNameB:DET|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99754,
+      "at": "2026-09-18T06:01:32.087Z"
+    },
+    "settledObservedAt": "2026-09-18T06:33:03.227Z"
+  },
+  {
+    "outcomeId": 3964,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77455|time:20260918-0615",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-18T06:01:32.087Z"
+    },
+    "settledObservedAt": "2026-09-18T06:33:03.227Z"
   }
 ]
