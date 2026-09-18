@@ -26954,5 +26954,41 @@
       "at": "2026-09-18T02:30:30.105Z"
     },
     "settledObservedAt": "2026-09-18T03:15:29.238Z"
+  },
+  {
+    "outcomeId": 2992,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Detroit Lions|participantB:Buffalo Bills|resolutionDeadline:20260918-0615|scheduledStart:20260918-0015|season:2026|shortNameA:Lions|shortNameB:Bills|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.010225,
+      "at": "2026-09-18T03:15:29.238Z"
+    },
+    "settledObservedAt": "2026-09-18T04:15:34.330Z"
+  },
+  {
+    "outcomeId": 3947,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:76948|time:20260918-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.85,
+      "at": "2026-09-18T03:15:29.238Z"
+    },
+    "settledObservedAt": "2026-09-18T04:15:34.330Z"
+  },
+  {
+    "outcomeId": 3948,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77265|time:20260918-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.52,
+      "at": "2026-09-18T03:15:29.238Z"
+    },
+    "settledObservedAt": "2026-09-18T04:15:34.330Z"
   }
 ]
