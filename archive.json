@@ -31349,5 +31349,149 @@
       "at": "2026-09-20T21:01:39.031Z"
     },
     "settledObservedAt": "2026-09-20T21:33:49.617Z"
+  },
+  {
+    "outcomeId": 3014,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Green Bay Packers|participantB:New York Jets|resolutionDeadline:20260920-2300|scheduledStart:20260920-1700|season:2026|shortNameA:Packers|shortNameB:Jets|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99681,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 3017,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 271,
+    "resolutionText": "participant:Paris Saint-Germain",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99669,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 3018,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 271,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49846,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 3019,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 271,
+    "resolutionText": "participant:Marseille",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49846,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4172,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 313,
+    "resolutionText": "participant:Marseille",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00513,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4173,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 313,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00505,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4174,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 313,
+    "resolutionText": "participant:Paris Saint Germain",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994865,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4309,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 318,
+    "resolutionText": "participant:Valencia CF",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49458,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4310,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 318,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49458,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4311,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 318,
+    "resolutionText": "participant:Real Sociedad",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.50542,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4511,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81102|time:20260920-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.1625,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
+  },
+  {
+    "outcomeId": 4520,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80891|time:20260920-2145",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-20T21:33:49.617Z"
+    },
+    "settledObservedAt": "2026-09-20T22:31:17.740Z"
   }
 ]
