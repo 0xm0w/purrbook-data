@@ -30112,5 +30112,89 @@
       "at": "2026-09-20T03:01:35.232Z"
     },
     "settledObservedAt": "2026-09-20T04:01:34.826Z"
+  },
+  {
+    "outcomeId": 3002,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:LSU Tigers|participantB:Ole Miss Rebels|resolutionDeadline:20260920-0530|scheduledStart:20260919-2330|season:2026|shortNameA:LSU|shortNameB:Ole Miss|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00319,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 3161,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:UFC 331|contestType:game|countedPlay:the completed bout|officialSource:ESPN|participantA:Patricio Pitbull|participantB:Dooho Choi|resolutionDeadline:20260922-0100|scheduledStart:20260920-0100|season:2026|shortNameA:Pitbull|shortNameB:Choi|sport:mma|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99681,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 3162,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:UFC 331|contestType:game|countedPlay:the completed bout|officialSource:ESPN|participantA:Marlon Vera|participantB:Charles Jourdain|resolutionDeadline:20260922-0100|scheduledStart:20260920-0100|season:2026|shortNameA:Vera|shortNameB:Jourdain|sport:mma|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99681,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 3591,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:UFC 331|contestType:game|countedPlay:the completed bout|officialSource:ESPN|participantA:Gable Steveson|participantB:Sean Sharaf|resolutionDeadline:20260922-0100|scheduledStart:20260920-0100|season:2026|shortNameA:Steveson|shortNameB:Sharaf|sport:mma|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00319,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 3592,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:UFC 331|contestType:game|countedPlay:the completed bout|officialSource:ESPN|participantA:Tai Tuivasa|participantB:Robelis Despaigne|resolutionDeadline:20260922-0100|scheduledStart:20260920-0100|season:2026|shortNameA:Tuivasa|shortNameB:Despaigne|sport:mma|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00319,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 4379,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80514|time:20260920-0415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.47,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
+  },
+  {
+    "outcomeId": 4383,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80524|time:20260920-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.47,
+      "at": "2026-09-20T04:01:34.826Z"
+    },
+    "settledObservedAt": "2026-09-20T05:01:33.935Z"
   }
 ]
