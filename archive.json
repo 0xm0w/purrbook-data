@@ -33871,5 +33871,41 @@
       "at": "2026-09-22T09:31:44.381Z"
     },
     "settledObservedAt": "2026-09-22T10:06:54.583Z"
+  },
+  {
+    "outcomeId": 3029,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:New York Giants|participantB:Los Angeles Rams|resolutionDeadline:20260922-0615|scheduledStart:20260922-0015|season:2026|shortNameA:Giants|shortNameB:Rams|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.24755,
+      "at": "2026-09-22T10:06:54.583Z"
+    },
+    "settledObservedAt": "2026-09-22T11:01:42.623Z"
+  },
+  {
+    "outcomeId": 4836,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86309|time:20260922-1015",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.16,
+      "at": "2026-09-22T10:06:54.583Z"
+    },
+    "settledObservedAt": "2026-09-22T11:01:42.623Z"
+  },
+  {
+    "outcomeId": 4837,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:86307|time:20260922-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.355,
+      "at": "2026-09-22T10:06:54.583Z"
+    },
+    "settledObservedAt": "2026-09-22T11:01:42.623Z"
   }
 ]
