@@ -33715,5 +33715,29 @@
       "at": "2026-09-22T05:24:55.760Z"
     },
     "settledObservedAt": "2026-09-22T06:16:08.874Z"
+  },
+  {
+    "outcomeId": 4170,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Los Angeles Rams|participantB:New York Giants|resolutionDeadline:20260923-0015|scheduledStart:20260922-0015|season:2026|shortNameA:LAR|shortNameB:NYG|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9982,
+      "at": "2026-09-22T06:16:08.874Z"
+    },
+    "settledObservedAt": "2026-09-22T06:46:11.176Z"
+  },
+  {
+    "outcomeId": 4813,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:85389|time:20260922-0630",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.575,
+      "at": "2026-09-22T06:16:08.874Z"
+    },
+    "settledObservedAt": "2026-09-22T06:46:11.176Z"
   }
 ]
