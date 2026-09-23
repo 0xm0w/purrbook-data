@@ -35552,5 +35552,29 @@
       "at": "2026-09-23T13:46:37.848Z"
     },
     "settledObservedAt": "2026-09-23T14:31:30.687Z"
+  },
+  {
+    "outcomeId": 5099,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7715.7|time:20260923-1445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.605,
+      "at": "2026-09-23T14:31:30.687Z"
+    },
+    "settledObservedAt": "2026-09-23T14:46:59.421Z"
+  },
+  {
+    "outcomeId": 5100,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84064|time:20260923-1445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.38,
+      "at": "2026-09-23T14:31:30.687Z"
+    },
+    "settledObservedAt": "2026-09-23T14:46:59.421Z"
   }
 ]
