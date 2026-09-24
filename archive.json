@@ -37689,5 +37689,41 @@
       "at": "2026-09-24T17:31:17.255Z"
     },
     "settledObservedAt": "2026-09-24T18:01:15.699Z"
+  },
+  {
+    "outcomeId": 4650,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:Valorant|contestType:match|countedPlay:the completed match (all games in the series)|officialSource:Valorant Esports|participantA:G2 Esports|participantB:TYLOO|resolutionDeadline:20260924-1800|scheduledStart:20260924-1200|season:2026|shortNameA:G2|shortNameB:TYL|sport:esports|stage:Group Stage",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.774875,
+      "at": "2026-09-24T18:01:15.699Z"
+    },
+    "settledObservedAt": "2026-09-24T18:16:09.084Z"
+  },
+  {
+    "outcomeId": 5355,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84064|time:20260924-1815",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-09-24T18:01:15.699Z"
+    },
+    "settledObservedAt": "2026-09-24T18:16:09.084Z"
+  },
+  {
+    "outcomeId": 5356,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7698.9|time:20260924-1815",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.335,
+      "at": "2026-09-24T18:01:15.699Z"
+    },
+    "settledObservedAt": "2026-09-24T18:16:09.084Z"
   }
 ]
