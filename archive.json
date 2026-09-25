@@ -38517,5 +38517,41 @@
       "at": "2026-09-25T04:31:24.822Z"
     },
     "settledObservedAt": "2026-09-25T04:46:11.368Z"
+  },
+  {
+    "outcomeId": 4649,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Atlanta Falcons|participantB:Green Bay Packers|resolutionDeadline:20260925-0615|scheduledStart:20260925-0015|season:2026|shortNameA:Falcons|shortNameB:Packers|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997835,
+      "at": "2026-09-25T04:46:11.368Z"
+    },
+    "settledObservedAt": "2026-09-25T05:18:59.237Z"
+  },
+  {
+    "outcomeId": 5473,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:84220|time:20260925-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.71,
+      "at": "2026-09-25T04:46:11.368Z"
+    },
+    "settledObservedAt": "2026-09-25T05:18:59.237Z"
+  },
+  {
+    "outcomeId": 5476,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84269|time:20260925-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.519975,
+      "at": "2026-09-25T04:46:11.368Z"
+    },
+    "settledObservedAt": "2026-09-25T05:18:59.237Z"
   }
 ]
