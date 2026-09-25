@@ -38770,5 +38770,29 @@
       "at": "2026-09-25T07:16:12.235Z"
     },
     "settledObservedAt": "2026-09-25T08:01:26.336Z"
+  },
+  {
+    "outcomeId": 4513,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Green Bay Packers|participantB:Atlanta Falcons|resolutionDeadline:20260926-0015|scheduledStart:20260925-0015|season:2026|shortNameA:GB|shortNameB:ATL|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00213,
+      "at": "2026-09-25T08:01:26.336Z"
+    },
+    "settledObservedAt": "2026-09-25T08:46:25.191Z"
+  },
+  {
+    "outcomeId": 5505,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84058|time:20260925-0815",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.605,
+      "at": "2026-09-25T08:01:26.336Z"
+    },
+    "settledObservedAt": "2026-09-25T08:46:25.191Z"
   }
 ]
