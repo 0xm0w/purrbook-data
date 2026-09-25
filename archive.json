@@ -39046,5 +39046,125 @@
       "at": "2026-09-25T12:46:15.469Z"
     },
     "settledObservedAt": "2026-09-25T13:31:23.613Z"
+  },
+  {
+    "outcomeId": 5133,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:VCT Champions Group D|contestType:game|countedPlay:the completed match (all games in the series)|officialSource:ESPN|participantA:NRG|participantB:Nongshim RedForce|resolutionDeadline:20260925-1500|scheduledStart:20260925-0900|season:2026|shortNameA:NRG|shortNameB:RedForce|sport:esports|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5396,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ZEC|priceDescription:1-minute candle|seconds:300|threshold:1560|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5397,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:INTC|priceDescription:1-minute candle|seconds:300|threshold:127|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.4975,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5398,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:META|priceDescription:1-minute candle|seconds:300|threshold:778|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5400,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SNDK|priceDescription:1-minute candle|seconds:300|threshold:1750|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.511445,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5406,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:TAO|priceDescription:1-minute candle|seconds:300|threshold:298|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5407,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:NEAR|priceDescription:1-minute candle|seconds:300|threshold:4.77|time:20260925-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.749945,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5547,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:84429|time:20260925-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0715,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5550,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:92.865|time:20260925-1345",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.2,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
+  },
+  {
+    "outcomeId": 5551,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84130|time:20260925-1345",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.175,
+      "at": "2026-09-25T13:31:23.613Z"
+    },
+    "settledObservedAt": "2026-09-25T14:32:00.323Z"
   }
 ]
