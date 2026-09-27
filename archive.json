@@ -41951,5 +41951,65 @@
       "at": "2026-09-27T00:58:33.922Z"
     },
     "settledObservedAt": "2026-09-27T01:46:14.807Z"
+  },
+  {
+    "outcomeId": 4910,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NCAAF|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Ole Miss Rebels|participantB:Florida Gators|resolutionDeadline:20260927-0130|scheduledStart:20260926-1930|season:2026|shortNameA:Ole Miss|shortNameB:Florida|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.002455,
+      "at": "2026-09-27T01:46:14.807Z"
+    },
+    "settledObservedAt": "2026-09-27T02:46:17.468Z"
+  },
+  {
+    "outcomeId": 5134,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:UFC|contestType:game|countedPlay:the completed bout|officialSource:ESPN|participantA:Rodolfo Vieira|participantB:Robert Bryczek|resolutionDeadline:20260929-0000|scheduledStart:20260927-0000|season:2026|shortNameA:Vieira|shortNameB:Bryczek|sport:mma|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.849145,
+      "at": "2026-09-27T01:46:14.807Z"
+    },
+    "settledObservedAt": "2026-09-27T02:46:17.468Z"
+  },
+  {
+    "outcomeId": 5973,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:84284|time:20260927-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.964865,
+      "at": "2026-09-27T01:46:14.807Z"
+    },
+    "settledObservedAt": "2026-09-27T02:46:17.468Z"
+  },
+  {
+    "outcomeId": 5978,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:92.924|time:20260927-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.715,
+      "at": "2026-09-27T01:46:14.807Z"
+    },
+    "settledObservedAt": "2026-09-27T02:46:17.468Z"
+  },
+  {
+    "outcomeId": 5979,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84373|time:20260927-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.68004,
+      "at": "2026-09-27T01:46:14.807Z"
+    },
+    "settledObservedAt": "2026-09-27T02:46:17.468Z"
   }
 ]
