@@ -43764,5 +43764,101 @@
       "at": "2026-09-28T00:01:39.503Z"
     },
     "settledObservedAt": "2026-09-28T00:56:02.844Z"
+  },
+  {
+    "outcomeId": 4592,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:San Francisco 49ers|participantB:Arizona Cardinals|resolutionDeadline:20260928-2005|scheduledStart:20260927-2005|season:2026|shortNameA:SF|shortNameB:ARI|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99499,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 4593,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Tampa Bay Buccaneers|participantB:Minnesota Vikings|resolutionDeadline:20260928-2005|scheduledStart:20260927-2005|season:2026|shortNameA:TB|shortNameB:MIN|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00146,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 4814,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Dallas Cowboys|participantB:Baltimore Ravens|resolutionDeadline:20260928-2025|scheduledStart:20260927-2025|season:2026|shortNameA:DAL|shortNameB:BAL|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00106,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 4815,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New Orleans Saints|participantB:Las Vegas Raiders|resolutionDeadline:20260928-2025|scheduledStart:20260927-2025|season:2026|shortNameA:NO|shortNameB:LV|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00014,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 5830,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: LCS Summer|contestType:match|countedPlay:the full series |officialSource:gol.gg|participantA:Cloud 9|participantB:Team Liquid|resolutionDeadline:20260928-2000|scheduledStart:20260927-2000|season:2026|shortNameA:C9|shortNameB:TL2|sport:Esports|stage:playoffs",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.040125,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 6237,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:84428|time:20260928-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.03,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 6242,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:90.53|time:20260928-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.75,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
+  },
+  {
+    "outcomeId": 6243,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84249|time:20260928-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.550925,
+      "at": "2026-09-28T00:56:02.844Z"
+    },
+    "settledObservedAt": "2026-09-28T01:46:23.559Z"
   }
 ]
