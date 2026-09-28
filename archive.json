@@ -44497,5 +44497,53 @@
       "at": "2026-09-28T07:31:22.369Z"
     },
     "settledObservedAt": "2026-09-28T08:31:40.997Z"
+  },
+  {
+    "outcomeId": 5510,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Denver Broncos|participantB:Los Angeles Rams|resolutionDeadline:20260929-0020|scheduledStart:20260928-0020|season:2026|shortNameA:DEN|shortNameB:LAR|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.999235,
+      "at": "2026-09-28T08:31:40.997Z"
+    },
+    "settledObservedAt": "2026-09-28T09:16:28.101Z"
+  },
+  {
+    "outcomeId": 6331,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:82927|time:20260928-0900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.355,
+      "at": "2026-09-28T08:31:40.997Z"
+    },
+    "settledObservedAt": "2026-09-28T09:16:28.101Z"
+  },
+  {
+    "outcomeId": 6334,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:82808|time:20260928-0845",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.6,
+      "at": "2026-09-28T08:31:40.997Z"
+    },
+    "settledObservedAt": "2026-09-28T09:16:28.101Z"
+  },
+  {
+    "outcomeId": 6335,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:89.075|time:20260928-0845",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-28T08:31:40.997Z"
+    },
+    "settledObservedAt": "2026-09-28T09:16:28.101Z"
   }
 ]
