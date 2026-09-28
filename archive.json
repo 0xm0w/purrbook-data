@@ -43896,5 +43896,89 @@
       "at": "2026-09-28T01:46:23.559Z"
     },
     "settledObservedAt": "2026-09-28T02:46:21.062Z"
+  },
+  {
+    "outcomeId": 4654,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Las Vegas Raiders|participantB:New Orleans Saints|resolutionDeadline:20260928-0225|scheduledStart:20260927-2025|season:2026|shortNameA:Raiders|shortNameB:Saints|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997995,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 4655,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Baltimore Ravens|participantB:Dallas Cowboys|resolutionDeadline:20260928-0225|scheduledStart:20260927-2025|season:2026|shortNameA:Ravens|shortNameB:Cowboys|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 4656,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Arizona Cardinals|participantB:San Francisco 49ers|resolutionDeadline:20260928-0205|scheduledStart:20260927-2005|season:2026|shortNameA:Cardinals|shortNameB:49ers|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49988,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 4658,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Minnesota Vikings|participantB:Tampa Bay Buccaneers|resolutionDeadline:20260928-0205|scheduledStart:20260927-2005|season:2026|shortNameA:Vikings|shortNameB:Buccaneers|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997345,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 6258,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83638|time:20260928-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.195,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 6263,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83464|time:20260928-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.595095,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
+  },
+  {
+    "outcomeId": 6264,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:90.112|time:20260928-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.355,
+      "at": "2026-09-28T02:46:21.062Z"
+    },
+    "settledObservedAt": "2026-09-28T03:46:23.308Z"
   }
 ]
