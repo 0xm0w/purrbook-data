@@ -44917,5 +44917,65 @@
       "at": "2026-09-28T13:42:18.784Z"
     },
     "settledObservedAt": "2026-09-28T13:46:19.494Z"
+  },
+  {
+    "outcomeId": 4665,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Los Angeles Rams|participantB:Denver Broncos|resolutionDeadline:20260928-0620|scheduledStart:20260928-0020|season:2026|shortNameA:Rams|shortNameB:Broncos|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-09-28T13:46:19.494Z"
+    },
+    "settledObservedAt": "2026-09-28T14:01:47.618Z"
+  },
+  {
+    "outcomeId": 5637,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:149|time:20260928-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.552775,
+      "at": "2026-09-28T13:46:19.494Z"
+    },
+    "settledObservedAt": "2026-09-28T14:01:47.618Z"
+  },
+  {
+    "outcomeId": 6379,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83516|time:20260928-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.76,
+      "at": "2026-09-28T13:46:19.494Z"
+    },
+    "settledObservedAt": "2026-09-28T14:01:47.618Z"
+  },
+  {
+    "outcomeId": 6384,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83711|time:20260928-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.46205,
+      "at": "2026-09-28T13:46:19.494Z"
+    },
+    "settledObservedAt": "2026-09-28T14:01:47.618Z"
+  },
+  {
+    "outcomeId": 6385,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:89.588|time:20260928-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.34,
+      "at": "2026-09-28T13:46:19.494Z"
+    },
+    "settledObservedAt": "2026-09-28T14:01:47.618Z"
   }
 ]
