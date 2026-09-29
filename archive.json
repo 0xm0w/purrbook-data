@@ -46670,5 +46670,41 @@
       "at": "2026-09-29T05:53:43.922Z"
     },
     "settledObservedAt": "2026-09-29T06:15:48.659Z"
+  },
+  {
+    "outcomeId": 5970,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Chicago Bears|participantB:Philadelphia Eagles|resolutionDeadline:20260930-0015|scheduledStart:20260929-0015|season:2026|shortNameA:CHI|shortNameB:PHI|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9994,
+      "at": "2026-09-29T06:15:48.659Z"
+    },
+    "settledObservedAt": "2026-09-29T06:45:46.713Z"
+  },
+  {
+    "outcomeId": 6620,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:88.004|time:20260929-0630",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.305,
+      "at": "2026-09-29T06:15:48.659Z"
+    },
+    "settledObservedAt": "2026-09-29T06:45:46.713Z"
+  },
+  {
+    "outcomeId": 6621,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83815|time:20260929-0630",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.431325,
+      "at": "2026-09-29T06:15:48.659Z"
+    },
+    "settledObservedAt": "2026-09-29T06:45:46.713Z"
   }
 ]
