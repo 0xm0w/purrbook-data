@@ -48374,5 +48374,65 @@
       "at": "2026-09-29T20:00:48.251Z"
     },
     "settledObservedAt": "2026-09-29T20:46:21.509Z"
+  },
+  {
+    "outcomeId": 1230,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL|seconds:1|threshold:83.196|time:20260929-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997375,
+      "at": "2026-09-29T20:46:21.509Z"
+    },
+    "settledObservedAt": "2026-09-29T21:16:01.293Z"
+  },
+  {
+    "outcomeId": 6509,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:60|threshold:93.293|time:20260929-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00262,
+      "at": "2026-09-29T20:46:21.509Z"
+    },
+    "settledObservedAt": "2026-09-29T21:16:01.293Z"
+  },
+  {
+    "outcomeId": 6795,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83556|time:20260929-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.7,
+      "at": "2026-09-29T20:46:21.509Z"
+    },
+    "settledObservedAt": "2026-09-29T21:16:01.293Z"
+  },
+  {
+    "outcomeId": 6813,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:85.971|time:20260929-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.515,
+      "at": "2026-09-29T20:46:21.509Z"
+    },
+    "settledObservedAt": "2026-09-29T21:16:01.293Z"
+  },
+  {
+    "outcomeId": 6814,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83617|time:20260929-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.39301,
+      "at": "2026-09-29T20:46:21.509Z"
+    },
+    "settledObservedAt": "2026-09-29T21:16:01.293Z"
   }
 ]
