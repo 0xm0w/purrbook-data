@@ -47390,5 +47390,89 @@
       "at": "2026-09-29T14:00:54.223Z"
     },
     "settledObservedAt": "2026-09-29T14:15:46.118Z"
+  },
+  {
+    "outcomeId": 4667,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Philadelphia Eagles|participantB:Chicago Bears|resolutionDeadline:20260929-0615|scheduledStart:20260929-0015|season:2026|shortNameA:Eagles|shortNameB:Bears|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.250105,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6493,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SKHY|priceDescription:1-minute candle|seconds:300|threshold:182|time:20260929-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.95051,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6495,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ZEC|priceDescription:1-minute candle|seconds:300|threshold:1450|time:20260929-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.251035,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6496,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:93.2|time:20260929-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.499975,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6499,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:1-minute candle|seconds:300|threshold:87.6|time:20260929-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994885,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6703,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:87.281|time:20260929-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.6,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
+  },
+  {
+    "outcomeId": 6704,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83906|time:20260929-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.45,
+      "at": "2026-09-29T14:15:46.118Z"
+    },
+    "settledObservedAt": "2026-09-29T14:31:00.840Z"
   }
 ]
