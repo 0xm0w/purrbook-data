@@ -49046,5 +49046,150 @@
       "at": "2026-09-30T05:16:53.427Z"
     },
     "settledObservedAt": "2026-09-30T05:47:46.758Z"
+  },
+  {
+    "outcomeId": 6611,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 83397,
+    "expiryUtc": "2026-09-30T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.58375,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6613,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 2676,
+    "expiryUtc": "2026-09-30T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.48082,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6614,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 118.19,
+    "expiryUtc": "2026-09-30T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.9899,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6615,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 87.533,
+    "expiryUtc": "2026-09-30T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.000765,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6617,
+    "displayName": "Below $81,729",
+    "questionId": 360,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 81729,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 30)",
+    "lastPrice": {
+      "yes": 0.12341,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6618,
+    "displayName": "$81,729 – $85,064",
+    "questionId": 360,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 81729,
+    "bucketUpper": 85064,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 30)",
+    "lastPrice": {
+      "yes": 0.875105,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6619,
+    "displayName": "Above $85,064",
+    "questionId": 360,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 85064,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Sep 30)",
+    "lastPrice": {
+      "yes": 0.499995,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6908,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83170|time:20260930-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.97,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6913,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:85.967|time:20260930-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.34,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
+  },
+  {
+    "outcomeId": 6914,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83441|time:20260930-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.37424,
+      "at": "2026-09-30T05:47:46.758Z"
+    },
+    "settledObservedAt": "2026-09-30T06:01:33.652Z"
   }
 ]
