@@ -55949,5 +55949,101 @@
       "at": "2026-10-02T19:33:12.143Z"
     },
     "settledObservedAt": "2026-10-02T20:00:29.898Z"
+  },
+  {
+    "outcomeId": 5629,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:30100|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.504075,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 5630,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:30625|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.504075,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 5631,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7660|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.504075,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 5632,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7810|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495925,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 5633,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:31150|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495925,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 5634,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7735|time:20261002-2000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.10014,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 7725,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:84265|time:20261002-2015",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.62691,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
+  },
+  {
+    "outcomeId": 7726,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:86.57|time:20261002-2015",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.705,
+      "at": "2026-10-02T20:00:29.898Z"
+    },
+    "settledObservedAt": "2026-10-02T20:15:36.949Z"
   }
 ]
