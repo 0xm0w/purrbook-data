@@ -55373,5 +55373,41 @@
       "at": "2026-10-02T13:45:25.955Z"
     },
     "settledObservedAt": "2026-10-02T14:00:31.333Z"
+  },
+  {
+    "outcomeId": 7422,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4180|time:20261002-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-02T14:00:31.333Z"
+    },
+    "settledObservedAt": "2026-10-02T14:15:32.027Z"
+  },
+  {
+    "outcomeId": 7656,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86594|time:20261002-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.367725,
+      "at": "2026-10-02T14:00:31.333Z"
+    },
+    "settledObservedAt": "2026-10-02T14:15:32.027Z"
+  },
+  {
+    "outcomeId": 7657,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:90.735|time:20261002-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.34,
+      "at": "2026-10-02T14:00:31.333Z"
+    },
+    "settledObservedAt": "2026-10-02T14:15:32.027Z"
   }
 ]
