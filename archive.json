@@ -54088,5 +54088,53 @@
       "at": "2026-10-02T04:30:54.493Z"
     },
     "settledObservedAt": "2026-10-02T04:45:39.117Z"
+  },
+  {
+    "outcomeId": 6207,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Cleveland Browns|participantB:Pittsburgh Steelers|resolutionDeadline:20261003-0015|scheduledStart:20261002-0015|season:2026|shortNameA:CLE|shortNameB:PIT|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99765,
+      "at": "2026-10-02T04:45:39.117Z"
+    },
+    "settledObservedAt": "2026-10-02T05:15:24.013Z"
+  },
+  {
+    "outcomeId": 7528,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:85502|time:20261002-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.98986,
+      "at": "2026-10-02T04:45:39.117Z"
+    },
+    "settledObservedAt": "2026-10-02T05:15:24.013Z"
+  },
+  {
+    "outcomeId": 7533,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:89.515|time:20261002-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.33,
+      "at": "2026-10-02T04:45:39.117Z"
+    },
+    "settledObservedAt": "2026-10-02T05:15:24.013Z"
+  },
+  {
+    "outcomeId": 7534,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86510|time:20261002-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.415325,
+      "at": "2026-10-02T04:45:39.117Z"
+    },
+    "settledObservedAt": "2026-10-02T05:15:24.013Z"
   }
 ]
