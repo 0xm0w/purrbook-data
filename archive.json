@@ -62420,5 +62420,77 @@
       "at": "2026-10-05T13:30:28.741Z"
     },
     "settledObservedAt": "2026-10-05T14:00:32.026Z"
+  },
+  {
+    "outcomeId": 7038,
+    "displayName": "template:sportsTotal",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|line:47.5|measure:points|officialSource:ESPN|participantA:Denver Broncos|participantB:San Francisco 49ers|resolutionDeadline:20261005-0225|scheduledStart:20261004-2025|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 7044,
+    "displayName": "template:sportsSpread",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Denver Broncos|participantB:San Francisco 49ers|resolutionDeadline:20261005-0225|scheduledStart:20261004-2025|shortNameA:Broncos|sport:football|spread:+2.5",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 7747,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SILVER|priceDescription:1-minute candle|seconds:300|threshold:60.6|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.503955,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 8739,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:92.906|time:20261005-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.565,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 8740,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86388|time:20261005-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.37,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 8741,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2722.2|time:20261005-1415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.36,
+      "at": "2026-10-05T14:00:32.026Z"
+    },
+    "settledObservedAt": "2026-10-05T14:15:26.864Z"
   }
 ]
