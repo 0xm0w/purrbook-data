@@ -60367,5 +60367,89 @@
       "at": "2026-10-04T23:30:45.055Z"
     },
     "settledObservedAt": "2026-10-05T00:30:38.277Z"
+  },
+  {
+    "outcomeId": 6220,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Las Vegas Raiders|participantB:Kansas City Chiefs|resolutionDeadline:20261005-2025|scheduledStart:20261004-2025|season:2026|shortNameA:LV|shortNameB:KC|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0021,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 6251,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Seattle Seahawks|participantB:Los Angeles Chargers|resolutionDeadline:20261005-2025|scheduledStart:20261004-2025|season:2026|shortNameA:SEA|shortNameB:LAC|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9949,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 6252,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:San Francisco 49ers|participantB:Denver Broncos|resolutionDeadline:20261005-2025|scheduledStart:20261004-2025|season:2026|shortNameA:SF|shortNameB:DEN|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9979,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 8493,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:86491|time:20261005-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.085,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 8497,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:90.423|time:20261005-0045",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 8498,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86244|time:20261005-0045",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.511545,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
+  },
+  {
+    "outcomeId": 8499,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2718.7|time:20261005-0045",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.545,
+      "at": "2026-10-05T00:30:38.277Z"
+    },
+    "settledObservedAt": "2026-10-05T01:11:38.465Z"
   }
 ]
