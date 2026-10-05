@@ -62492,5 +62492,197 @@
       "at": "2026-10-05T14:00:32.026Z"
     },
     "settledObservedAt": "2026-10-05T14:15:26.864Z"
+  },
+  {
+    "outcomeId": 6743,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Detroit Lions|participantB:Carolina Panthers|resolutionDeadline:20261005-0620|scheduledStart:20261005-0020|season:2026|shortNameA:Lions|shortNameB:Panthers|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7047,
+    "displayName": "template:sportsTotal",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|line:41.5|measure:points|officialSource:ESPN|participantA:Miami Dolphins|participantB:Minnesota Vikings|resolutionDeadline:20261005-0205|scheduledStart:20261004-2005|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7049,
+    "displayName": "template:sportsSpread",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Miami Dolphins|participantB:Minnesota Vikings|resolutionDeadline:20261005-0205|scheduledStart:20261004-2005|shortNameA:Dolphins|sport:football|spread:+10.5",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7051,
+    "displayName": "template:sportsSpread",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Los Angeles Chargers|participantB:Seattle Seahawks|resolutionDeadline:20261005-0225|scheduledStart:20261004-2025|shortNameA:Chargers|sport:football|spread:+6.5",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7055,
+    "displayName": "template:sportsTotal",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|line:50.5|measure:points|officialSource:ESPN|participantA:Detroit Lions|participantB:Carolina Panthers|resolutionDeadline:20261005-0620|scheduledStart:20261005-0020|sport:football",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7056,
+    "displayName": "template:sportsSpread",
+    "questionId": null,
+    "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Detroit Lions|participantB:Carolina Panthers|resolutionDeadline:20261005-0620|scheduledStart:20261005-0020|shortNameA:Lions|sport:football|spread:-3.5",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7740,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ZEC|priceDescription:1-minute candle|seconds:300|threshold:1280|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994865,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7741,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:INTC|priceDescription:1-minute candle|seconds:300|threshold:119|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.486185,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7742,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:91.5|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49592,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7743,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SKHY|priceDescription:1-minute candle|seconds:300|threshold:195|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.397585,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7744,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4150|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49745,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7746,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CRCL|priceDescription:1-minute candle|seconds:300|threshold:81.3|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.759865,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 7750,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:META|priceDescription:1-minute candle|seconds:300|threshold:728|time:20261005-1335",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.50408,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 8743,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86632|time:20261005-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.42,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 8744,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:93.411|time:20261005-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.58,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
+  },
+  {
+    "outcomeId": 8745,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2728.5|time:20261005-1430",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.37,
+      "at": "2026-10-05T14:15:26.864Z"
+    },
+    "settledObservedAt": "2026-10-05T14:45:42.807Z"
   }
 ]
