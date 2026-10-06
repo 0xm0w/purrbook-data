@@ -64100,5 +64100,65 @@
       "at": "2026-10-06T03:15:18.725Z"
     },
     "settledObservedAt": "2026-10-06T04:00:39.821Z"
+  },
+  {
+    "outcomeId": 7179,
+    "displayName": "template:priceTouch",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:3|target:95|time:20261101-0000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994835,
+      "at": "2026-10-06T04:00:39.821Z"
+    },
+    "settledObservedAt": "2026-10-06T05:00:24.211Z"
+  },
+  {
+    "outcomeId": 7619,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New Orleans Saints|participantB:Atlanta Falcons|resolutionDeadline:20261007-0015|scheduledStart:20261006-0015|season:2026|shortNameA:NO|shortNameB:ATL|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-10-06T04:00:39.821Z"
+    },
+    "settledObservedAt": "2026-10-06T05:00:24.211Z"
+  },
+  {
+    "outcomeId": 8986,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:85486|time:20261006-0415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.671075,
+      "at": "2026-10-06T04:00:39.821Z"
+    },
+    "settledObservedAt": "2026-10-06T05:00:24.211Z"
+  },
+  {
+    "outcomeId": 8987,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:93.338|time:20261006-0415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.54,
+      "at": "2026-10-06T04:00:39.821Z"
+    },
+    "settledObservedAt": "2026-10-06T05:00:24.211Z"
+  },
+  {
+    "outcomeId": 8988,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2698.6|time:20261006-0415",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.505,
+      "at": "2026-10-06T04:00:39.821Z"
+    },
+    "settledObservedAt": "2026-10-06T05:00:24.211Z"
   }
 ]
