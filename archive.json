@@ -64845,5 +64845,53 @@
       "at": "2026-10-06T11:01:00.694Z"
     },
     "settledObservedAt": "2026-10-06T12:01:17.364Z"
+  },
+  {
+    "outcomeId": 6731,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Atlanta Falcons|participantB:New Orleans Saints|resolutionDeadline:20261006-0615|scheduledStart:20261006-0015|season:2026|shortNameA:Falcons|shortNameB:Saints|sport:football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.941475,
+      "at": "2026-10-06T12:01:17.364Z"
+    },
+    "settledObservedAt": "2026-10-06T13:00:32.324Z"
+  },
+  {
+    "outcomeId": 9141,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:86241|time:20261006-1215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.53846,
+      "at": "2026-10-06T12:01:17.364Z"
+    },
+    "settledObservedAt": "2026-10-06T13:00:32.324Z"
+  },
+  {
+    "outcomeId": 9142,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:93.764|time:20261006-1215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-10-06T12:01:17.364Z"
+    },
+    "settledObservedAt": "2026-10-06T13:00:32.324Z"
+  },
+  {
+    "outcomeId": 9143,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2714.2|time:20261006-1215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.4385,
+      "at": "2026-10-06T12:01:17.364Z"
+    },
+    "settledObservedAt": "2026-10-06T13:00:32.324Z"
   }
 ]
