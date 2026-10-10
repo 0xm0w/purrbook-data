@@ -73741,5 +73741,65 @@
       "at": "2026-10-10T19:45:23.100Z"
     },
     "settledObservedAt": "2026-10-10T20:45:32.655Z"
+  },
+  {
+    "outcomeId": 10485,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SILVER|priceDescription:xyz:SILVER-USDC perp mark|seconds:60|threshold:60.826|time:20261010-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.141,
+      "at": "2026-10-10T20:45:32.655Z"
+    },
+    "settledObservedAt": "2026-10-10T21:45:23.679Z"
+  },
+  {
+    "outcomeId": 10858,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83049|time:20261010-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-10T20:45:32.655Z"
+    },
+    "settledObservedAt": "2026-10-10T21:45:23.679Z"
+  },
+  {
+    "outcomeId": 10865,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83024|time:20261010-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.545905,
+      "at": "2026-10-10T20:45:32.655Z"
+    },
+    "settledObservedAt": "2026-10-10T21:45:23.679Z"
+  },
+  {
+    "outcomeId": 10866,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:85.358|time:20261010-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-10T20:45:32.655Z"
+    },
+    "settledObservedAt": "2026-10-10T21:45:23.679Z"
+  },
+  {
+    "outcomeId": 10867,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2507.4|time:20261010-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-10T20:45:32.655Z"
+    },
+    "settledObservedAt": "2026-10-10T21:45:23.679Z"
   }
 ]
