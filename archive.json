@@ -73225,5 +73225,65 @@
       "at": "2026-10-10T15:45:45.533Z"
     },
     "settledObservedAt": "2026-10-10T16:45:20.229Z"
+  },
+  {
+    "outcomeId": 7974,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 378,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.808555,
+      "at": "2026-10-10T16:45:20.229Z"
+    },
+    "settledObservedAt": "2026-10-10T17:30:49.617Z"
+  },
+  {
+    "outcomeId": 7975,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 378,
+    "resolutionText": "participant:Brentford",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49512,
+      "at": "2026-10-10T16:45:20.229Z"
+    },
+    "settledObservedAt": "2026-10-10T17:30:49.617Z"
+  },
+  {
+    "outcomeId": 7973,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 378,
+    "resolutionText": "participant:Aston Villa",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.400125,
+      "at": "2026-10-10T16:45:20.229Z"
+    },
+    "settledObservedAt": "2026-10-10T17:30:49.617Z"
+  },
+  {
+    "outcomeId": 10770,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83015|time:20261010-1700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-10T16:45:20.229Z"
+    },
+    "settledObservedAt": "2026-10-10T17:30:49.617Z"
+  },
+  {
+    "outcomeId": 10771,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:85.32|time:20261010-1700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-10T16:45:20.229Z"
+    },
+    "settledObservedAt": "2026-10-10T17:30:49.617Z"
   }
 ]
