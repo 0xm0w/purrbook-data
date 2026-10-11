@@ -75350,5 +75350,65 @@
       "at": "2026-10-11T17:30:26.221Z"
     },
     "settledObservedAt": "2026-10-11T18:29:27.184Z"
+  },
+  {
+    "outcomeId": 11214,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2538.8|time:20261011-1830",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-11T18:29:27.184Z"
+    },
+    "settledObservedAt": "2026-10-11T19:15:45.532Z"
+  },
+  {
+    "outcomeId": 11211,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83796|time:20261011-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.624,
+      "at": "2026-10-11T18:29:27.184Z"
+    },
+    "settledObservedAt": "2026-10-11T19:15:45.532Z"
+  },
+  {
+    "outcomeId": 11213,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:86.389|time:20261011-1830",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-11T18:29:27.184Z"
+    },
+    "settledObservedAt": "2026-10-11T19:15:45.532Z"
+  },
+  {
+    "outcomeId": 11212,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83805|time:20261011-1830",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-11T18:29:27.184Z"
+    },
+    "settledObservedAt": "2026-10-11T19:15:45.532Z"
+  },
+  {
+    "outcomeId": 8542,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Jacksonville Jaguars|participantB:Philadelphia Eagles|resolutionDeadline:20261012-1330|scheduledStart:20261011-1330|season:2026|shortNameA:JAX|shortNameB:PHI|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9989,
+      "at": "2026-10-11T18:29:27.184Z"
+    },
+    "settledObservedAt": "2026-10-11T19:15:45.532Z"
   }
 ]
