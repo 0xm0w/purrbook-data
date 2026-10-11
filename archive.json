@@ -75770,5 +75770,101 @@
       "at": "2026-10-11T22:00:46.290Z"
     },
     "settledObservedAt": "2026-10-11T22:15:52.399Z"
+  },
+  {
+    "outcomeId": 8550,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Pittsburgh Steelers|participantB:Indianapolis Colts|resolutionDeadline:20261012-1700|scheduledStart:20261011-1700|season:2026|shortNameA:PIT|shortNameB:IND|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9949,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 8544,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New York Jets|participantB:Cleveland Browns|resolutionDeadline:20261012-1700|scheduledStart:20261011-1700|season:2026|shortNameA:NYJ|shortNameB:CLE|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997395,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 8546,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Washington Commanders|participantB:New York Giants|resolutionDeadline:20261012-1700|scheduledStart:20261011-1700|season:2026|shortNameA:WAS|shortNameB:NYG|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.46,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 11273,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83432|time:20261011-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.44511,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 8556,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Green Bay Packers|participantB:Chicago Bears|resolutionDeadline:20261012-1700|scheduledStart:20261011-1700|season:2026|shortNameA:GB|shortNameB:CHI|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.996145,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 11274,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83586|time:20261011-2230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49025,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 11275,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:86.009|time:20261011-2230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.444995,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
+  },
+  {
+    "outcomeId": 11276,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2532.6|time:20261011-2230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.452,
+      "at": "2026-10-11T22:15:52.399Z"
+    },
+    "settledObservedAt": "2026-10-11T23:15:32.997Z"
   }
 ]
