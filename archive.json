@@ -75950,5 +75950,65 @@
       "at": "2026-10-11T23:15:32.997Z"
     },
     "settledObservedAt": "2026-10-12T00:15:25.447Z"
+  },
+  {
+    "outcomeId": 11302,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83728|time:20261012-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-12T00:15:25.447Z"
+    },
+    "settledObservedAt": "2026-10-12T01:15:21.202Z"
+  },
+  {
+    "outcomeId": 8554,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Seattle Seahawks|participantB:San Francisco 49ers|resolutionDeadline:20261012-2025|scheduledStart:20261011-2025|season:2026|shortNameA:SEA|shortNameB:SF|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-10-12T00:15:25.447Z"
+    },
+    "settledObservedAt": "2026-10-12T01:15:21.202Z"
+  },
+  {
+    "outcomeId": 8553,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Los Angeles Chargers|participantB:Denver Broncos|resolutionDeadline:20261012-2005|scheduledStart:20261011-2005|season:2026|shortNameA:LAC|shortNameB:DEN|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-10-12T00:15:25.447Z"
+    },
+    "settledObservedAt": "2026-10-12T01:15:21.202Z"
+  },
+  {
+    "outcomeId": 8545,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New England Patriots|participantB:Las Vegas Raiders|resolutionDeadline:20261012-1700|scheduledStart:20261011-1700|season:2026|shortNameA:NE|shortNameB:LV|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.996145,
+      "at": "2026-10-12T00:15:25.447Z"
+    },
+    "settledObservedAt": "2026-10-12T01:15:21.202Z"
+  },
+  {
+    "outcomeId": 8555,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Arizona Cardinals|participantB:Detroit Lions|resolutionDeadline:20261012-2025|scheduledStart:20261011-2025|season:2026|shortNameA:ARI|shortNameB:DET|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-10-12T00:15:25.447Z"
+    },
+    "settledObservedAt": "2026-10-12T01:15:21.202Z"
   }
 ]
