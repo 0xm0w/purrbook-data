@@ -78927,5 +78927,77 @@
       "at": "2026-10-13T03:35:29.825Z"
     },
     "settledObservedAt": "2026-10-13T04:30:28.597Z"
+  },
+  {
+    "outcomeId": 7185,
+    "displayName": "template:priceTouch",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:3|target:80|time:20261101-0000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.972495,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
+  },
+  {
+    "outcomeId": 8565,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Los Angeles Rams|participantB:Buffalo Bills|resolutionDeadline:20261014-0015|scheduledStart:20261013-0015|season:2026|shortNameA:LAR|shortNameB:BUF|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00127,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
+  },
+  {
+    "outcomeId": 11818,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:83308|time:20261013-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.56,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
+  },
+  {
+    "outcomeId": 11822,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:83331|time:20261013-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
+  },
+  {
+    "outcomeId": 11823,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:82.31|time:20261013-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.555,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
+  },
+  {
+    "outcomeId": 11824,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2510.4|time:20261013-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-13T04:30:28.597Z"
+    },
+    "settledObservedAt": "2026-10-13T05:30:27.567Z"
   }
 ]
