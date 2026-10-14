@@ -82757,5 +82757,101 @@
       "at": "2026-10-14T19:54:31.213Z"
     },
     "settledObservedAt": "2026-10-14T20:46:02.640Z"
+  },
+  {
+    "outcomeId": 12093,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:60|threshold:93.76|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.83394,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12095,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:SILVER|priceDescription:xyz:SILVER-USDC perp mark|seconds:60|threshold:59.194|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.010525,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12094,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:GOLD|priceDescription:xyz:GOLD-USDC perp mark|seconds:60|threshold:4161.8|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.007745,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 11959,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: EMEA Masters Playoffs|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Anubis Gaming|participantB:Solary|resolutionDeadline:20261015-1600|scheduledStart:20261014-1600|season:2026|shortNameA:ANB|shortNameB:SLY|sport:Esports|stage:Semifinal 1",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.069625,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12469,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81873|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.16,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12493,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:80.988|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.54,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12494,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81751|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.45815,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
+  },
+  {
+    "outcomeId": 12495,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2420.3|time:20261014-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-10-14T20:46:02.640Z"
+    },
+    "settledObservedAt": "2026-10-14T21:45:55.066Z"
   }
 ]
