@@ -88039,5 +88039,65 @@
       "at": "2026-10-16T20:45:30.768Z"
     },
     "settledObservedAt": "2026-10-16T21:45:30.135Z"
+  },
+  {
+    "outcomeId": 13106,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Play-In|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Karmine Corp|participantB:MVK Esports|resolutionDeadline:20261017-1800|scheduledStart:20261016-1800|season:2026|shortNameA:KC|shortNameB:MVK|sport:Esports|stage:Upper Bracket Final",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.974745,
+      "at": "2026-10-16T21:53:07.735Z"
+    },
+    "settledObservedAt": "2026-10-16T22:45:26.176Z"
+  },
+  {
+    "outcomeId": 13404,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81689|time:20261016-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.4972,
+      "at": "2026-10-16T21:53:07.735Z"
+    },
+    "settledObservedAt": "2026-10-16T22:45:26.176Z"
+  },
+  {
+    "outcomeId": 13411,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81677|time:20261016-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49711,
+      "at": "2026-10-16T21:53:07.735Z"
+    },
+    "settledObservedAt": "2026-10-16T22:45:26.176Z"
+  },
+  {
+    "outcomeId": 13412,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:80.205|time:20261016-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.795,
+      "at": "2026-10-16T21:53:07.735Z"
+    },
+    "settledObservedAt": "2026-10-16T22:45:26.176Z"
+  },
+  {
+    "outcomeId": 13413,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2416.5|time:20261016-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.65575,
+      "at": "2026-10-16T21:53:07.735Z"
+    },
+    "settledObservedAt": "2026-10-16T22:45:26.176Z"
   }
 ]
