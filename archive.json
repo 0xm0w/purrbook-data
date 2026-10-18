@@ -91773,5 +91773,77 @@
       "at": "2026-10-18T20:00:23.334Z"
     },
     "settledObservedAt": "2026-10-18T21:00:21.297Z"
+  },
+  {
+    "outcomeId": 14147,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.334|time:20261018-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994795,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
+  },
+  {
+    "outcomeId": 11453,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Cleveland Browns|participantB:Baltimore Ravens|resolutionDeadline:20261019-1700|scheduledStart:20261018-1700|season:2026|shortNameA:CLE|shortNameB:BAL|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994875,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
+  },
+  {
+    "outcomeId": 11454,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New England Patriots|participantB:New York Jets|resolutionDeadline:20261019-1700|scheduledStart:20261018-1700|season:2026|shortNameA:NE|shortNameB:NYJ|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99649,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
+  },
+  {
+    "outcomeId": 14148,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2344.3|time:20261018-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99499,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
+  },
+  {
+    "outcomeId": 11448,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Indianapolis Colts|participantB:Tennessee Titans|resolutionDeadline:20261019-1700|scheduledStart:20261018-1700|season:2026|shortNameA:IND|shortNameB:TEN|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.005125,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
+  },
+  {
+    "outcomeId": 14139,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80876|time:20261018-2100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.572595,
+      "at": "2026-10-18T21:00:21.297Z"
+    },
+    "settledObservedAt": "2026-10-18T21:30:30.753Z"
   }
 ]
