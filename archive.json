@@ -91437,5 +91437,89 @@
       "at": "2026-10-18T16:59:40.018Z"
     },
     "settledObservedAt": "2026-10-18T17:45:26.459Z"
+  },
+  {
+    "outcomeId": 12705,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 450,
+    "resolutionText": "participant:Arsenal",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998875,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 12703,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 450,
+    "resolutionText": "participant:Nottingham Forest",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.005125,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 12704,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 450,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.001125,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 11447,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Jacksonville Jaguars|participantB:Houston Texans|resolutionDeadline:20261019-1330|scheduledStart:20261018-1330|season:2026|shortNameA:JAX|shortNameB:HOU|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00101,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 14092,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81086|time:20261018-1800",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5028,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 14099,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81132|time:20261018-1800",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.584165,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
+  },
+  {
+    "outcomeId": 14100,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.419|time:20261018-1800",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.565,
+      "at": "2026-10-18T17:45:26.459Z"
+    },
+    "settledObservedAt": "2026-10-18T18:45:27.136Z"
   }
 ]
