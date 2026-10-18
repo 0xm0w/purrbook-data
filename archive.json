@@ -90681,5 +90681,53 @@
       "at": "2026-10-18T05:56:48.805Z"
     },
     "settledObservedAt": "2026-10-18T06:45:23.370Z"
+  },
+  {
+    "outcomeId": 13886,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81701|time:20261018-0700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-18T06:45:23.370Z"
+    },
+    "settledObservedAt": "2026-10-18T07:45:20.614Z"
+  },
+  {
+    "outcomeId": 13596,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Play-In|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:MVK Esports|participantB:FURIA Esports|resolutionDeadline:20261018-1800|scheduledStart:20261017-1800|season:2026|shortNameA:MVK|shortNameB:FUR|sport:Esports|stage:Lower Bracket Final",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9954,
+      "at": "2026-10-18T06:45:23.370Z"
+    },
+    "settledObservedAt": "2026-10-18T07:45:20.614Z"
+  },
+  {
+    "outcomeId": 13893,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81710|time:20261018-0700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.565345,
+      "at": "2026-10-18T06:45:23.370Z"
+    },
+    "settledObservedAt": "2026-10-18T07:45:20.614Z"
+  },
+  {
+    "outcomeId": 13894,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:78.636|time:20261018-0700",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-18T06:45:23.370Z"
+    },
+    "settledObservedAt": "2026-10-18T07:45:20.614Z"
   }
 ]
