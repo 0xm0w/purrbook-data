@@ -94678,5 +94678,101 @@
       "at": "2026-10-20T02:30:21.237Z"
     },
     "settledObservedAt": "2026-10-20T03:30:19.429Z"
+  },
+  {
+    "outcomeId": 13228,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:San Francisco 49ers|participantB:Washington Commanders|resolutionDeadline:20261021-0015|scheduledStart:20261020-0015|season:2026|shortNameA:SF|shortNameB:WAS|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994875,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14647,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:82152|time:20261020-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49999,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14646,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81902|time:20261020-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.50061,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14687,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81771|time:20261020-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14645,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81652|time:20261020-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.95449,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14688,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81916|time:20261020-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14689,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:79.096|time:20261020-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
+  },
+  {
+    "outcomeId": 14690,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2406.1|time:20261020-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-10-20T03:30:19.429Z"
+    },
+    "settledObservedAt": "2026-10-20T04:30:19.563Z"
   }
 ]
