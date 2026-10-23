@@ -104138,5 +104138,89 @@
       "at": "2026-10-23T21:01:02.325Z"
     },
     "settledObservedAt": "2026-10-23T22:00:58.902Z"
+  },
+  {
+    "outcomeId": 16393,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:81350|time:20261023-2215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 16395,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.738|time:20261023-2215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.815,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 15278,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 487,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 15277,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 487,
+    "resolutionText": "participant:Ipswich Town",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0255,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 15279,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 487,
+    "resolutionText": "participant:Nottingham Forest",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.007,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 16394,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:81373|time:20261023-2215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.705,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
+  },
+  {
+    "outcomeId": 16396,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2398.1|time:20261023-2215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.8205,
+      "at": "2026-10-23T22:00:58.902Z"
+    },
+    "settledObservedAt": "2026-10-23T23:01:00.709Z"
   }
 ]
