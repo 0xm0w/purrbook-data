@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T19:16:00.160Z",
+  "generatedAt": "2026-10-24T19:37:26.317Z",
   "questions": [
     {
       "questionId": 503,
@@ -80,10 +80,13 @@
       "fallbackOutcome": 2549
     },
     {
-      "questionId": 493,
-      "name": "template:sportsContestResult",
-      "description": "competition:Spanish La Liga|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:Spanish La Liga|participantA:Valencia CF|participantB:Villarreal CF|resolutionDeadline:20261025-1630|scheduledStart:20261024-1630|season:2026/27|sport:Soccer|stage:Matchday 10",
-      "fallbackOutcome": 15338
+      "questionId": 509,
+      "name": "Recurring",
+      "description": "",
+      "fallbackOutcome": 16543,
+      "eventId": "btc-range-1d",
+      "eventTitle": "BTC Price Range · 1D (Oct 25)",
+      "category": "crypto"
     },
     {
       "questionId": 500,
@@ -128,10 +131,10 @@
       "fallbackOutcome": 15656
     },
     {
-      "questionId": 491,
+      "questionId": 510,
       "name": "template:sportsContestResult",
-      "description": "competition:English Premier League|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:English Premier League|participantA:Chelsea|participantB:Tottenham Hotspur|resolutionDeadline:20261031-1630|scheduledStart:20261024-1630|season:2026/27|sport:Soccer|stage:Matchday 8",
-      "fallbackOutcome": 15295
+      "description": "competition:EFL Cup (Carabao Cup)|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:English Football League|participantA:Fleetwood Town|participantB:Arsenal|resolutionDeadline:20261103-2000|scheduledStart:20261027-2000|season:2026/27|sport:Soccer|stage:Fourth round",
+      "fallbackOutcome": 16695
     },
     {
       "questionId": 494,
@@ -162,21 +165,6 @@
       "name": "template:sportsContestResult",
       "description": "competition:French Ligue 1|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:Ligue de Football Professionnel|participantA:AS Monaco|participantB:LOSC Lille|resolutionDeadline:20261101-1400|scheduledStart:20261025-1400|season:2026/27|sport:Soccer|stage:Matchday 8",
       "fallbackOutcome": 16261
-    },
-    {
-      "questionId": 509,
-      "name": "Recurring",
-      "description": "",
-      "fallbackOutcome": 16543,
-      "eventId": "btc-range-1d",
-      "eventTitle": "BTC Price Range · 1D (Oct 25)",
-      "category": "crypto"
-    },
-    {
-      "questionId": 510,
-      "name": "template:sportsContestResult",
-      "description": "competition:EFL Cup (Carabao Cup)|contestType:Match|countedPlay:regulation time, 90 minutes plus stoppage time|officialSource:English Football League|participantA:Fleetwood Town|participantB:Arsenal|resolutionDeadline:20261103-2000|scheduledStart:20261027-2000|season:2026/27|sport:Soccer|stage:Fourth round",
-      "fallbackOutcome": 16695
     }
   ],
   "outcomes": [
@@ -186,7 +174,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:LLY|priceDescription:1-minute candle|seconds:300|threshold:1450|time:20261030-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -196,7 +184,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GLW|priceDescription:1-minute candle|seconds:300|threshold:112|time:20261028-1335",
       "yesPrice": 0.500125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -206,7 +194,7 @@
       "questionId": 200,
       "resolutionText": "participant:Buffalo Bills",
       "yesPrice": 0.112135,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -216,7 +204,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:52.5|measure:points|officialSource:ESPN|participantA:Green Bay Packers|participantB:Detroit Lions|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|sport:football",
       "yesPrice": 0.535095,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -226,7 +214,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:the Pyth HYPE/USD price|seconds:90|threshold:86|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -236,7 +224,7 @@
       "questionId": 200,
       "resolutionText": "participant:Baltimore Ravens",
       "yesPrice": 0.059295,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -246,7 +234,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7845|time:20261028-2000",
       "yesPrice": 0.030845,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -256,7 +244,7 @@
       "questionId": 250,
       "resolutionText": "participant:New York Yankees",
       "yesPrice": 0.097795,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -266,7 +254,7 @@
       "questionId": 513,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -275,8 +263,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:LYON|participantB:Karmine Corp|resolutionDeadline:20261031-2000|scheduledStart:20261024-2000|season:2026|shortNameA:LY|shortNameB:KC|sport:Esports|stage:Round 2",
-      "yesPrice": 0.43845,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.442095,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -285,8 +273,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 511,
       "resolutionText": "",
-      "yesPrice": 0.213005,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.213035,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -296,7 +284,7 @@
       "questionId": 506,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -306,7 +294,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:the Pyth HYPE/USD price|seconds:90|threshold:80|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -315,8 +303,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7700|time:20261026-2000",
-      "yesPrice": 0.109705,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.104545,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -326,7 +314,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2373|time:20261026-0800",
       "yesPrice": 0.508205,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -336,7 +324,7 @@
       "questionId": 391,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -346,7 +334,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:AMZN|priceDescription:1-minute candle|seconds:300|threshold:230|time:20261030-1335",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -356,7 +344,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Chicago Bulls|participantB:Washington Wizards|resolutionDeadline:20261101-0000|scheduledStart:20261025-0000|season:2026/27|shortNameA:CHI|shortNameB:WAS|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.5242,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -366,7 +354,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:HOOD|priceDescription:1-minute candle|seconds:300|threshold:90|time:20261028-1335",
       "yesPrice": 0.49613,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -376,7 +364,7 @@
       "questionId": 492,
       "resolutionText": "participant:Napoli",
       "yesPrice": 0.03549,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -386,7 +374,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|dateTime:20261130-2359",
       "yesPrice": 0.5725,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -395,8 +383,8 @@
       "displayName": "template:priceTouch",
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:3|target:105|time:20261101-0000",
-      "yesPrice": 0.729375,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.735895,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -405,8 +393,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7705|time:20261030-2000",
-      "yesPrice": 0.391265,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.386765,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -416,7 +404,7 @@
       "questionId": 250,
       "resolutionText": "participant:Tampa Bay Rays",
       "yesPrice": 0.05764,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -425,8 +413,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 507,
       "resolutionText": "participant:Real Sociedad",
-      "yesPrice": 0.609325,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.609215,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -436,7 +424,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:49.5|measure:points|officialSource:ESPN|participantA:San Francisco 49ers|participantB:Atlanta Falcons|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.50495,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -446,7 +434,7 @@
       "questionId": 200,
       "resolutionText": "participant:Kansas City Chiefs",
       "yesPrice": 0.112635,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -456,7 +444,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:80195|time:20261026-0800",
       "yesPrice": 0.500125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -466,7 +454,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:CRWV|priceDescription:1-minute candle|seconds:300|threshold:54.3|time:20261026-1335",
       "yesPrice": 0.50003,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -476,7 +464,7 @@
       "questionId": 200,
       "resolutionText": "participant:Dallas Cowboys",
       "yesPrice": 0.022245,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -486,7 +474,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Miami Dolphins|participantB:New York Jets|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Dolphins|shortNameB:Jets|sport:football|stage:Regular Season",
       "yesPrice": 0.332045,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -495,8 +483,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 507,
       "resolutionText": "participant:Levante",
-      "yesPrice": 0.18049,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.18019,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -506,7 +494,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Atlanta Hawks|participantB:Houston Rockets|resolutionDeadline:20261101-0030|scheduledStart:20261025-0030|season:2026/27|shortNameA:ATL|shortNameB:HOU|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.502445,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -516,7 +504,7 @@
       "questionId": 200,
       "resolutionText": "participant:Seattle Seahawks",
       "yesPrice": 0.05456,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -525,8 +513,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 497,
       "resolutionText": "participant:Manchester United",
-      "yesPrice": 0.43802,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.43744,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -536,7 +524,7 @@
       "questionId": 512,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -546,7 +534,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:HOOD|priceDescription:1-minute candle|seconds:300|threshold:110|time:20261028-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -556,7 +544,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:LLY|priceDescription:1-minute candle|seconds:300|threshold:1180|time:20261030-1335",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -565,8 +553,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SILVER|priceDescription:xyz:SILVER-USDC perp mark|seconds:60|threshold:53.927|time:20261024-2100",
-      "yesPrice": 0.02028,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.01541,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -576,7 +564,7 @@
       "questionId": 430,
       "resolutionText": "participant:San Antonio Spurs",
       "yesPrice": 0.204115,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -586,7 +574,7 @@
       "questionId": 250,
       "resolutionText": "participant:Philadelphia Phillies",
       "yesPrice": 0.053545,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -596,7 +584,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GLW|priceDescription:1-minute candle|seconds:300|threshold:138|time:20261028-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -606,7 +594,7 @@
       "questionId": 200,
       "resolutionText": "participant:Los Angeles Rams",
       "yesPrice": 0.05986,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -615,8 +603,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:MU|priceDescription:xyz:MU-USDC perp mark|seconds:60|threshold:877.34|time:20261024-2000",
-      "yesPrice": 0.88228,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.968295,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -626,7 +614,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Indianapolis Colts|participantB:Minnesota Vikings|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Colts|sport:football|spread:+6.5",
       "yesPrice": 0.507845,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -636,7 +624,7 @@
       "questionId": 198,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -646,7 +634,7 @@
       "questionId": 198,
       "resolutionText": "participant:Arsenal",
       "yesPrice": 0.634995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -656,7 +644,7 @@
       "questionId": 198,
       "resolutionText": "participant:Manchester City",
       "yesPrice": 0.12818,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -666,7 +654,7 @@
       "questionId": 198,
       "resolutionText": "participant:Liverpool",
       "yesPrice": 0.050065,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -676,7 +664,7 @@
       "questionId": 198,
       "resolutionText": "participant:Chelsea",
       "yesPrice": 0.082495,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -686,7 +674,7 @@
       "questionId": 198,
       "resolutionText": "participant:Manchester United",
       "yesPrice": 0.013545,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -696,7 +684,7 @@
       "questionId": 198,
       "resolutionText": "participant:Tottenham Hotspur",
       "yesPrice": 0.006505,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -706,7 +694,7 @@
       "questionId": 199,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -716,7 +704,7 @@
       "questionId": 199,
       "resolutionText": "participant:Barcelona",
       "yesPrice": 0.229425,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -726,7 +714,7 @@
       "questionId": 199,
       "resolutionText": "participant:Arsenal",
       "yesPrice": 0.131495,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -736,7 +724,7 @@
       "questionId": 199,
       "resolutionText": "participant:Bayern Munich",
       "yesPrice": 0.131915,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -746,7 +734,7 @@
       "questionId": 199,
       "resolutionText": "participant:Real Madrid",
       "yesPrice": 0.102185,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -756,7 +744,7 @@
       "questionId": 199,
       "resolutionText": "participant:Manchester City",
       "yesPrice": 0.069965,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -766,7 +754,7 @@
       "questionId": 199,
       "resolutionText": "participant:Paris Saint-Germain",
       "yesPrice": 0.18191,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -776,7 +764,7 @@
       "questionId": 200,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -785,8 +773,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:COIN|priceDescription:1-minute candle|seconds:300|threshold:190|time:20261030-1335",
-      "yesPrice": 0.07331,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.07289,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -796,7 +784,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:3|target:92500|time:20261101-0000",
       "yesPrice": 0.02091,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -806,7 +794,7 @@
       "questionId": 507,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -815,8 +803,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:60|threshold:103.38|time:20261024-2100",
-      "yesPrice": 0.42495,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.334995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -826,7 +814,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:78462|time:20261026-0800",
       "yesPrice": 0.495995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -835,8 +823,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 510,
       "resolutionText": "",
-      "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.499415,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -846,7 +834,7 @@
       "questionId": null,
       "resolutionText": "company:OpenAI|dateTime:20261031-2359",
       "yesPrice": 0.01175,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -856,7 +844,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SILVER|priceDescription:1-minute candle|seconds:300|threshold:54|time:20261026-1335",
       "yesPrice": 0.294585,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -866,7 +854,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:New York Giants|participantB:Houston Texans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Giants|shortNameB:Texans|sport:football|stage:Regular Season",
       "yesPrice": 0.19535,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -876,7 +864,7 @@
       "questionId": 250,
       "resolutionText": "participant:Boston Red Sox",
       "yesPrice": 0.058565,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -886,7 +874,7 @@
       "questionId": 250,
       "resolutionText": "participant:Chicago Cubs",
       "yesPrice": 0.04701,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -896,7 +884,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:New York Knicks|participantB:Orlando Magic|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:NYK|shortNameB:ORL|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.733545,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -906,7 +894,7 @@
       "questionId": 250,
       "resolutionText": "participant:Atlanta Braves",
       "yesPrice": 0.00607,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -916,7 +904,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Miami Dolphins|participantB:New York Jets|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Dolphins|sport:football|spread:+3.5",
       "yesPrice": 0.474395,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -926,7 +914,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:42.5|measure:points|officialSource:ESPN|participantA:Indianapolis Colts|participantB:Minnesota Vikings|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.46308,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -936,7 +924,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20270101-0000|marketCapThresholdB:1500",
       "yesPrice": 0.749285,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -946,17 +934,17 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2314|time:20261026-0800",
       "yesPrice": 0.50074,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15340,
-      "displayName": "template:sportsContestDraw2",
-      "questionId": 493,
-      "resolutionText": "",
-      "yesPrice": 0.174995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16814,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.07|time:20261024-1945",
+      "yesPrice": 0.49995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -966,7 +954,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SOXL|priceDescription:1-minute candle|seconds:300|threshold:83.6|time:20261026-1335",
       "yesPrice": 0.50001,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -976,7 +964,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:1-minute candle|seconds:300|threshold:80|time:20261030-2000",
       "yesPrice": 0.493815,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -986,7 +974,7 @@
       "questionId": 331,
       "resolutionText": "",
       "yesPrice": 0.175,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -996,7 +984,7 @@
       "questionId": 504,
       "resolutionText": "participant:Eintracht Frankfurt",
       "yesPrice": 0.08173,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1006,7 +994,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:30415|time:20261028-2000",
       "yesPrice": 0.04769,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1016,17 +1004,17 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Cleveland Browns|participantB:Tennessee Titans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Browns|shortNameB:Titans|sport:football|stage:Regular Season",
       "yesPrice": 0.550765,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15339,
-      "displayName": "template:sportsContestParticipant2",
-      "questionId": 493,
-      "resolutionText": "participant:Valencia CF",
-      "yesPrice": 0.105,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16815,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2340|time:20261024-1945",
+      "yesPrice": 0.4925,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1036,7 +1024,7 @@
       "questionId": 250,
       "resolutionText": "participant:Los Angeles Dodgers",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1046,7 +1034,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2477|time:20261026-0800",
       "yesPrice": 0.499385,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1055,8 +1043,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7625|time:20261026-2000",
-      "yesPrice": 0.53838,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.5271,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1065,8 +1053,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 507,
       "resolutionText": "",
-      "yesPrice": 0.214095,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.21437,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1076,7 +1064,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2236|time:20261026-0800",
       "yesPrice": 0.500615,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1085,8 +1073,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7695|time:20261028-2000",
-      "yesPrice": 0.339075,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.33395,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1096,7 +1084,7 @@
       "questionId": 331,
       "resolutionText": "",
       "yesPrice": 0.2,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1106,7 +1094,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:86838|time:20261026-0800",
       "yesPrice": 0.49926,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1116,7 +1104,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20261231-2359|marketCapThresholdB:2500",
       "yesPrice": 0.262025,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1126,7 +1114,7 @@
       "questionId": 430,
       "resolutionText": "participant:Oklahoma City Thunder",
       "yesPrice": 0.244095,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1135,8 +1123,8 @@
       "displayName": "template:companyIpoFirstDayMarketCap",
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20270101-0000|marketCapThresholdB:2000",
-      "yesPrice": 0.37762,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.376165,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1146,7 +1134,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2452|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1156,7 +1144,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Indianapolis Colts|participantB:Minnesota Vikings|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Colts|shortNameB:Vikings|sport:football|stage:Regular Season",
       "yesPrice": 0.280425,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1165,8 +1153,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:29400|time:20261026-2000",
-      "yesPrice": 0.142805,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.144515,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1175,8 +1163,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:100|time:20261030-2000",
-      "yesPrice": 0.656005,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.65798,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1186,7 +1174,7 @@
       "questionId": 250,
       "resolutionText": "participant:Milwaukee Brewers",
       "yesPrice": 0.459385,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1196,7 +1184,7 @@
       "questionId": 289,
       "resolutionText": "",
       "yesPrice": 0.003105,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1206,7 +1194,7 @@
       "questionId": 430,
       "resolutionText": "participant:Boston Celtics",
       "yesPrice": 0.055355,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1216,7 +1204,7 @@
       "questionId": 494,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1226,7 +1214,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Philadelphia Eagles|participantB:Dallas Cowboys|resolutionDeadline:20261103-0015|scheduledStart:20261027-0015|season:2026|shortNameA:PHI|shortNameB:DAL|sport:Football|stage:Regular Season",
       "yesPrice": 0.339645,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1236,7 +1224,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GEV|priceDescription:1-minute candle|seconds:300|threshold:920|time:20261029-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1246,7 +1234,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Kansas City Chiefs|participantB:Seattle Seahawks|resolutionDeadline:20261026-0620|scheduledStart:20261026-0020|season:2026|shortNameA:Chiefs|shortNameB:Seahawks|sport:football|stage:Regular Season",
       "yesPrice": 0.419415,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1256,7 +1244,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20261231-2359|marketCapThresholdB:1500",
       "yesPrice": 0.6625,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1266,7 +1254,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:KORU|priceDescription:1-minute candle|seconds:300|threshold:10.6|time:20261026-1335",
       "yesPrice": 0.496,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1275,8 +1263,8 @@
       "displayName": "$79,136 – $82,366",
       "questionId": 509,
       "resolutionText": "",
-      "yesPrice": 0.89,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.8975,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "mark",
       "bucketIndex": 1,
@@ -1288,8 +1276,8 @@
       "displayName": "template:awardCandidate",
       "questionId": 391,
       "resolutionText": "candidate:Harry Kane|subject:Harry Kane (Bayern Munich, England)",
-      "yesPrice": 0.706395,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.705775,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1298,8 +1286,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 494,
       "resolutionText": "participant:FC Barcelona",
-      "yesPrice": 0.593395,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.587365,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1309,7 +1297,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Brooklyn Nets|participantB:Indiana Pacers|resolutionDeadline:20261101-2200|scheduledStart:20261025-2200|season:2026/27|shortNameA:BKN|shortNameB:IND|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.324005,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1319,7 +1307,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:MSTR|priceDescription:1-minute candle|seconds:300|threshold:135|time:20261030-1335",
       "yesPrice": 0.49613,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1329,7 +1317,7 @@
       "questionId": 289,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1339,7 +1327,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20261231-2359|marketCapThresholdB:1750",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1349,7 +1337,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:San Francisco 49ers|participantB:Atlanta Falcons|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:49ers|sport:football|spread:-2.5",
       "yesPrice": 0.526145,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1359,7 +1347,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SNDK|priceDescription:1-minute candle|seconds:300|threshold:1200|time:20261030-1335",
       "yesPrice": 0.562685,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1369,7 +1357,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20270101-0000|marketCapThresholdB:2250",
       "yesPrice": 0.12666,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1378,8 +1366,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Cleveland Cavaliers|participantB:Brooklyn Nets|resolutionDeadline:20261031-2330|scheduledStart:20261024-2330|season:2026/27|shortNameA:CLE|shortNameB:BKN|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.812755,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.802295,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1389,7 +1377,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2588|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1399,7 +1387,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:RDDT|priceDescription:1-minute candle|seconds:300|threshold:135|time:20261030-1335",
       "yesPrice": 0.49613,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1408,8 +1396,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:1-minute candle|seconds:300|threshold:77.1|time:20261026-1335",
-      "yesPrice": 0.32218,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.317775,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1418,8 +1406,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SPCX|priceDescription:xyz:SPCX-USDC perp mark|seconds:60|threshold:147.45|time:20261024-2000",
-      "yesPrice": 0.04682,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.039325,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1429,7 +1417,7 @@
       "questionId": 508,
       "resolutionText": "",
       "yesPrice": 0.278545,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1439,7 +1427,7 @@
       "questionId": 391,
       "resolutionText": "candidate:Lionel Messi |subject:Lionel Messi (Inter Miami, Argentina)",
       "yesPrice": 0.013035,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1448,8 +1436,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SKHX|priceDescription:1-minute candle|seconds:300|threshold:1000|time:20261029-1335",
-      "yesPrice": 0.24416,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.250435,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1459,7 +1447,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20261231-2359|marketCapThresholdB:2000",
       "yesPrice": 0.261525,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1469,7 +1457,7 @@
       "questionId": 492,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1478,8 +1466,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 506,
       "resolutionText": "",
-      "yesPrice": 0.28401,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.284015,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1488,8 +1476,8 @@
       "displayName": "template:policyRateIncrease",
       "questionId": 289,
       "resolutionText": "",
-      "yesPrice": 0.05171,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.0565,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1499,7 +1487,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Denver Broncos|participantB:Arizona Cardinals|resolutionDeadline:20261026-0205|scheduledStart:20261025-2005|season:2026|shortNameA:Broncos|shortNameB:Cardinals|sport:football|stage:Regular Season",
       "yesPrice": 0.676505,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1509,7 +1497,7 @@
       "questionId": 430,
       "resolutionText": "participant:Minnesota Timberwolves",
       "yesPrice": 0.075265,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1519,7 +1507,7 @@
       "questionId": 513,
       "resolutionText": "participant:Brentford",
       "yesPrice": 0.48562,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1529,7 +1517,7 @@
       "questionId": 504,
       "resolutionText": "",
       "yesPrice": 0.098765,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1539,7 +1527,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GEV|priceDescription:1-minute candle|seconds:300|threshold:750|time:20261029-1335",
       "yesPrice": 0.49613,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1548,8 +1536,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 512,
       "resolutionText": "participant:Bournemouth AFC",
-      "yesPrice": 0.43348,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.43295,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1558,8 +1546,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 494,
       "resolutionText": "",
-      "yesPrice": 0.15612,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.15591,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1569,7 +1557,7 @@
       "questionId": 391,
       "resolutionText": "candidate:Jude Bellingham |subject:Jude Bellingham (Real Madrid, England)",
       "yesPrice": 0.00746,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1579,7 +1567,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:1-minute candle|seconds:300|threshold:98|time:20261030-2000",
       "yesPrice": 0.02959,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1589,7 +1577,7 @@
       "questionId": 430,
       "resolutionText": "participant:Miami Heat",
       "yesPrice": 0.035215,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1599,7 +1587,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20270101-0000|marketCapThresholdB:1750",
       "yesPrice": 0.630185,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1609,7 +1597,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:3|target:85|time:20261101-0000",
       "yesPrice": 0.01235,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1619,7 +1607,7 @@
       "questionId": 331,
       "resolutionText": "",
       "yesPrice": 0.83,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1629,7 +1617,7 @@
       "questionId": 289,
       "resolutionText": "",
       "yesPrice": 0.945125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1639,7 +1627,7 @@
       "questionId": 331,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1649,7 +1637,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:3800|time:20261030-2000",
       "yesPrice": 0.90178,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1659,7 +1647,7 @@
       "questionId": 511,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1668,8 +1656,8 @@
       "displayName": "template:awardCandidate",
       "questionId": 391,
       "resolutionText": "candidate:Lamine Yamal|subject:Lamine Yamal (FC Barcelona, Spain)",
-      "yesPrice": 0.09117,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.088665,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1679,7 +1667,7 @@
       "questionId": 430,
       "resolutionText": "participant:Philadelphia 76ers",
       "yesPrice": 0.107205,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1689,7 +1677,7 @@
       "questionId": 250,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1699,7 +1687,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:135|time:20261030-2000",
       "yesPrice": 0.91405,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1708,8 +1696,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:29365|time:20261028-2000",
-      "yesPrice": 0.329215,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.331035,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1719,7 +1707,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:38.5|measure:points|officialSource:ESPN|participantA:Cleveland Browns|participantB:Tennessee Titans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.442,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1728,8 +1716,8 @@
       "displayName": "template:priceTouch",
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:3|target:75000|time:20261101-0000",
-      "yesPrice": 0.1968,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.19902,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1739,7 +1727,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79802|time:20261024-2000",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1749,7 +1737,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|dateTime:20261031-2359",
       "yesPrice": 0.05,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1758,8 +1746,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Utah Jazz|participantB:Los Angeles Lakers|resolutionDeadline:20261101-2100|scheduledStart:20261025-2100|season:2026/27|shortNameA:UTA|shortNameB:LAL|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.304005,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.302005,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1768,8 +1756,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.23952,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.21799,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "underlying": "SOL",
       "strike": 102.29,
@@ -1781,18 +1769,18 @@
       "displayName": "template:priceTouch",
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:3|target:77500|time:20261101-0000",
-      "yesPrice": 0.447055,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.44789,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15341,
-      "displayName": "template:sportsContestParticipant2",
-      "questionId": 493,
-      "resolutionText": "participant:Villarreal CF",
-      "yesPrice": 0.99886,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16813,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80513|time:20261024-1945",
+      "yesPrice": 0.446995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1801,8 +1789,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2400|time:20261030-0800",
-      "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.499875,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1811,8 +1799,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:INTC|priceDescription:1-minute candle|seconds:300|threshold:95|time:20261030-1335",
-      "yesPrice": 0.18482,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.18914,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1822,7 +1810,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2613|time:20261026-0800",
       "yesPrice": 0.49926,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1832,7 +1820,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:165|time:20261030-2000",
       "yesPrice": 0.115655,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1842,7 +1830,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4000|time:20261026-1335",
       "yesPrice": 0.371705,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1851,8 +1839,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:82|time:20261030-2000",
-      "yesPrice": 0.98965,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.98971,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1862,7 +1850,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:MSTR|priceDescription:1-minute candle|seconds:300|threshold:165|time:20261030-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1872,7 +1860,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Green Bay Packers|participantB:Detroit Lions|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|shortNameA:Packers|sport:football|spread:+3.5",
       "yesPrice": 0.50477,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1882,7 +1870,7 @@
       "questionId": 391,
       "resolutionText": "candidate:Erling Haaland|subject:Erling Haaland (Manchester City, Norway)",
       "yesPrice": 0.00389,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1892,7 +1880,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:MU|priceDescription:1-minute candle|seconds:300|threshold:877|time:20261026-1335",
       "yesPrice": 0.61037,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1902,7 +1890,7 @@
       "questionId": 391,
       "resolutionText": "candidate:Ousmane Dembele |subject:Ousmane Dembele (Paris Saint-Germain, France)",
       "yesPrice": 0.00298,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1912,7 +1900,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:44.5|measure:points|officialSource:ESPN|participantA:Pittsburgh Steelers|participantB:New Orleans Saints|resolutionDeadline:20261025-1930|scheduledStart:20261025-1330|sport:football",
       "yesPrice": 0.50785,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1922,7 +1910,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Denver Broncos|participantB:Arizona Cardinals|resolutionDeadline:20261026-0205|scheduledStart:20261025-2005|shortNameA:Broncos|sport:football|spread:-4.5",
       "yesPrice": 0.49793,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1931,8 +1919,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 506,
       "resolutionText": "participant:AS Monaco",
-      "yesPrice": 0.472745,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.47275,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1942,7 +1930,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7775|time:20261026-2000",
       "yesPrice": 0.02865,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1952,7 +1940,7 @@
       "questionId": 510,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -1961,19 +1949,19 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:GOLD|priceDescription:1-minute candle|seconds:300|threshold:4600|time:20261030-2000",
-      "yesPrice": 0.000475,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.00048,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15338,
-      "displayName": "template fallback",
-      "questionId": 493,
-      "resolutionText": "other",
-      "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": true,
+      "outcomeId": 16615,
+      "displayName": "template:sportsContestWinner",
+      "questionId": null,
+      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Invictus Gaming|participantB:Team Secret Whales|resolutionDeadline:20261031-2100|scheduledStart:20261024-2100|season:2026|shortNameA:IG|shortNameB:TSW|sport:Esports|stage:Round 2",
+      "yesPrice": 0.685555,
+      "priceAt": "2026-10-24T19:37:26.317Z",
+      "isFallback": false,
       "resolutionSource": "validators"
     },
     {
@@ -1982,7 +1970,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Kansas City Chiefs|participantB:Seattle Seahawks|resolutionDeadline:20261026-0620|scheduledStart:20261026-0020|shortNameA:Chiefs|sport:football|spread:+2.5",
       "yesPrice": 0.47514,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -1992,7 +1980,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:KIOXIA|priceDescription:1-minute candle|seconds:300|threshold:70|time:20261102-1435",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2002,7 +1990,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:42.5|measure:points|officialSource:ESPN|participantA:New York Giants|participantB:Houston Texans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.508665,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2011,8 +1999,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 494,
       "resolutionText": "participant:Real Madrid",
-      "yesPrice": 0.250185,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.25702,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2022,7 +2010,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2537|time:20261026-0800",
       "yesPrice": 0.25087,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2032,7 +2020,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Pittsburgh Steelers|participantB:New Orleans Saints|resolutionDeadline:20261025-1930|scheduledStart:20261025-1330|shortNameA:Steelers|sport:football|spread:-3.5",
       "yesPrice": 0.451565,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2042,17 +2030,17 @@
       "questionId": null,
       "resolutionText": "perp:ZEC|priceDescription:1-minute candle|seconds:300|threshold:1230|time:20261026-1335",
       "yesPrice": 0.496,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 16808,
-      "displayName": "template:binaryPrice",
-      "questionId": null,
-      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80500|time:20261024-1930",
-      "yesPrice": 0.42704,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16708,
+      "displayName": "template:sportsContestParticipant2",
+      "questionId": 513,
+      "resolutionText": "participant:Sunderland",
+      "yesPrice": 0.25697,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2061,8 +2049,8 @@
       "displayName": "Below $79,136",
       "questionId": 509,
       "resolutionText": "",
-      "yesPrice": 0.088,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.071,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "mark",
       "bucketIndex": 0,
@@ -2074,7 +2062,7 @@
       "questionId": 504,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -2083,8 +2071,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.132275,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.13556,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "underlying": "ETH",
       "strike": 2376.8,
@@ -2097,7 +2085,7 @@
       "questionId": 502,
       "resolutionText": "participant:Lyon",
       "yesPrice": 0.13486,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2107,7 +2095,7 @@
       "questionId": 508,
       "resolutionText": "participant:Sevilla FC",
       "yesPrice": 0.503795,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2117,7 +2105,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:83810|time:20261026-0800",
       "yesPrice": 0.379,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2126,8 +2114,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SNDK|priceDescription:1-minute candle|seconds:300|threshold:1450|time:20261030-1335",
-      "yesPrice": 0.06694,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.06846,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2137,7 +2125,7 @@
       "questionId": 430,
       "resolutionText": "participant:Cleveland Cavaliers",
       "yesPrice": 0.0133,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2147,7 +2135,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Los Angeles Rams|participantB:Las Vegas Raiders|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|season:2026|shortNameA:Rams|shortNameB:Raiders|sport:football|stage:Regular Season",
       "yesPrice": 0.61246,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2157,7 +2145,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2425|time:20261026-0800",
       "yesPrice": 0.49987,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2167,7 +2155,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:38.5|measure:points|officialSource:ESPN|participantA:Miami Dolphins|participantB:New York Jets|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.52905,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2177,7 +2165,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Green Bay Packers|participantB:Detroit Lions|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|season:2026|shortNameA:Packers|shortNameB:Lions|sport:football|stage:Regular Season",
       "yesPrice": 0.36411,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2187,7 +2175,7 @@
       "questionId": 492,
       "resolutionText": "participant:AS Roma",
       "yesPrice": 0.012555,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2196,8 +2184,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Minnesota Timberwolves|participantB:Toronto Raptors|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:MIN|shortNameB:TOR|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.59087,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.592415,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2207,7 +2195,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:29925|time:20261026-2000",
       "yesPrice": 0.03319,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2217,7 +2205,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2211|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2227,7 +2215,7 @@
       "questionId": 492,
       "resolutionText": "",
       "yesPrice": 0.995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2237,7 +2225,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:1-minute candle|seconds:300|threshold:104|time:20261026-1335",
       "yesPrice": 0.4097,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2247,7 +2235,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:the Pyth HYPE/USD price|seconds:90|threshold:74|time:20261030-0800",
       "yesPrice": 0.500125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2257,7 +2245,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:KIOXIA|priceDescription:1-minute candle|seconds:300|threshold:86|time:20261102-1435",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2266,8 +2254,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:INTC|priceDescription:1-minute candle|seconds:300|threshold:87|time:20261026-1335",
-      "yesPrice": 0.44659,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.47071,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2277,7 +2265,7 @@
       "questionId": null,
       "resolutionText": "perp:ZEC|priceDescription:the Pyth ZEC/USD price|seconds:90|threshold:1057|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2286,8 +2274,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:28910|time:20261030-2000",
-      "yesPrice": 0.549135,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.548795,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2296,8 +2284,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7630|time:20261030-2000",
-      "yesPrice": 0.574025,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.5691,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2307,7 +2295,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:44.5|measure:points|officialSource:ESPN|participantA:Tampa Bay Buccaneers|participantB:Carolina Panthers|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
       "yesPrice": 0.50598,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2317,7 +2305,7 @@
       "questionId": 430,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -2326,8 +2314,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:COIN|priceDescription:1-minute candle|seconds:300|threshold:155|time:20261030-1335",
-      "yesPrice": 0.665605,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.66485,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2337,7 +2325,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2512|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2347,7 +2335,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Philadelphia 76ers|participantB:Milwaukee Bucks|resolutionDeadline:20261031-2330|scheduledStart:20261024-2330|season:2026/27|shortNameA:PHI|shortNameB:MIL|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.836155,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2356,8 +2344,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:28385|time:20261030-2000",
-      "yesPrice": 0.730745,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.728245,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2367,7 +2355,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:81490|time:20261026-0800",
       "yesPrice": 0.49987,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2377,7 +2365,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:3|target:75|time:20261101-0000",
       "yesPrice": 0.010795,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2387,17 +2375,17 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GIGADEV|priceDescription:1-minute candle|seconds:300|threshold:44|time:20261102-1435",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15298,
-      "displayName": "template:sportsContestParticipant2",
-      "questionId": 491,
-      "resolutionText": "participant:Tottenham Hotspur",
-      "yesPrice": 0.99125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16709,
+      "displayName": "template:sportsContestDraw2",
+      "questionId": 513,
+      "resolutionText": "",
+      "yesPrice": 0.25777,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2407,7 +2395,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:RDDT|priceDescription:1-minute candle|seconds:300|threshold:165|time:20261030-1335",
       "yesPrice": 0.49333,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2417,7 +2405,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20261231-2359|marketCapThresholdB:2250",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2426,8 +2414,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:28875|time:20261026-2000",
-      "yesPrice": 0.588905,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.59786,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2437,7 +2425,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:COIN|priceDescription:1-minute candle|seconds:300|threshold:165|time:20261026-1335",
       "yesPrice": 0.366105,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2446,8 +2434,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:CRCL|priceDescription:1-minute candle|seconds:300|threshold:85.9|time:20261026-1335",
-      "yesPrice": 0.32998,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.335025,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2457,7 +2445,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:42.5|measure:points|officialSource:ESPN|participantA:Kansas City Chiefs|participantB:Seattle Seahawks|resolutionDeadline:20261026-0620|scheduledStart:20261026-0020|sport:football",
       "yesPrice": 0.499425,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2467,7 +2455,7 @@
       "questionId": 508,
       "resolutionText": "participant:CA Osasuna",
       "yesPrice": 0.2173,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2477,7 +2465,7 @@
       "questionId": 430,
       "resolutionText": "participant:New York Knicks",
       "yesPrice": 0.073555,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2486,8 +2474,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7770|time:20261028-2000",
-      "yesPrice": 0.112655,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.10866,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2497,7 +2485,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Tampa Bay Buccaneers|participantB:Carolina Panthers|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Buccaneers|shortNameB:Panthers|sport:football|stage:Regular Season",
       "yesPrice": 0.415545,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2506,8 +2494,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.400655,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.400995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "underlying": "BTC",
       "strike": 80751,
@@ -2519,8 +2507,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 511,
       "resolutionText": "participant:Manchester City",
-      "yesPrice": 0.576825,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.57683,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2529,8 +2517,8 @@
       "displayName": "template:awardCandidate",
       "questionId": 391,
       "resolutionText": "candidate:Kylian Mbappe |subject:Kylian Mbappe (Real Madrid, France)",
-      "yesPrice": 0.19937,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.20005,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2540,7 +2528,7 @@
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:3|target:105|time:20261101-0000",
       "yesPrice": 0.009,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2549,8 +2537,8 @@
       "displayName": "template:priceTouch",
       "questionId": null,
       "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:3|target:100|time:20261101-0000",
-      "yesPrice": 0.01475,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.01025,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2559,8 +2547,8 @@
       "displayName": "template:priceTouch",
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:3|target:87500|time:20261101-0000",
-      "yesPrice": 0.100585,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.105395,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2570,7 +2558,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:3|target:90000|time:20261101-0000",
       "yesPrice": 0.0293,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2579,8 +2567,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:xyz:SP500-USDC perp mark|seconds:60|threshold:7623.4|time:20261024-2000",
-      "yesPrice": 0.531665,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.315005,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2590,7 +2578,7 @@
       "questionId": 510,
       "resolutionText": "participant:Arsenal",
       "yesPrice": 0.895085,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2600,18 +2588,18 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Denver Nuggets|participantB:New Orleans Pelicans|resolutionDeadline:20261101-0100|scheduledStart:20261025-0100|season:2026/27|shortNameA:DEN|shortNameB:NOP|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.806935,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15295,
-      "displayName": "template fallback",
-      "questionId": 491,
-      "resolutionText": "other",
+      "outcomeId": 16807,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80514|time:20261024-2000",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": true,
+      "priceAt": "2026-10-24T19:37:26.317Z",
+      "isFallback": false,
       "resolutionSource": "validators"
     },
     {
@@ -2620,7 +2608,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:82649|time:20261026-0800",
       "yesPrice": 0.49987,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2629,8 +2617,8 @@
       "displayName": "template:awardOther",
       "questionId": 391,
       "resolutionText": "",
-      "yesPrice": 0.012645,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.012625,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2640,7 +2628,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Tampa Bay Buccaneers|participantB:Carolina Panthers|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Buccaneers|sport:football|spread:+3.5",
       "yesPrice": 0.5755,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2650,7 +2638,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SKHY|priceDescription:1-minute candle|seconds:300|threshold:137|time:20261026-1335",
       "yesPrice": 0.47489,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2660,7 +2648,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SNDK|priceDescription:1-minute candle|seconds:300|threshold:1240|time:20261026-1335",
       "yesPrice": 0.41634,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2670,7 +2658,7 @@
       "questionId": null,
       "resolutionText": "company:Anthropic|listingDeadline:20270101-0000|marketCapThresholdB:2500",
       "yesPrice": 0.07116,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2679,8 +2667,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 506,
       "resolutionText": "participant:LOSC Lille",
-      "yesPrice": 0.24299,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.242515,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2690,7 +2678,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:CL|priceDescription:xyz:CL-USDC perp mark|seconds:3|target:80|time:20261101-0000",
       "yesPrice": 0.015365,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2700,7 +2688,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:47.5|measure:points|officialSource:ESPN|participantA:Los Angeles Rams|participantB:Las Vegas Raiders|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|sport:football",
       "yesPrice": 0.534965,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2709,8 +2697,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Cincinnati Bengals|participantB:Baltimore Ravens|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:Bengals|shortNameB:Ravens|sport:football|stage:Regular Season",
-      "yesPrice": 0.52838,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.573155,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2720,7 +2708,7 @@
       "questionId": 508,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -2729,8 +2717,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Charlotte Hornets|participantB:Miami Heat|resolutionDeadline:20261031-2200|scheduledStart:20261024-2200|season:2026/27|shortNameA:CHA|shortNameB:MIA|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.427265,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.41645,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2740,7 +2728,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:San Francisco 49ers|participantB:Atlanta Falcons|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|season:2026|shortNameA:49ers|shortNameB:Falcons|sport:football|stage:Regular Season",
       "yesPrice": 0.582535,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2750,7 +2738,7 @@
       "questionId": 503,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -2760,7 +2748,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:29890|time:20261028-2000",
       "yesPrice": 0.099915,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2770,7 +2758,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79552|time:20261024-2000",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2779,8 +2767,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Dallas Mavericks|participantB:San Antonio Spurs|resolutionDeadline:20261101-0000|scheduledStart:20261025-0000|season:2026/27|shortNameA:DAL|shortNameB:SAS|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.14159,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.13873,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2789,8 +2777,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:GOLD|priceDescription:xyz:GOLD-USDC perp mark|seconds:60|threshold:3998.9|time:20261024-2100",
-      "yesPrice": 0.03613,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.036315,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2800,7 +2788,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SP500|priceDescription:the Pyth US500 index price|seconds:90|threshold:7555|time:20261030-2000",
       "yesPrice": 0.742595,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2810,7 +2798,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Dallas Cowboys|participantB:Philadelphia Eagles|resolutionDeadline:20261027-0615|scheduledStart:20261027-0015|shortNameA:Cowboys|sport:football|spread:-4.5",
       "yesPrice": 0.505505,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2819,8 +2807,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:the Pyth US100 index price|seconds:90|threshold:29435|time:20261030-2000",
-      "yesPrice": 0.353725,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.35335,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2829,8 +2817,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:XYZ100|priceDescription:xyz:XYZ100-USDC perp mark|seconds:60|threshold:28966|time:20261024-2000",
-      "yesPrice": 0.344995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.374995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2840,7 +2828,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Dallas Cowboys|participantB:Philadelphia Eagles|resolutionDeadline:20261027-0615|scheduledStart:20261027-0015|season:2026|shortNameA:Cowboys|shortNameB:Eagles|sport:football|stage:Regular Season",
       "yesPrice": 0.66096,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2849,28 +2837,28 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Philadelphia 76ers|participantB:Detroit Pistons|resolutionDeadline:20261101-2330|scheduledStart:20261025-2330|season:2026/27|shortNameA:PHI|shortNameB:DET|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.4873,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.486995,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15297,
-      "displayName": "template:sportsContestDraw2",
-      "questionId": 491,
-      "resolutionText": "",
-      "yesPrice": 0.077225,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16755,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80052|time:20261024-2000",
+      "yesPrice": 0.5,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 15296,
-      "displayName": "template:sportsContestParticipant2",
-      "questionId": 491,
-      "resolutionText": "participant:Chelsea",
-      "yesPrice": 0.01,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "outcomeId": 16812,
+      "displayName": "template:binaryPrice",
+      "questionId": null,
+      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80500|time:20261024-1945",
+      "yesPrice": 0.59977,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2880,7 +2868,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Phoenix Suns|participantB:Golden State Warriors|resolutionDeadline:20261101-0200|scheduledStart:20261025-0200|season:2026/27|shortNameA:PHX|shortNameB:GSW|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.761095,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2890,7 +2878,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:GIGADEV|priceDescription:1-minute candle|seconds:300|threshold:36|time:20261102-1435",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2900,7 +2888,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:85107|time:20261026-0800",
       "yesPrice": 0.49987,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2910,7 +2898,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:META|priceDescription:1-minute candle|seconds:300|threshold:642|time:20261026-1335",
       "yesPrice": 0.426305,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2920,7 +2908,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:84000|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2930,7 +2918,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:83000|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2940,7 +2928,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:82000|time:20261030-0800",
       "yesPrice": 0.499875,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2950,7 +2938,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:81000|time:20261030-0800",
       "yesPrice": 0.499875,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2960,7 +2948,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:78000|time:20261030-0800",
       "yesPrice": 0.49627,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2970,7 +2958,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:79000|time:20261030-0800",
       "yesPrice": 0.500125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2980,7 +2968,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Pyth BTC/USD price|seconds:90|threshold:80000|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -2990,7 +2978,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:DRAM|priceDescription:1-minute candle|seconds:300|threshold:47.1|time:20261026-1335",
       "yesPrice": 0.50001,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3000,7 +2988,7 @@
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Sacramento Kings|participantB:Memphis Grizzlies|resolutionDeadline:20261102-0100|scheduledStart:20261026-0100|season:2026/27|shortNameA:SAC|shortNameB:MEM|sport:Basketball|stage:Regular Season",
       "yesPrice": 0.38442,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3009,8 +2997,8 @@
       "displayName": "template:sportsSpread",
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Cincinnati Bengals|participantB:Baltimore Ravens|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Bengals|sport:football|spread:+2.5",
-      "yesPrice": 0.58011,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.61666,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3019,8 +3007,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:INTC|priceDescription:1-minute candle|seconds:300|threshold:80|time:20261030-1335",
-      "yesPrice": 0.748025,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.753045,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3030,7 +3018,7 @@
       "questionId": null,
       "resolutionText": "perp:ZEC|priceDescription:the Pyth ZEC/USD price|seconds:90|threshold:1393|time:20261030-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3040,7 +3028,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:AMZN|priceDescription:1-minute candle|seconds:300|threshold:280|time:20261030-1335",
       "yesPrice": 0.493205,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3050,7 +3038,7 @@
       "questionId": null,
       "resolutionText": "perp:ZEC|priceDescription:the Pyth ZEC/USD price|seconds:90|threshold:1225|time:20261030-0800",
       "yesPrice": 0.499875,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3059,8 +3047,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Oklahoma City Thunder|participantB:Los Angeles Clippers|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:OKC|shortNameB:LAC|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.876125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.87611,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3070,7 +3058,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2348|time:20261030-0800",
       "yesPrice": 0.499875,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3080,7 +3068,7 @@
       "questionId": null,
       "resolutionText": "perp:xyz:SPCX|priceDescription:1-minute candle|seconds:300|threshold:148|time:20261026-1335",
       "yesPrice": 0.49997,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3090,7 +3078,7 @@
       "questionId": null,
       "resolutionText": "perp:ETH|priceDescription:the Pyth ETH/USD price|seconds:90|threshold:2289|time:20261030-0800",
       "yesPrice": 0.500125,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3099,8 +3087,8 @@
       "displayName": "template:binaryPrice",
       "questionId": null,
       "resolutionText": "perp:xyz:SKHX|priceDescription:1-minute candle|seconds:300|threshold:820|time:20261029-1335",
-      "yesPrice": 0.9463,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.9484,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3110,7 +3098,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Houston Texans|participantB:New York Giants|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:HOU|shortNameB:NYG|sport:Football|stage:Regular Season",
       "yesPrice": 0.808025,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3119,8 +3107,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New Orleans Saints|participantB:Pittsburgh Steelers|resolutionDeadline:20261101-1330|scheduledStart:20261025-1330|season:2026|shortNameA:NO|shortNameB:PIT|sport:Football|stage:Regular Season",
-      "yesPrice": 0.394245,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.394155,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3130,7 +3118,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Minnesota Vikings|participantB:Indianapolis Colts|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:MIN|shortNameB:IND|sport:Football|stage:Regular Season",
       "yesPrice": 0.723595,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3140,7 +3128,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Tennessee Titans|participantB:Cleveland Browns|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:TEN|shortNameB:CLE|sport:Football|stage:Regular Season",
       "yesPrice": 0.450515,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3150,7 +3138,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New York Jets|participantB:Miami Dolphins|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:NYJ|shortNameB:MIA|sport:Football|stage:Regular Season",
       "yesPrice": 0.668595,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3160,7 +3148,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Carolina Panthers|participantB:Tampa Bay Buccaneers|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:CAR|shortNameB:TB|sport:Football|stage:Regular Season",
       "yesPrice": 0.585105,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3170,7 +3158,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Atlanta Falcons|participantB:San Francisco 49ers|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:ATL|shortNameB:SF|sport:Football|stage:Regular Season",
       "yesPrice": 0.420865,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3179,8 +3167,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Baltimore Ravens|participantB:Cincinnati Bengals|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:BAL|shortNameB:CIN|sport:Football|stage:Regular Season",
-      "yesPrice": 0.471345,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.4247,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3189,8 +3177,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 497,
       "resolutionText": "participant:Bournemouth AFC",
-      "yesPrice": 0.300795,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.30166,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3199,8 +3187,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 497,
       "resolutionText": "",
-      "yesPrice": 0.25944,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.259565,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3210,7 +3198,7 @@
       "questionId": 504,
       "resolutionText": "participant:Borussia Dortmund",
       "yesPrice": 0.99,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3220,7 +3208,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Arizona Cardinals|participantB:Denver Broncos|resolutionDeadline:20261101-2005|scheduledStart:20261025-2005|season:2026|shortNameA:ARI|shortNameB:DEN|sport:Football|stage:Regular Season",
       "yesPrice": 0.324205,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3230,7 +3218,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Las Vegas Raiders|participantB:Los Angeles Rams|resolutionDeadline:20261101-2025|scheduledStart:20261025-2025|season:2026|shortNameA:LV|shortNameB:LAR|sport:Football|stage:Regular Season",
       "yesPrice": 0.385825,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3239,8 +3227,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Detroit Lions|participantB:Green Bay Packers|resolutionDeadline:20261101-2025|scheduledStart:20261025-2025|season:2026|shortNameA:DET|shortNameB:GB|sport:Football|stage:Regular Season",
-      "yesPrice": 0.635865,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.635055,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3250,7 +3238,7 @@
       "questionId": 496,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3260,7 +3248,7 @@
       "questionId": 496,
       "resolutionText": "participant:Hull City",
       "yesPrice": 0.1996,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3270,7 +3258,7 @@
       "questionId": 496,
       "resolutionText": "",
       "yesPrice": 0.23365,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3279,8 +3267,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 496,
       "resolutionText": "participant:Brentford",
-      "yesPrice": 0.5671,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.567065,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3290,7 +3278,7 @@
       "questionId": 497,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3300,7 +3288,7 @@
       "questionId": 503,
       "resolutionText": "participant:FC Bayern Munich",
       "yesPrice": 0.687305,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3309,8 +3297,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 503,
       "resolutionText": "participant:SC Freiburg",
-      "yesPrice": 0.142225,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.143245,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3319,8 +3307,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 503,
       "resolutionText": "",
-      "yesPrice": 0.172985,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.17296,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3330,7 +3318,7 @@
       "questionId": 498,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3339,8 +3327,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 498,
       "resolutionText": "participant:Liverpool",
-      "yesPrice": 0.45881,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.458655,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3349,8 +3337,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 498,
       "resolutionText": "",
-      "yesPrice": 0.241875,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.243975,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3360,7 +3348,7 @@
       "questionId": 498,
       "resolutionText": "participant:Brighton Hove Albion",
       "yesPrice": 0.29724,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3370,7 +3358,7 @@
       "questionId": 499,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3380,7 +3368,7 @@
       "questionId": 499,
       "resolutionText": "participant:Crystal Palace",
       "yesPrice": 0.334,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3390,7 +3378,7 @@
       "questionId": 499,
       "resolutionText": "",
       "yesPrice": 0.263175,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3399,8 +3387,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 499,
       "resolutionText": "participant:Newcastle United",
-      "yesPrice": 0.402935,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.402955,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3410,7 +3398,7 @@
       "questionId": 500,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3419,8 +3407,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 500,
       "resolutionText": "participant:Sunderland",
-      "yesPrice": 0.31619,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.316285,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3430,7 +3418,7 @@
       "questionId": 500,
       "resolutionText": "",
       "yesPrice": 0.297155,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3439,8 +3427,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 500,
       "resolutionText": "participant:Leeds United",
-      "yesPrice": 0.38522,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.38525,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3450,7 +3438,7 @@
       "questionId": 501,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3459,8 +3447,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 501,
       "resolutionText": "participant:Atletico Madrid",
-      "yesPrice": 0.7785,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.641765,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3469,8 +3457,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 501,
       "resolutionText": "",
-      "yesPrice": 0.131985,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.203755,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3479,8 +3467,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 501,
       "resolutionText": "participant:RC Deportivo",
-      "yesPrice": 0.06079,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.11198,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3490,7 +3478,7 @@
       "questionId": 502,
       "resolutionText": "other",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "validators"
     },
@@ -3500,7 +3488,7 @@
       "questionId": 502,
       "resolutionText": "participant:Paris Saint Germain",
       "yesPrice": 0.695465,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3510,7 +3498,7 @@
       "questionId": 502,
       "resolutionText": "",
       "yesPrice": 0.164485,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3520,7 +3508,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:43.5|measure:points|officialSource:ESPN|participantA:Denver Broncos|participantB:Arizona Cardinals|resolutionDeadline:20261026-0205|scheduledStart:20261025-2005|sport:football",
       "yesPrice": 0.47805,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3529,8 +3517,8 @@
       "displayName": "template:sportsTotal",
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:49.5|measure:points|officialSource:ESPN|participantA:Cincinnati Bengals|participantB:Baltimore Ravens|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|sport:football",
-      "yesPrice": 0.442315,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.41935,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3540,7 +3528,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|line:44.5|measure:points|officialSource:ESPN|participantA:Dallas Cowboys|participantB:Philadelphia Eagles|resolutionDeadline:20261027-0615|scheduledStart:20261027-0015|sport:football",
       "yesPrice": 0.481155,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3549,8 +3537,8 @@
       "displayName": "template:sportsSpread",
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Los Angeles Rams|participantB:Las Vegas Raiders|resolutionDeadline:20261026-0225|scheduledStart:20261025-2025|shortNameA:Rams|sport:football|spread:-3.5",
-      "yesPrice": 0.46059,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.460585,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3560,7 +3548,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:New York Giants|participantB:Houston Texans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Giants|sport:football|spread:+9.5",
       "yesPrice": 0.458255,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3570,7 +3558,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:game|countedPlay:regulation time and any overtime|officialSource:ESPN|participantA:Pittsburgh Steelers|participantB:New Orleans Saints|resolutionDeadline:20261025-1930|scheduledStart:20261025-1330|season:2026|shortNameA:Steelers|shortNameB:Saints|sport:football|stage:Regular Season",
       "yesPrice": 0.60885,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3580,7 +3568,7 @@
       "questionId": null,
       "resolutionText": "countedPlay:regulation time and any overtime|measure:points|officialSource:ESPN|participantA:Cleveland Browns|participantB:Tennessee Titans|resolutionDeadline:20261025-2300|scheduledStart:20261025-1700|shortNameA:Browns|sport:football|spread:-1.5",
       "yesPrice": 0.517695,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3590,7 +3578,7 @@
       "questionId": null,
       "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:CTBC Flying Oyster|participantB:Movistar KOI|resolutionDeadline:20261031-1800|scheduledStart:20261024-1800|season:2026|shortNameA:CFO|shortNameB:MKOI|sport:Esports|stage:Round 2",
       "yesPrice": 0.0051,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3600,7 +3588,7 @@
       "questionId": 512,
       "resolutionText": "participant:Aston Villa",
       "yesPrice": 0.30635,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3609,8 +3597,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Cleveland Cavaliers|participantB:Minnesota Timberwolves|resolutionDeadline:20261102-2300|scheduledStart:20261026-2300|season:2026/27|shortNameA:CLE|shortNameB:MIN|sport:Basketball|stage:Regular Season",
-      "yesPrice": 0.48499,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.486225,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3620,7 +3608,7 @@
       "questionId": 509,
       "resolutionText": "",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": true,
       "resolutionSource": "mark"
     },
@@ -3629,8 +3617,8 @@
       "displayName": "Recurring",
       "questionId": null,
       "resolutionText": "",
-      "yesPrice": 0.269995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.25,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "underlying": "HYPE",
       "strike": 76.948,
@@ -3643,7 +3631,7 @@
       "questionId": null,
       "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Seattle Seahawks|participantB:Kansas City Chiefs|resolutionDeadline:20261102-0020|scheduledStart:20261026-0020|season:2026|shortNameA:SEA|shortNameB:KC|sport:Football|stage:Regular Season",
       "yesPrice": 0.578895,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3652,8 +3640,8 @@
       "displayName": "Above $82,366",
       "questionId": 509,
       "resolutionText": "",
-      "yesPrice": 0.025135,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.030635,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "mark",
       "bucketIndex": 2,
@@ -3665,7 +3653,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80000|time:20261025-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3675,7 +3663,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79500|time:20261025-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3685,7 +3673,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80500|time:20261025-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3695,7 +3683,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81000|time:20261025-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3705,7 +3693,7 @@
       "questionId": null,
       "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81500|time:20261025-0800",
       "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3714,8 +3702,8 @@
       "displayName": "template:sportsContestDraw2",
       "questionId": 512,
       "resolutionText": "",
-      "yesPrice": 0.26148,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.26152,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3724,8 +3712,8 @@
       "displayName": "template:sportsContestParticipant2",
       "questionId": 511,
       "resolutionText": "participant:Brighton ",
-      "yesPrice": 0.207295,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.20762,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3734,8 +3722,8 @@
       "displayName": "template:sportsContestWinner",
       "questionId": null,
       "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:G2 Esports|participantB:LOS|resolutionDeadline:20261031-1900|scheduledStart:20261024-1900|season:2026|shortNameA:G2|shortNameB:LOS|sport:Esports|stage:Round 2 ",
-      "yesPrice": 0.60914,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "yesPrice": 0.79325,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3745,47 +3733,7 @@
       "questionId": null,
       "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Team Liquid|participantB:Bilibili Gaming|resolutionDeadline:20261101-0000|scheduledStart:20261025-0000|season:2026|shortNameA:TL|shortNameB:BLG|sport:Esports|stage:Round 2",
       "yesPrice": 0.24866,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16607,
-      "displayName": "template:sportsContestWinner",
-      "questionId": null,
-      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Top Esports|participantB:Anyone's Legend|resolutionDeadline:20261031-1700|scheduledStart:20261024-1700|season:2026|shortNameA:TES|shortNameB:AL|sport:Esports|stage:Round 2",
-      "yesPrice": 0.995,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16617,
-      "displayName": "template:sportsContestWinner",
-      "questionId": null,
-      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Dplus KIA|participantB:T1|resolutionDeadline:20261031-2300|scheduledStart:20261024-2300|season:2026|shortNameA:DK|shortNameB:T1|sport:Esports|stage:Round 2",
-      "yesPrice": 0.43219,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16616,
-      "displayName": "template:sportsContestWinner",
-      "questionId": null,
-      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Hanwha Life Esports|participantB:Gen.G|resolutionDeadline:20261031-2200|scheduledStart:20261024-2200|season:2026|shortNameA:HLE|shortNameB:GEN|sport:Esports|stage:Round 2",
-      "yesPrice": 0.41196,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16615,
-      "displayName": "template:sportsContestWinner",
-      "questionId": null,
-      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Invictus Gaming|participantB:Team Secret Whales|resolutionDeadline:20261031-2100|scheduledStart:20261024-2100|season:2026|shortNameA:IG|shortNameB:TSW|sport:Esports|stage:Round 2",
-      "yesPrice": 0.685555,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
@@ -3795,77 +3743,27 @@
       "questionId": 510,
       "resolutionText": "participant:Fleetwood Town",
       "yesPrice": 0.03455,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 16755,
-      "displayName": "template:binaryPrice",
+      "outcomeId": 16617,
+      "displayName": "template:sportsContestWinner",
       "questionId": null,
-      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80052|time:20261024-2000",
-      "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Dplus KIA|participantB:T1|resolutionDeadline:20261031-2300|scheduledStart:20261024-2300|season:2026|shortNameA:DK|shortNameB:T1|sport:Esports|stage:Round 2",
+      "yesPrice": 0.43219,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     },
     {
-      "outcomeId": 16709,
-      "displayName": "template:sportsContestDraw2",
-      "questionId": 513,
-      "resolutionText": "",
-      "yesPrice": 0.25777,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16708,
-      "displayName": "template:sportsContestParticipant2",
-      "questionId": 513,
-      "resolutionText": "participant:Sunderland",
-      "yesPrice": 0.25697,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16807,
-      "displayName": "template:binaryPrice",
+      "outcomeId": 16616,
+      "displayName": "template:sportsContestWinner",
       "questionId": null,
-      "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80514|time:20261024-2000",
-      "yesPrice": 0.5,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16809,
-      "displayName": "template:binaryPrice",
-      "questionId": null,
-      "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80478|time:20261024-1930",
-      "yesPrice": 0.548245,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16810,
-      "displayName": "template:binaryPrice",
-      "questionId": null,
-      "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.065|time:20261024-1930",
-      "yesPrice": 0.455,
-      "priceAt": "2026-10-24T19:16:00.160Z",
-      "isFallback": false,
-      "resolutionSource": "validators"
-    },
-    {
-      "outcomeId": 16811,
-      "displayName": "template:binaryPrice",
-      "questionId": null,
-      "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2337.4|time:20261024-1930",
-      "yesPrice": 0.5745,
-      "priceAt": "2026-10-24T19:16:00.160Z",
+      "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Hanwha Life Esports|participantB:Gen.G|resolutionDeadline:20261031-2200|scheduledStart:20261024-2200|season:2026|shortNameA:HLE|shortNameB:GEN|sport:Esports|stage:Round 2",
+      "yesPrice": 0.412065,
+      "priceAt": "2026-10-24T19:37:26.317Z",
       "isFallback": false,
       "resolutionSource": "validators"
     }
