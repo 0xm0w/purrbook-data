@@ -104642,5 +104642,113 @@
       "at": "2026-10-24T02:16:00.042Z"
     },
     "settledObservedAt": "2026-10-24T03:16:00.046Z"
+  },
+  {
+    "outcomeId": 16486,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80950|time:20261024-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16432,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81152|time:20261024-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 15309,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Miami Heat|participantB:Detroit Pistons|resolutionDeadline:20261031-0000|scheduledStart:20261024-0000|season:2026/27|shortNameA:MIA|shortNameB:DET|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.005135,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16433,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:81402|time:20261024-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.201155,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16485,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80983|time:20261024-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16431,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80902|time:20261024-0400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.898945,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16487,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80964|time:20261024-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.731845,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16488,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.183|time:20261024-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.485,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
+  },
+  {
+    "outcomeId": 16489,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2383.8|time:20261024-0330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.678,
+      "at": "2026-10-24T03:16:00.046Z"
+    },
+    "settledObservedAt": "2026-10-24T04:16:00.002Z"
   }
 ]
