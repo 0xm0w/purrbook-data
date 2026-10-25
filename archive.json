@@ -107920,5 +107920,89 @@
       "at": "2026-10-25T08:45:59.663Z"
     },
     "settledObservedAt": "2026-10-25T09:45:59.736Z"
+  },
+  {
+    "outcomeId": 17111,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80403|time:20261025-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49992,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 16130,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Denver Nuggets|participantB:New Orleans Pelicans|resolutionDeadline:20261101-0100|scheduledStart:20261025-0100|season:2026/27|shortNameA:DEN|shortNameB:NOP|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998995,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 16124,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Dallas Mavericks|participantB:San Antonio Spurs|resolutionDeadline:20261101-0000|scheduledStart:20261025-0000|season:2026/27|shortNameA:DAL|shortNameB:SAS|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.014165,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 17125,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80250|time:20261025-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.43429,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 17127,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80225|time:20261025-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.605,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 17128,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:75.615|time:20261025-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.605,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
+  },
+  {
+    "outcomeId": 17129,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2325.7|time:20261025-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.565,
+      "at": "2026-10-25T09:45:59.736Z"
+    },
+    "settledObservedAt": "2026-10-25T10:45:57.682Z"
   }
 ]
