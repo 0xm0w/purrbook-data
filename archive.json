@@ -108760,5 +108760,149 @@
       "at": "2026-10-25T18:01:00.212Z"
     },
     "settledObservedAt": "2026-10-25T18:54:41.788Z"
+  },
+  {
+    "outcomeId": 17284,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80758|time:20261025-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.49917,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15615,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New Orleans Saints|participantB:Pittsburgh Steelers|resolutionDeadline:20261101-1330|scheduledStart:20261025-1330|season:2026|shortNameA:NO|shortNameB:PIT|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.001,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15667,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 503,
+    "resolutionText": "participant:FC Bayern Munich",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99731,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15665,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 503,
+    "resolutionText": "participant:SC Freiburg",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0425,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15666,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 503,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.09075,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 17293,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80650|time:20261025-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15653,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 500,
+    "resolutionText": "participant:Sunderland",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15654,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 500,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.85064,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 15655,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 500,
+    "resolutionText": "participant:Leeds United",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.085325,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 17294,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80639|time:20261025-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.50973,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 17295,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.089|time:20261025-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.36005,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
+  },
+  {
+    "outcomeId": 17296,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2354.9|time:20261025-1900",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.466,
+      "at": "2026-10-25T18:54:41.788Z"
+    },
+    "settledObservedAt": "2026-10-25T19:45:58.796Z"
   }
 ]
