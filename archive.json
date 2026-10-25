@@ -107355,5 +107355,65 @@
       "at": "2026-10-25T03:31:00.043Z"
     },
     "settledObservedAt": "2026-10-25T04:30:59.946Z"
+  },
+  {
+    "outcomeId": 17008,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80828|time:20261025-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T04:30:59.946Z"
+    },
+    "settledObservedAt": "2026-10-25T05:31:01.002Z"
+  },
+  {
+    "outcomeId": 17013,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80850|time:20261025-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.4667,
+      "at": "2026-10-25T04:30:59.946Z"
+    },
+    "settledObservedAt": "2026-10-25T05:31:01.002Z"
+  },
+  {
+    "outcomeId": 17014,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80844|time:20261025-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.595,
+      "at": "2026-10-25T04:30:59.946Z"
+    },
+    "settledObservedAt": "2026-10-25T05:31:01.002Z"
+  },
+  {
+    "outcomeId": 17015,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.558|time:20261025-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.625,
+      "at": "2026-10-25T04:30:59.946Z"
+    },
+    "settledObservedAt": "2026-10-25T05:31:01.002Z"
+  },
+  {
+    "outcomeId": 17016,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2364.5|time:20261025-0445",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.6155,
+      "at": "2026-10-25T04:30:59.946Z"
+    },
+    "settledObservedAt": "2026-10-25T05:31:01.002Z"
   }
 ]
