@@ -107139,5 +107139,101 @@
       "at": "2026-10-25T01:43:47.445Z"
     },
     "settledObservedAt": "2026-10-25T02:31:00.419Z"
+  },
+  {
+    "outcomeId": 16971,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80867|time:20261025-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 16622,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Team Liquid|participantB:Bilibili Gaming|resolutionDeadline:20261101-0000|scheduledStart:20261025-0000|season:2026|shortNameA:TL|shortNameB:BLG|sport:Esports|stage:Round 2",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0055,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 15330,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Cleveland Cavaliers|participantB:Brooklyn Nets|resolutionDeadline:20261031-2330|scheduledStart:20261024-2330|season:2026/27|shortNameA:CLE|shortNameB:BKN|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994875,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 16976,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80800|time:20261025-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.886095,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 15329,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Philadelphia 76ers|participantB:Milwaukee Bucks|resolutionDeadline:20261031-2330|scheduledStart:20261024-2330|season:2026/27|shortNameA:PHI|shortNameB:MIL|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99484,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 16977,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80816|time:20261025-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.687,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 16978,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.619|time:20261025-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.665,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
+  },
+  {
+    "outcomeId": 16979,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2363.4|time:20261025-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.7105,
+      "at": "2026-10-25T02:31:00.419Z"
+    },
+    "settledObservedAt": "2026-10-25T03:31:00.043Z"
   }
 ]
