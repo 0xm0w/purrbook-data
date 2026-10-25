@@ -109252,5 +109252,113 @@
       "at": "2026-10-25T20:45:59.058Z"
     },
     "settledObservedAt": "2026-10-25T21:16:48.964Z"
+  },
+  {
+    "outcomeId": 17105,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Top Esports|participantB:G2 Esports|resolutionDeadline:20261101-1800|scheduledStart:20261025-1800|season:2026|shortNameA:TES|shortNameB:G2|sport:Esports|stage:Round 3 ",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 15617,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:Houston Texans|participantB:New York Giants|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:HOU|shortNameB:NYG|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.01,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17379,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80453|time:20261025-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17106,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Hanwha Life Esports|participantB:Invictus Gaming|resolutionDeadline:20261101-1700|scheduledStart:20261025-1700|season:2026|shortNameA:HLE|shortNameB:IG|sport:Esports|stage:Round 3",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00082,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17123,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Dplus KIA|participantB:Movistar KOI|resolutionDeadline:20261101-1900|scheduledStart:20261025-1900|season:2026|shortNameA:DK|shortNameB:MKOI|sport:Esports|stage:Round 3 ",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99824,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17381,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80450|time:20261025-2130",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.34692,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17382,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80463|time:20261025-2130",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.36337,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17383,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.794|time:20261025-2130",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.665,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
+  },
+  {
+    "outcomeId": 17384,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2344.1|time:20261025-2130",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.378,
+      "at": "2026-10-25T21:16:48.964Z"
+    },
+    "settledObservedAt": "2026-10-25T22:15:58.606Z"
   }
 ]
