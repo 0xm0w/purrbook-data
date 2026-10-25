@@ -106947,5 +106947,113 @@
       "at": "2026-10-24T23:49:11.441Z"
     },
     "settledObservedAt": "2026-10-25T00:45:58.387Z"
+  },
+  {
+    "outcomeId": 16611,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:LYON|participantB:Karmine Corp|resolutionDeadline:20261031-2000|scheduledStart:20261024-2000|season:2026|shortNameA:LY|shortNameB:KC|sport:Esports|stage:Round 2",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9951,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16616,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Hanwha Life Esports|participantB:Gen.G|resolutionDeadline:20261031-2200|scheduledStart:20261024-2200|season:2026|shortNameA:HLE|shortNameB:GEN|sport:Esports|stage:Round 2",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.009,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16615,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:Invictus Gaming|participantB:Team Secret Whales|resolutionDeadline:20261031-2100|scheduledStart:20261024-2100|season:2026|shortNameA:IG|shortNameB:TSW|sport:Esports|stage:Round 2",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99545,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 15325,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Charlotte Hornets|participantB:Miami Heat|resolutionDeadline:20261031-2200|scheduledStart:20261024-2200|season:2026/27|shortNameA:CHA|shortNameB:MIA|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.994875,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16946,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80850|time:20261025-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.496855,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16937,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80839|time:20261025-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16947,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80843|time:20261025-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.475,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16948,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.704|time:20261025-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
+  },
+  {
+    "outcomeId": 16949,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2359.7|time:20261025-0100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.549,
+      "at": "2026-10-25T00:45:58.387Z"
+    },
+    "settledObservedAt": "2026-10-25T01:43:47.445Z"
   }
 ]
