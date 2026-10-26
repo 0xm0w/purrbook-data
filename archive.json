@@ -112457,5 +112457,89 @@
       "at": "2026-10-26T20:01:03.308Z"
     },
     "settledObservedAt": "2026-10-26T21:01:04.755Z"
+  },
+  {
+    "outcomeId": 17930,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:79840|time:20261026-2105",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.951845,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17929,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:79850|time:20261026-2115",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.744995,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17122,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:LoL: Worlds Swiss Stage|contestType:Match|countedPlay:the full series|officialSource:gol.gg|participantA:T1|participantB:CTBC Flying Oyster|resolutionDeadline:20261102-1700|scheduledStart:20261026-1700|season:2026|shortNameA:T1|shortNameB:CFO|sport:Esports|stage:Round 3 ",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17931,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79840|time:20261026-2115",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.7745,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17935,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79855|time:20261026-2200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17936,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.622|time:20261026-2115",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
+  },
+  {
+    "outcomeId": 17937,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2305.3|time:20261026-2115",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-10-26T21:01:04.755Z"
+    },
+    "settledObservedAt": "2026-10-26T22:01:04.645Z"
   }
 ]
