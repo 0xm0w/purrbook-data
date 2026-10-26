@@ -110080,5 +110080,89 @@
       "at": "2026-10-26T01:13:41.841Z"
     },
     "settledObservedAt": "2026-10-26T02:00:59.261Z"
+  },
+  {
+    "outcomeId": 16135,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:New York Knicks|participantB:Orlando Magic|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:NYK|shortNameB:ORL|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.579875,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 17465,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79692|time:20261026-0215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.365,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 17464,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:79700|time:20261026-0215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.367915,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 16134,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Minnesota Timberwolves|participantB:Toronto Raptors|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:MIN|shortNameB:TOR|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9819,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 16139,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Oklahoma City Thunder|participantB:Los Angeles Clippers|resolutionDeadline:20261101-2300|scheduledStart:20261025-2300|season:2026/27|shortNameA:OKC|shortNameB:LAC|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99484,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 17466,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:76.199|time:20261026-0215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.23505,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
+  },
+  {
+    "outcomeId": 17467,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2313.4|time:20261026-0215",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.368,
+      "at": "2026-10-26T02:00:59.261Z"
+    },
+    "settledObservedAt": "2026-10-26T03:01:00.132Z"
   }
 ]
