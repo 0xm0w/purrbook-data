@@ -113045,5 +113045,125 @@
       "at": "2026-10-27T01:59:13.811Z"
     },
     "settledObservedAt": "2026-10-27T02:46:02.557Z"
+  },
+  {
+    "outcomeId": 16882,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Boston Celtics|participantB:Chicago Bulls|resolutionDeadline:20261102-2330|scheduledStart:20261026-2330|season:2026/27|shortNameA:BOS|shortNameB:CHI|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.536765,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 16883,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Oklahoma City Thunder|participantB:Phoenix Suns|resolutionDeadline:20261103-0000|scheduledStart:20261027-0000|season:2026/27|shortNameA:OKC|shortNameB:PHX|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9409,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 16884,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Milwaukee Bucks|participantB:Indiana Pacers|resolutionDeadline:20261103-0000|scheduledStart:20261027-0000|season:2026/27|shortNameA:MIL|shortNameB:IND|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9245,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18102,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:79950|time:20261027-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.38,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18103,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:79910|time:20261027-0250",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.57,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 16632,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Cleveland Cavaliers|participantB:Minnesota Timberwolves|resolutionDeadline:20261102-2300|scheduledStart:20261026-2300|season:2026/27|shortNameA:CLE|shortNameB:MIN|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99487,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18085,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80050|time:20261027-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.125,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18104,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79910|time:20261027-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5265,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18105,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2316.2|time:20261027-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
+  },
+  {
+    "outcomeId": 18106,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:77.808|time:20261027-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.64,
+      "at": "2026-10-27T02:46:02.557Z"
+    },
+    "settledObservedAt": "2026-10-27T03:46:02.967Z"
   }
 ]
