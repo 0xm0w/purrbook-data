@@ -124617,5 +124617,89 @@
       "at": "2026-10-30T08:45:14.028Z"
     },
     "settledObservedAt": "2026-10-30T09:45:14.873Z"
+  },
+  {
+    "outcomeId": 20869,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:78100|time:20261030-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.061555,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20893,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:77690|time:20261030-0950",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.472,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20892,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:77700|time:20261030-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.44359,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20875,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77991|time:20261030-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.01501,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20887,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77695|time:20261030-0945",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.509905,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20888,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:91.146|time:20261030-0945",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99499,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
+  },
+  {
+    "outcomeId": 20889,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:2224.7|time:20261030-0945",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99499,
+      "at": "2026-10-30T09:45:14.873Z"
+    },
+    "settledObservedAt": "2026-10-30T10:45:15.843Z"
   }
 ]
