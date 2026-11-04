@@ -140905,5 +140905,65 @@
       "at": "2026-11-04T00:45:37.116Z"
     },
     "settledObservedAt": "2026-11-04T01:45:27.785Z"
+  },
+  {
+    "outcomeId": 24715,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:77000|time:20261104-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.21277,
+      "at": "2026-11-04T01:45:27.785Z"
+    },
+    "settledObservedAt": "2026-11-04T02:00:38.984Z"
+  },
+  {
+    "outcomeId": 24716,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:76890|time:20261104-0150",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.374555,
+      "at": "2026-11-04T01:45:27.785Z"
+    },
+    "settledObservedAt": "2026-11-04T02:00:38.984Z"
+  },
+  {
+    "outcomeId": 24692,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:77200|time:20261104-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.078515,
+      "at": "2026-11-04T01:45:27.785Z"
+    },
+    "settledObservedAt": "2026-11-04T02:00:38.984Z"
+  },
+  {
+    "outcomeId": 24697,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:77245|time:20261104-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.02105,
+      "at": "2026-11-04T01:45:27.785Z"
+    },
+    "settledObservedAt": "2026-11-04T02:00:38.984Z"
+  },
+  {
+    "outcomeId": 24717,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:76893|time:20261104-0200",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-11-04T01:45:27.785Z"
+    },
+    "settledObservedAt": "2026-11-04T02:00:38.984Z"
   }
 ]
