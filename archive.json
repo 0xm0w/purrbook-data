@@ -141157,5 +141157,162 @@
       "at": "2026-11-04T04:00:39.450Z"
     },
     "settledObservedAt": "2026-11-04T05:00:37.738Z"
+  },
+  {
+    "outcomeId": 24064,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 76637,
+    "expiryUtc": "2026-11-04T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.94708,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24071,
+    "displayName": "$75,105 – $78,170",
+    "questionId": 583,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 75105,
+    "bucketUpper": 78170,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 4)",
+    "lastPrice": {
+      "yes": 0.966405,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24066,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 91.685,
+    "expiryUtc": "2026-11-04T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.803465,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24815,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:77500|time:20261104-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.30861,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24067,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 83.253,
+    "expiryUtc": "2026-11-04T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.645,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24816,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:77500|time:20261104-0515",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.13963,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24817,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:77360|time:20261104-0505",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.27545,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24072,
+    "displayName": "Above $78,170",
+    "questionId": 583,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 78170,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 4)",
+    "lastPrice": {
+      "yes": 0.01411,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24065,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 2247.6,
+    "expiryUtc": "2026-11-04T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.988075,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24070,
+    "displayName": "Below $75,105",
+    "questionId": 583,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 75105,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 4)",
+    "lastPrice": {
+      "yes": 0.415595,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
+  },
+  {
+    "outcomeId": 24818,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:77367|time:20261104-0515",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.353445,
+      "at": "2026-11-04T05:00:37.738Z"
+    },
+    "settledObservedAt": "2026-11-04T06:00:39.324Z"
   }
 ]
