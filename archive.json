@@ -143594,5 +143594,65 @@
       "at": "2026-11-05T01:50:42.461Z"
     },
     "settledObservedAt": "2026-11-05T02:45:37.202Z"
+  },
+  {
+    "outcomeId": 25534,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:80800|time:20261105-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.06714,
+      "at": "2026-11-05T02:45:37.202Z"
+    },
+    "settledObservedAt": "2026-11-05T03:45:39.480Z"
+  },
+  {
+    "outcomeId": 24233,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Washington Wizards|participantB:Atlanta Hawks|resolutionDeadline:20261112-0000|scheduledStart:20261105-0000|season:2026/27|shortNameA:WAS|shortNameB:ATL|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.0051,
+      "at": "2026-11-05T02:45:37.202Z"
+    },
+    "settledObservedAt": "2026-11-05T03:45:39.480Z"
+  },
+  {
+    "outcomeId": 25557,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80600|time:20261105-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.52,
+      "at": "2026-11-05T02:45:37.202Z"
+    },
+    "settledObservedAt": "2026-11-05T03:45:39.480Z"
+  },
+  {
+    "outcomeId": 25539,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80643|time:20261105-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-05T02:45:37.202Z"
+    },
+    "settledObservedAt": "2026-11-05T03:45:39.480Z"
+  },
+  {
+    "outcomeId": 25558,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:80590|time:20261105-0250",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.585,
+      "at": "2026-11-05T02:45:37.202Z"
+    },
+    "settledObservedAt": "2026-11-05T03:45:39.480Z"
   }
 ]
