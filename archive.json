@@ -143822,5 +143822,101 @@
       "at": "2026-11-05T03:45:39.480Z"
     },
     "settledObservedAt": "2026-11-05T04:45:38.801Z"
+  },
+  {
+    "outcomeId": 24251,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Denver Nuggets|participantB:Toronto Raptors|resolutionDeadline:20261112-0200|scheduledStart:20261105-0200|season:2026/27|shortNameA:DEN|shortNameB:TOR|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9954,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 25601,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80499|time:20261105-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.97882,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 25594,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:80500|time:20261105-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.929595,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 25620,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:80650|time:20261105-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.705,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 25621,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:80670|time:20261105-0450",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.715,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 24248,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Houston Rockets|participantB:Minnesota Timberwolves|resolutionDeadline:20261112-0130|scheduledStart:20261105-0130|season:2026/27|shortNameA:HOU|shortNameB:MIN|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.001425,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 24241,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:New Orleans Pelicans|participantB:Utah Jazz|resolutionDeadline:20261112-0100|scheduledStart:20261105-0100|season:2026/27|shortNameA:NOP|shortNameB:UTA|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.9979,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
+  },
+  {
+    "outcomeId": 25622,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:80672|time:20261105-0500",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.611,
+      "at": "2026-11-05T04:45:38.801Z"
+    },
+    "settledObservedAt": "2026-11-05T05:45:37.976Z"
   }
 ]
