@@ -176026,5 +176026,234 @@
       "at": "2026-11-13T04:16:09.754Z"
     },
     "settledObservedAt": "2026-11-13T05:16:06.249Z"
+  },
+  {
+    "outcomeId": 33252,
+    "displayName": "$72,095 – $75,038",
+    "questionId": 634,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 1,
+    "bucketLower": 72095,
+    "bucketUpper": 75038,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 13)",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33249,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "HYPE",
+    "strike": 71.376,
+    "expiryUtc": "2026-11-13T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.224405,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34224,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:68600|time:20261113-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.605035,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33246,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "BTC",
+    "strike": 73567,
+    "expiryUtc": "2026-11-13T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.011145,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34231,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:68391|time:20261113-0600",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.8365,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34236,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:68700|time:20261113-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.51798,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33248,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "SOL",
+    "strike": 82.863,
+    "expiryUtc": "2026-11-13T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.001265,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34239,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:70.865|time:20261113-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.655,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33251,
+    "displayName": "Below $72,095",
+    "questionId": 634,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 0,
+    "bucketUpper": 72095,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 13)",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 30090,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Game|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Phoenix Suns|participantB:Charlotte Hornets|resolutionDeadline:20261120-0200|scheduledStart:20261113-0200|season:2026/27|shortNameA:PHX|shortNameB:CHA|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99735,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34240,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:68711|time:20261113-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.491015,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33253,
+    "displayName": "Above $75,038",
+    "questionId": 634,
+    "eventId": "btc-range-1d",
+    "resolutionText": "",
+    "bucketIndex": 2,
+    "bucketLower": 75038,
+    "resolutionSource": "mark",
+    "eventTitle": "BTC Price Range · 1D (Nov 13)",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 30123,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NFL|contestType:Match|countedPlay:the full game including overtime|officialSource:National Football League (NFL)|participantA:New York Giants|participantB:Washington Commanders|resolutionDeadline:20261120-0115|scheduledStart:20261113-0115|season:2026|shortNameA:NYG|shortNameB:WAS|sport:Football|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.009,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34238,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1927.1|time:20261113-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.489465,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 33247,
+    "displayName": "Recurring",
+    "questionId": null,
+    "resolutionText": "",
+    "underlying": "ETH",
+    "strike": 2045.8,
+    "expiryUtc": "2026-11-13T06:00:00Z",
+    "resolutionSource": "mark",
+    "lastPrice": {
+      "yes": 0.000455,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34237,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:68710|time:20261113-0520",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.485,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
+  },
+  {
+    "outcomeId": 34235,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1925|time:20261113-0530",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.631265,
+      "at": "2026-11-13T05:16:06.249Z"
+    },
+    "settledObservedAt": "2026-11-13T06:16:10.089Z"
   }
 ]
