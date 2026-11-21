@@ -210379,5 +210379,173 @@
       "at": "2026-11-21T21:45:20.370Z"
     },
     "settledObservedAt": "2026-11-21T22:45:19.990Z"
+  },
+  {
+    "outcomeId": 43155,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:180|threshold:89.9|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43158,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:60157|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.525,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43118,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:60400|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.028865,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 37325,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 661,
+    "resolutionText": "participant:Real Madrid",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99531,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 37326,
+    "displayName": "template:sportsContestDraw2",
+    "questionId": 661,
+    "resolutionText": "",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00999,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43157,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1679.2|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.52088,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43156,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:60160|time:20261121-2250",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.497715,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43154,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:60150|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.560965,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43150,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:60217.27|time:20261121-2245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43152,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:60170|time:20261121-2245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": null,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43119,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:300|threshold:90|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.229555,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 37327,
+    "displayName": "template:sportsContestParticipant2",
+    "questionId": 661,
+    "resolutionText": "participant:RC Celta",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00999,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43159,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:61.11|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.4969,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
+  },
+  {
+    "outcomeId": 43153,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1680|time:20261121-2300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.413785,
+      "at": "2026-11-21T22:45:19.990Z"
+    },
+    "settledObservedAt": "2026-11-21T23:45:15.921Z"
   }
 ]
