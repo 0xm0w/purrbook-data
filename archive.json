@@ -215708,5 +215708,161 @@
       "at": "2026-11-23T01:43:19.799Z"
     },
     "settledObservedAt": "2026-11-23T02:30:43.967Z"
+  },
+  {
+    "outcomeId": 40336,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Match|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Washington Wizards|participantB:Orlando Magic|resolutionDeadline:20270223-0000|scheduledStart:20261123-0000|season:2026/27|shortNameA:WAS|shortNameB:ORL|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.99001,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44428,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:60734.94|time:20261123-0230",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44408,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:60800|time:20261123-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.21798,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44431,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1704|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.450715,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44437,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1704.7|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495365,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44432,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:60650|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.53,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44433,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:180|threshold:89.6|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 40331,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:NBA|contestType:Match|countedPlay:the full game including overtime|officialSource:National Basketball Association (NBA)|participantA:Utah Jazz|participantB:Dallas Mavericks|resolutionDeadline:20270223-0000|scheduledStart:20261123-0000|season:2026/27|shortNameA:UTA|shortNameB:DAL|sport:Basketball|stage:Regular Season",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.022495,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44435,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:61.767|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.3515,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44418,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:60858|time:20261123-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44434,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:60|threshold:60700|time:20261123-0235",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.245,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44409,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:300|threshold:91|time:20261123-0300",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.020845,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
+  },
+  {
+    "outcomeId": 44436,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:60706|time:20261123-0245",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.3685,
+      "at": "2026-11-23T02:30:43.967Z"
+    },
+    "settledObservedAt": "2026-11-23T03:30:45.321Z"
   }
 ]
