@@ -226511,5 +226511,173 @@
       "at": "2026-11-25T12:16:12.631Z"
     },
     "settledObservedAt": "2026-11-25T13:16:07.839Z"
+  },
+  {
+    "outcomeId": 46304,
+    "displayName": "template:priceTouch",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:Hyperliquid BTC perp mark, 1-second samples|seconds:1|target:58000|time:20261201-0000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47183,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:180|threshold:58800|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.38979,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47188,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:58767|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.432555,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 46430,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:CS2: PGL Major Singapore S1|contestType:Match|countedPlay:the full series|officialSource:hltv.org|participantA:NIP|participantB:Liquid|resolutionDeadline:20270225-1030|scheduledStart:20261125-1030|season:2026|shortNameA:NIP|shortNameB:TL|sport:Esports|stage:Round 3",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.997005,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 46432,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:CS2: PGL Major Singapore S1|contestType:Match|countedPlay:the full series|officialSource:hltv.org|participantA:GOSH|participantB:Chinggis Warriors|resolutionDeadline:20270225-1030|scheduledStart:20261125-1030|season:2026|shortNameA:GOSH|shortNameB:CW|sport:Esports|stage:Round 3",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.495,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47179,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:58657.52|time:20261125-1315",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47182,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1644|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.600905,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47187,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:57.773|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.35,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47186,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1648.4|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.449045,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47169,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade, 1-minute candle|seconds:300|threshold:58700|time:20261125-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.560585,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47170,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:300|threshold:78|time:20261125-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.481715,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47185,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 5-minute candle close reference|seconds:1|threshold:58790|time:20261125-1320",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47184,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:180|threshold:77.8|time:20261125-1330",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.641975,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
+  },
+  {
+    "outcomeId": 47178,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:58716|time:20261125-1400",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-25T13:16:07.839Z"
+    },
+    "settledObservedAt": "2026-11-25T14:16:09.998Z"
   }
 ]
