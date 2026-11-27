@@ -236101,5 +236101,65 @@
       "at": "2026-11-27T10:01:06.628Z"
     },
     "settledObservedAt": "2026-11-27T11:01:01.354Z"
+  },
+  {
+    "outcomeId": 49460,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:180|threshold:86.15|time:20261127-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.899645,
+      "at": "2026-11-27T11:01:01.354Z"
+    },
+    "settledObservedAt": "2026-11-27T11:09:03.040Z"
+  },
+  {
+    "outcomeId": 49459,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 15-minute candle close reference|seconds:1|threshold:61600|time:20261127-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.500925,
+      "at": "2026-11-27T11:01:01.354Z"
+    },
+    "settledObservedAt": "2026-11-27T11:09:03.040Z"
+  },
+  {
+    "outcomeId": 49461,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:the Hyperliquid xyz:CL perp 15-minute candle close reference|seconds:1|threshold:86|time:20261127-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-27T11:01:01.354Z"
+    },
+    "settledObservedAt": "2026-11-27T11:09:03.040Z"
+  },
+  {
+    "outcomeId": 49465,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:61558.34|time:20261127-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-27T11:01:01.354Z"
+    },
+    "settledObservedAt": "2026-11-27T11:09:03.040Z"
+  },
+  {
+    "outcomeId": 49467,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 5-minute candle close reference|seconds:1|threshold:61630|time:20261127-1100",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.500925,
+      "at": "2026-11-27T11:01:01.354Z"
+    },
+    "settledObservedAt": "2026-11-27T11:09:03.040Z"
   }
 ]
