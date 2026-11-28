@@ -241106,5 +241106,29 @@
       "at": "2026-11-28T09:16:02.440Z"
     },
     "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50675,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 5-minute candle close reference|seconds:1|threshold:59420|time:20261128-1020",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.478085,
+      "at": "2026-11-28T10:16:03.004Z"
+    },
+    "settledObservedAt": "2026-11-28T10:28:03.871Z"
+  },
+  {
+    "outcomeId": 50669,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:59542.04|time:20261128-1015",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.07303,
+      "at": "2026-11-28T10:16:03.004Z"
+    },
+    "settledObservedAt": "2026-11-28T10:28:03.871Z"
   }
 ]
