@@ -240938,5 +240938,173 @@
       "at": "2026-11-28T08:16:00.605Z"
     },
     "settledObservedAt": "2026-11-28T09:16:02.440Z"
+  },
+  {
+    "outcomeId": 50630,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:the Hyperliquid xyz:CL perp 15-minute candle close reference|seconds:1|threshold:83.5|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.35058,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50634,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:59588|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.473825,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50631,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 5-minute candle close reference|seconds:1|threshold:59590|time:20261128-0920",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.40919,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50633,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:ETH-USDC perp mark|seconds:60|threshold:1649.7|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.6,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50123,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:CS2: PGL Major Singapore S2|contestType:Match|countedPlay:the full series|officialSource:hltv.org|participantA:MIBR|participantB:100 Thieves|resolutionDeadline:20270228-0700|scheduledStart:20261128-0700|season:2026|shortNameA:MIBR|shortNameB:100T|sport:Esports|stage:Round 1",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.00499,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50128,
+    "displayName": "template:sportsContestWinner",
+    "questionId": null,
+    "resolutionText": "competition:CS2: PGL Major Singapore S2|contestType:Match|countedPlay:the full series|officialSource:hltv.org|participantA:Natus Vincere|participantB:PVISION|resolutionDeadline:20270228-0700|scheduledStart:20261128-0700|season:2026|shortNameA:NAVI|shortNameB:PV|sport:Esports|stage:Round 1",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.998825,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50629,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:180|threshold:91.3|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.449125,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50632,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:HYPE|priceDescription:HYPE-USDC perp mark|seconds:60|threshold:63.269|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.704995,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50628,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:ETH|priceDescription:the Hyperliquid ETH perp trade, 1-minute candle|seconds:180|threshold:1650|time:20261128-0930",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.565225,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50623,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:59561|time:20261128-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.500475,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50607,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:BTC|priceDescription:the Hyperliquid BTC perp 1-hour candle close reference|seconds:1|threshold:59500|time:20261128-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.73037,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50608,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:ANT|priceDescription:the Hyperliquid xyz:ANT perp trade, 1-minute candle|seconds:300|threshold:91.25|time:20261128-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.55336,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50609,
+    "displayName": "template:binaryPrice",
+    "questionId": null,
+    "resolutionText": "perp:xyz:CL|priceDescription:the Hyperliquid xyz:CL perp 1-hour candle close reference|seconds:1|threshold:83|time:20261128-1000",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
+  },
+  {
+    "outcomeId": 50624,
+    "displayName": "template:binaryPriceExternal",
+    "questionId": null,
+    "resolutionText": "feed:https://data.chain.link/streams/btc-usd-twap-60s-streams|instrument:BTC/USD|priceDescription:BTC/USD|seconds:60|shortName:BTC|threshold:59534.62|time:20261128-0915",
+    "resolutionSource": "validators",
+    "lastPrice": {
+      "yes": 0.5,
+      "at": "2026-11-28T09:16:02.440Z"
+    },
+    "settledObservedAt": "2026-11-28T10:16:03.004Z"
   }
 ]
